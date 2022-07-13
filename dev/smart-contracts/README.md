@@ -11,3 +11,15 @@ description: An introduction to the Mintbase smart contracts
 {% content-ref url="standards/" %}
 [standards](standards/)
 {% endcontent-ref %}
+
+<!--
+  TODO:
+  - [ ] batched methods: transfer and approve
+  - [ ] minting and burning
+  - [ ] minter management
+  - [ ] icon change
+  - [ ] transfer ownership (you cannot delete a store!)
+  - [ ] factory
+  - [ ] market methods
+-->
+
