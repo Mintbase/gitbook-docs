@@ -9,3 +9,5 @@ As a note, you may notice that we use Next.js a lot for frontend development. We
 3. [CMB (Create-Mintbase-App)](cmb-create-mintbase-app.md)
 4. [Code Examples](code-examples.md)
 5. [NEAR CLI](near-cli.md)
+
+YEAH!
