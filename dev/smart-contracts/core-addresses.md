@@ -2,7 +2,7 @@
 
 ### Core Addresses
 
-Source code for all Mintbase contracts can be found in this GitHub repository ([https://github.com/Mintbase/mintbase-core](https://github.com/Mintbase/mintbase-core)).
+Source code for all Mintbase contracts can be found in this GitHub repository ([https://github.com/Mintbase/mintbase-core](https://github.com/Mintbase/mintbase-core))
 
 #### Mainnet Deployments
 
