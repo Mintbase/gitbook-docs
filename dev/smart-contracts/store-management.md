@@ -1,3 +1,5 @@
+# Store management
+
 ## Managing minters
 
 ```ts

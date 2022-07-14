@@ -1,3 +1,5 @@
+# Batched methods
+
 ## Batch transfers
 
 To simplify sending lots of tokens to different people, e.g. to do airdrops, we
