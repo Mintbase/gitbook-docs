@@ -1,3 +1,5 @@
+# Minting and burning
+
 ## Minting
 
 To mint tokens, you can use the `nft_batch_mint` method:
