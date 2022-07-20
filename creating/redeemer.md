@@ -4,6 +4,8 @@ description: How to find the redeemer on a store, what does it show & why do we 
 
 # Redeemer
 
+{% embed url="https://www.loom.com/share/7a813f9924ae4e1d8ef1c3a9f7e7bde8" %}
+
 ### What is a Redeemer?
 
 What is a Redeemer you might ask? To redeem an NFT is to burn it, locking it and making it impossible for anything to happen to this NFT in the future. It is "destroyed" for further use - still exists on the blockchain though - you **can't** list it for sale, transfer it or multiply it. It's burnt.&#x20;
@@ -35,3 +37,8 @@ Imagine entering a festival with an NFT-Ticket. Once you are inside, you could e
 
 When you are entering the festival you will burn your ticket - and it will show on the redeemer.
 
+### Retrieving a Burn QR Code
+
+![](<../.gitbook/assets/Screen Shot 2022-07-20 at 11.40.12 AM.png>)
+
+To have others burn a thing of yours, click \`Burn\`  then the arrow and either download the QR code or copy the thing uri. This will streamline the process so they will only have to sign. See video above.
