@@ -1,49 +1,24 @@
-# Minting and burning
+# Store management
 
-## Minting
-
-To mint tokens, you can use the `nft_batch_mint` method:
+## Managing minters
 
 ```ts
-function nft_batch_mint(
-  owner_id: string,
-  metadata: TokenMetadata,
-  num_to_mint: number,
-  royalty_args: RoyaltyArgs | null,
-  split_owners: PayoutsMap | null
-);
+// change methods
+function batch_change_minters(grant: Array<string>, revoke: Array<string>);
 
-type PayoutsMap = Record<string, number>;
-type RoyaltyArgs = {
-  split_between: PayoutsMap;
-  percentage: number;
-};
+// view methods
+function check_is_minter(account_id: string): boolean;
+function list_minters(): Array<string>;
 ```
 
-- To learn more about `TokenMetadata`, refer to the
-  [corresponding standard](https://nomicon.io/Standards/Tokens/NonFungibleToken/Metadata#interface)
-- Due to gas limitations, you cannot mint more than 125 tokens at once.
-- The `PayoutsMap` maps from NEAR account IDs to percentages, where each
-  percentage is expressed as an integer between 0 and 10000 (inclusive), where
-  10000 is equivalent to 100%
-- As with the `PaymoutsMap`, the `percentage` in `RoyaltyArgs` is expressed as a
-  number between 0 and 10000
-- Any allowed minter can call this, once they have verified their identity by
-  attaching at least one yoctoNEAR to this method call. You may wish to attach
-  more to cover required storage deposits, as minting increases storage
-  requirements for the contract. The method will not check if sufficient
-  deposits have been made, and it is the responsibility of the store owner and
-  minters to keep their smart contracts sufficiently funded!
+While `batch_change_minters` allows you to grant and/or revoke minting rights of multiple accounts at the same time (requiring the usual yoctoNEAR authentication), `check_is_minter` allows you to check if a specific NEAR account is a minter on the NFT contract, while `list_minters` returns a list of currently allowed minters. The owner of a store cannot be revoked from minting.
 
-## Burning
-
-To burn tokens, you can use the `nft_batch_burn` method:
+## Transferring ownership of your store
 
 ```ts
-function nft_batch_burn(token_ids: Array<string>);
+function transfer_store_ownership(new_owner: string, keep_old_minters: boolean);
 ```
 
-This will remove the token from the on-chain storage! This means you can no
-longer use methos such as `nft_token` with this token ID, but storage
-requirements are being decreased by burning. To verify your identity, you are
-required to attach one yoctoNEAR to the method call.
+If you decide you want to get rid of your NFT contract, e.g. to benefit a friend or to transfer it to a DAO, use `transfer_store_ownership`. The new owner will be added to the minters, and minter retention may be toggled with `keep_old_minters`.
+
+To prevent fraud and people loosing NFTs they purchased, the deletion of a store is not possible!

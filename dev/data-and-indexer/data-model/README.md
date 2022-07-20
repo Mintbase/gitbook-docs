@@ -6,7 +6,7 @@ Our system was built with the following entities in mind:
 2. **Thing**: Type of NFT
 3. **Token:** Single NFT with unique owner
 
-![Store => Thing => Token](<../../../.gitbook/assets/image (3).png>)
+![Store => Thing => Token](<../../../.gitbook/assets/image (2).png>)
 
 ### Stadium Ticketing Example
 
