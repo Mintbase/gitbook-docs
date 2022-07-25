@@ -31,6 +31,8 @@
   * [CMB (Create-Mintbase-App)](dev/developer-tools/cmb-create-mintbase-app.md)
   * [Code Examples](dev/developer-tools/code-examples.md)
   * [NEAR CLI](dev/developer-tools/near-cli.md)
+* [🎛 NEAR CLI](dev/near-cli/README.md)
+  * [Batch Transactions](dev/near-cli/batch-transactions.md)
 
 ## Creating
 
