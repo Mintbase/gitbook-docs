@@ -38,15 +38,11 @@ Choose a category for your NFT. This is important to help people find it.
 
 Type tags that are relevant to your NFT, to help people find it in the marketplace.
 
-
-
 ### Forever Media
 
 This is an optional field where you can upload a file to be attached to your NFT. This file will not be visible on the NFT thumbnail, but on the Thing Page. The accepted formats are **.png / .jpeg / .gif / .svg+xml / .ogg / .mpeg / .mp3 / .webm / .mp4 / .gltf-binary / .gltf+json / .octet-stream.** The max size is **30mb**.
 
 Whatever you upload here will be stored on the blockchain using [Arweave](https://www.arweave.org/), a hybrid and decentralized network.
-
-
 
 ### Forever Royalties
 
@@ -61,8 +57,6 @@ Forever Royalties are perpetual and are set for the lifetime of the NFT. The wal
 
 The store owner can set **Default Forever Royalties** on the Store Settings, which can't be edited on the minting flow.
 
-
-
 ### Split Revenues
 
 Split Revenues clears after every transaction (sell or transfer). The amount of Split Revenue available depends on the amount of royalties: **100% - X% of Forever Royalties - 2.5% of Market Fee = available revenue.** _If you set 10% of royalties for example, the available amount of revenue is 87.5%. In this example if you set 100% of Split Revenues, it would encompass 87.5% of the total percentage._
@@ -73,33 +67,23 @@ Some important points:
 * You can add up to 25 wallets (the sum of the percentages can't exceed 100%).
 * If this field is left empty, the available revenues will go to the minter.
 
-
-
 ### Date
 
 This is an optional field where you can set a date for your token. It will not expire or anything like that, it will simply be displayed.
 
-
-
 ### Forever Document
 
-Optionally upload filed to be attached to your NFT. This file will not be visible on the NFT thumbnail, but on the Thing Page. The accepted formats are **.pdf.** The max size is **30mb**.
+Optionally upload a file to be attached to your NFT. This file will not be visible on the NFT thumbnail but on the Thing Page. The accepted formats are **.pdf.** The max size is **30MB**.
 
 Whatever you upload here will be stored on the blockchain using [Arweave](https://www.arweave.org/), a hybrid and decentralized network.
-
-
 
 ### Location
 
 Option to add a location for your NFT.
 
-
-
 ### Website
 
 Option to add a website to your NFT.
-
-
 
 ### Custom
 
