@@ -4,13 +4,15 @@ description: Your own smart contract
 
 # Store
 
-Mintbase users deployed over 1,160 of stores as of May 30 2022.
+Mintbase users deployed over 1,239 of stores as of August 1 2022.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-05-30 at 9.21.30 AM.png>)
 
 ### A Store is Your Own NFT Smart Contract
 
-You can look at a store as your own decentralized API and your own dapp. Mintbase is removing itself one step away from what we know now as platform controlled single shared contracts. We see large companies or collectives beginning to build off of this foundational idea eventually owning their own keys. It is not just for individual artists, but art collectives who want to manage their own artist onboarding like [Gambiarra DAO](https://www.mintbase.io/store/gambiarra.mintbase1.near?tab=nfts\&page=0), currently managing [over 192 artists / minters](https://www.mintbase.io/store/gambiarra.mintbase1.near?tab=minters\&page=0) and the goal is to support them in creating their own stand alone site and markets.
+You can look at a store as your own decentralized API and your own dapp. Mintbase is removing itself one step away from what we know now as platform-controlled single shared contracts.&#x20;
+
+We see large companies or collectives beginning to build off of this foundational idea eventually owning their own keys. It is not just for individual artists, but art collectives who want to manage their own artist onboarding like [Gambiarra DAO](https://www.mintbase.io/store/gambiarra.mintbase1.near?tab=nfts\&page=0), currently managing [over 192 artists / minters](https://www.mintbase.io/store/gambiarra.mintbase1.near?tab=minters\&page=0) and the goal is to support them in creating their own stand-alone site and markets.
 
 ### Reasoning
 
@@ -25,7 +27,7 @@ Let's look at the [NEARCON 2021 Mintbase store](https://www.mintbase.io/store/ne
 5. Can build you own UI, market using [MintbaseJS](https://www.npmjs.com/package/mintbase) or getting data using out [indexer](broken-reference).
 6. Can directly [interact with your rust contract functions ](https://github.com/Mintbase/mintbase-core/tree/master/store/src)itself on chain&#x20;
 
-See latest stores being [deployed here ](https://www.mintbase.io/market?tab=listings\&orderby=newest\&page=0)
+See the latest stores being [deployed here ](https://www.mintbase.io/market?tab=listings\&orderby=newest\&page=0)
 
 {% embed url="https://www.mintbase.io/thing/5LkXEkvDGeMzDSj3zMdgWBOi_8hc1DQperGVmm5V2ds:nearcon.mintbase1.near" %}
 
