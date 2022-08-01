@@ -50,8 +50,12 @@ Select the events for which you want to receive e-mail notifications for. You ne
 
 Choose the default theme for your account.
 
-
+![Color theme section in the User Settings page](<../../.gitbook/assets/Screenshot 2022-08-01 at 12.59.42.png>)
 
 ## Accounts
 
-You can add different account on Mintbase. Here you can easily switch between them or erase them.
+You can add different accounts on Mintbase. Here you can easily switch between them or erase them.&#x20;
+
+To add a new account, simply click "Add account" and connect your NEAR wallet. To switch between accounts, click once on top of your NEAR name and then click the arrows that pop up on the right-hand side. To erase, simply click the red bin icon.&#x20;
+
+![Accounts section in the User Settings page](<../../.gitbook/assets/Screenshot 2022-08-01 at 13.01.41.png>)
