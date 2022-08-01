@@ -18,19 +18,15 @@ If you have multiple stores, you can easily switch between the settings of each 
 
 ## Basic Information
 
-### Name
+#### Name
 
 Customize the name of your store, and how it appears around Mintbase.
 
-
-
-### Social Media and Website Links
+#### Social Media and Website Links
 
 When filled, they will display on your Store as buttons.
 
-
-
-### Profile Image
+#### Profile Image
 
 Displayed on your Store and across Mintbase. The accepted upload formats **** are **.png / .jpeg / .gif / .svg+xml.** The ideal dimension is **500x500px (1:1)** and the max accepted size is **500mb**.
 
@@ -48,11 +44,11 @@ Make your Store shine with a nice header image. The accepted upload formats ****
 
 ## Minters
 
-Add minters to mint NFTs off your smart contract. Everyone you add here, is able to Mint and the NFTs will appear on your store. They are not able to customize the store settings.
+Add minters to let people mint NFTs on your smart contract. Everyone you add here is able to mint and the NFTs will appear on your store. They are not able to customize the store settings.
 
-You can add an infinite amount of minters, the more minters you add the more storage you use.
+You can add an infinite amount of minters, the more minters you add the more storage you use. Read about [data-storage.md](../data-storage.md "mention").
 
-
+![](<../../.gitbook/assets/Screenshot 2022-08-01 at 15.47.32.png>)
 
 ## Default Royalties
 
@@ -60,24 +56,20 @@ You can set default royalties for every mint on your store. This is interesting 
 
 While minting, it is possible to add more royalties besides the default one (except if you set Default Royalties of 50%, which is the max. amount).
 
-
-
 [Click to learn how Forever Royalties work](https://docs.mintbase.io/creating/minting/minting-nfts#forever-royalties)
 
-&#x20;
+![](<../../.gitbook/assets/Screenshot 2022-08-01 at 15.51.21.png>)
 
 ## Default Split Revenues
 
 Same as described above, but for Split Revenues.
 
-
-
 [Click to learn how Split Revenues work](https://docs.mintbase.io/creating/minting/minting-nfts#split-revenues)
-
-
 
 ## Transfer Store Ownership
 
 Transfer your store to another NEAR account.
 
 **This is a permanent action** that will remove your ownership of the store - you won't be able to mint, customize or do anything with it.
+
+![](<../../.gitbook/assets/Screenshot 2022-08-01 at 15.52.30.png>)
