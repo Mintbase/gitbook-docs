@@ -4,13 +4,13 @@ description: Your own smart contract
 
 # Store
 
-Mintbase users deployed over 1,239 of stores as of August 1 2022.
+### A Store is Your Own NFT Smart Contract
 
 ![](<../../.gitbook/assets/Screen Shot 2022-05-30 at 9.21.30 AM.png>)
 
-### A Store is Your Own NFT Smart Contract
-
 You can look at a store as your own decentralized API and your own dapp. Mintbase is removing itself one step away from what we know now as platform-controlled single shared contracts.&#x20;
+
+**Mintbase users deployed over 1,239 stores as of August 1 2022.**
 
 We see large companies or collectives beginning to build off of this foundational idea eventually owning their own keys. It is not just for individual artists, but art collectives who want to manage their own artist onboarding like [Gambiarra DAO](https://www.mintbase.io/store/gambiarra.mintbase1.near?tab=nfts\&page=0), currently managing [over 192 artists / minters](https://www.mintbase.io/store/gambiarra.mintbase1.near?tab=minters\&page=0) and the goal is to support them in creating their own stand-alone site and markets.
 
