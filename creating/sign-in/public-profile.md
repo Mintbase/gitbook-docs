@@ -8,34 +8,22 @@ Click on the user image on the top right to open the dropdown menu and select **
 
 This is your public profile. Everyone can see it exactly like you are seeing it on that screen.
 
-![As you can see, the Twitter handle, Instagram account, & GitHub profile are publicly available. Definitely fill them in in the User Settings.](<../../.gitbook/assets/Screenshot 2022-06-06 at 17.03.13.png>)
+![Public profile](<../../.gitbook/assets/Screenshot 2022-06-06 at 17.03.13.png>)
 
-Navigate on the following tabs to visualize different content.
+It displays social media accounts (add via [user-settings.md](user-settings.md "mention")), the NFTs you own or minted and more. Navigate on the following tabs to visualize different content.
 
-### Owned
+#### Owned
 
 All the NFTs you own, could be minted, bought or transferred to you.
 
-
-
-### Minted
+#### Minted
 
 All the NFTs you have minted.
 
-
-
-### Stores
+#### Stores
 
 All the stores you have deployed or are a minter on.
 
-
-
-### Liked
-
-All the NFTs you have liked. Think of this like a bookmarking.
-
-
-
-### Following and Followers
+#### Following and Followers
 
 Visualize all the users you follow or are followed by.
