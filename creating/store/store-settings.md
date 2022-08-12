@@ -14,7 +14,7 @@ Click on the user image on the top right to open the dropdown menu and select **
 
 If you have multiple stores, you can easily switch between the settings of each one:
 
-![Store Settings, showing where to switch between stores](../../.gitbook/assets/mintbase-store-settings.png)
+![](<../../.gitbook/assets/Untitled design (17).png>)
 
 ## Basic Information
 

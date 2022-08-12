@@ -4,9 +4,9 @@ description: How to deploy a new store on Mintbase
 
 # Deploy
 
-In the [Create](../minting/) tab, press **New Store.**
+In the [Launchpad](../minting/) tab, press **New Store.**
 
-![Create tab showing New Store action](../../.gitbook/assets/new-store-mintbase.png)
+![](<../../.gitbook/assets/Untitled design (16).png>)
 
 A modal will show up, with 2 fields you need to fill:
 

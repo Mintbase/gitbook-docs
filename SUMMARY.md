@@ -42,7 +42,6 @@
 * [Store](creating/store/README.md)
   * [Deploy](creating/store/deploy-fee.md)
   * [Store Settings](creating/store/store-settings.md)
-  * [Add Minters](creating/store/add-minters.md)
 * [Launchpad](creating/minting/README.md)
   * [Minting NFTs](creating/minting/minting-nfts.md)
   * [Listing NFTs](creating/minting/listing-nfts.md)
