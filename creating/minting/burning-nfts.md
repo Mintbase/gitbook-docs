@@ -14,12 +14,18 @@ To burn an NFT, is to erase it. This has multiple use cases, like redeeming tick
 
 
 
-In the Create tab, click the **Burn** button under the NFT you want to burn.
+In the Launchpad tab, click the **Burn** button under the NFT you want to burn.
 
-![Create Tab showing the Burn button](../../.gitbook/assets/mintbase-burn.png)
+![](<../../.gitbook/assets/Untitled design (18).png>)
 
 A modal will pop up in the same page. Here you can input the amount of tokens you want to burn.
 
-![Burning modal](<../../.gitbook/assets/Screenshot 2022-04-20 at 18.50.37.png>)
+![](<../../.gitbook/assets/Screenshot 2022-08-12 at 11.10.57.png>)
 
 After filling out the burn amount, click **Continue** to be redirected to the NEAR wallet and approve the transaction.
+
+### QR Builder
+
+You can also create and download a QR code to burn your NFT directly from the thing page. This makes it easier to set up IRL redeeming systems - think tickets, members’ access, or physical objects.
+
+![](<../../.gitbook/assets/Untitled design (6).gif>)
