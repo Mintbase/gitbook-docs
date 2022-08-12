@@ -8,11 +8,11 @@ After having [minted](minting-nfts.md) your NFT, you can multiply it.
 
 In the Launchpad tab, click the **Multiply** button under the NFT you want to make more of.
 
-![Create tab with an arrow showing the Multiply button](../../.gitbook/assets/mintbase-multiply.png)
+![](<../../.gitbook/assets/Untitled design (14).png>)
 
 A modal will pop up in the same page. Here you can input the amount you wish to mint.
 
-![Multiply NFTs modal](<../../.gitbook/assets/Screenshot 2022-04-18 at 17.35.26.png>)
+![](<../../.gitbook/assets/Screenshot 2022-08-12 at 10.34.08.png>)
 
 After clicking **Continue** you will be redirected to the NEAR wallet to approve the transaction.
 
