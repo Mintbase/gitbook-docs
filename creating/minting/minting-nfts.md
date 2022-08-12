@@ -1,12 +1,12 @@
 # Minting NFTs
 
-Click on **Create** on the navbar.
+Click on **Launchpad** on the navbar.
 
 **Select the store** you want to mint from. If you don't have a store, you need to [deploy](../store/deploy-fee.md) one first.
 
 Press the **Mint** button in the top right to enter the minting flow.
 
-![Minting flow](<../../.gitbook/assets/Screenshot 2022-04-13 at 09.56.18.png>)
+![](<../../.gitbook/assets/Screenshot 2022-08-12 at 10.03.06.png>)
 
 There's a lot of stuff to cover here, so we're going to break down each section.
 

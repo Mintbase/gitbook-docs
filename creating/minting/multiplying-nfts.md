@@ -6,7 +6,7 @@ description: How to mint more tokens of the same NFT
 
 After having [minted](minting-nfts.md) your NFT, you can multiply it.
 
-In the Create tab, click the **Multiply** button under the NFT you want to make more of.
+In the Launchpad tab, click the **Multiply** button under the NFT you want to make more of.
 
 ![Create tab with an arrow showing the Multiply button](../../.gitbook/assets/mintbase-multiply.png)
 

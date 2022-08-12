@@ -6,9 +6,9 @@ description: How to set a NFT for sale
 
 After having [minted](minting-nfts.md) your NFT, you can set it for sale.
 
-In the Create tab, click on **List** button under the NFT you want to set for sale.
+In the Launchpad tab, click on **List** button under the NFT you want to set for sale.
 
-![Create tab with an arrow showing the List button](<../../.gitbook/assets/Screenshot 2022-04-14 at 15.42.png>)
+![](<../../.gitbook/assets/Untitled design (13).png>)
 
 Now you are on the Listing page. You can list your NFT for simple sale or set up a rolling auction.&#x20;
 
@@ -16,7 +16,7 @@ Now you are on the Listing page. You can list your NFT for simple sale or set up
 
 You set a fixed price and anyone can buy it.
 
-![](<../../.gitbook/assets/Screenshot 2022-08-01 at 16.11.44.png>)
+![](<../../.gitbook/assets/Screenshot 2022-08-12 at 10.10.54.png>)
 
 #### Amount to list
 

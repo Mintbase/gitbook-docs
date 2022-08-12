@@ -1,15 +1,21 @@
 ---
-description: Overview of the Create tab
+description: Overview of the Launchpad tab
 ---
 
-# Create
+# Launchpad
 
-The Create tab is where you perform all your actions on the NFTs from your stores, or from other stores where you are a minter. These actions can be thing like minting, listing, sending, burning an NFT and so on.
+The Launchpad tab is where you perform all your actions on the NFTs from your stores, or from other stores where you are a minter. These actions can be things like minting, listing, sending, burning an NFT, and so on.
 
-To access it just click on **Create** on the navbar.
+To access it, click on **Launchpad** on the navbar.
 
-![Create Tab on Mintbase with a store selected](<../../.gitbook/assets/Screenshot 2022-04-13 at 09.55.58.png>)
+![](<../../.gitbook/assets/Screenshot 2022-08-12 at 09.51.00.png>)
 
-On the **selector field** (top left) you can select the store you want to create from.
+On the **tabs** (top left) you can switch between Your Stores or Owned NFTs.
 
-You can also deploy a store clicking in **New Store**.
+### Your Stores
+
+This is where you manage all of your smart contracts aka stores. You can start by selecting the store you want to work on and perform actions such as view store, change store settings, mint an NFT or access the redeemer page of that specific store.&#x20;
+
+### Owned NFTs
+
+Besides this, on the Owned NFTs field you have direct access to your NFTs, where you can burn, list or transfer tokens you own.&#x20;
