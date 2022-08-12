@@ -14,7 +14,7 @@ On the **tabs** (top left) you can switch between Your Stores or Owned NFTs.
 
 ### Your Stores
 
-This is where you manage all of your smart contracts aka stores. You can start by selecting the store you want to work on and perform actions such as view store, change store settings, mint an NFT or access the redeemer page of that specific store.&#x20;
+This is where you manage all of your smart contracts aka stores. You can start by selecting the store you want to work on and perform actions such as view store, change [store settings](../store/store-settings.md), [mint an NFT](minting-nfts.md), access the [redeemer page](../redeemer.md) of that specific store or [deploy a new store](../store/deploy-fee.md).
 
 ### Owned NFTs
 
