@@ -6,9 +6,9 @@ description: How to transfer tokens to other accounts
 
 After having [minted](minting-nfts.md) your NFT, you can transfer it.
 
-In the Create tab, click the **Send** button under the NFT you want to send.
+In the Launchpad tab, click the **Send** button under the NFT you want to send.
 
-![](../../.gitbook/assets/mintbase-send.png)
+![](<../../.gitbook/assets/Untitled design (15).png>)
 
 A modal will pop up in the same page. Here you can input the accounts you want to send to, and how many tokens you want to send to each account.
 
