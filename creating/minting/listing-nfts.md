@@ -34,7 +34,7 @@ On the listing page, toggle between **Simple Sale** and **Rolling Auction.** Jus
 
 Each bid is active for 24hrs. After this, if you don't accept the offer, it will expire. Read more about how auctions work under [auctions.md](../../market/auctions.md "mention").
 
-![](<../../.gitbook/assets/Screenshot 2022-08-01 at 16.26.29.png>)
+![](<../../.gitbook/assets/Screenshot 2022-08-12 at 10.30.02.png>)
 
 That's it! After filling these fields press **Make Listing**, sign the transaction in the NEAR interface and you will see a success page. Now, your listing is visible in the Marketplace.
 
