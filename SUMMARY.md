@@ -9,7 +9,7 @@
   * [🏗 Our Stack](dev/getting-started/our-stack.md)
 * [⚙ Data & Indexer](dev/data-and-indexer/README.md)
   * [📦 Retrieving data](dev/data-and-indexer/retrieving-data/README.md)
-    * [🕸 Mintbase Graph](dev/data-and-indexer/retrieving-data/mintbase-graph.md)
+    * [🕸 Mintbase GraphQL](dev/data-and-indexer/retrieving-data/mintbase-graph.md)
     * [REST Endpoints](dev/data-and-indexer/retrieving-data/rest-endpoints.md)
     * [JS SDK](dev/data-and-indexer/retrieving-data/js-sdk.md)
   * [Data Model](dev/data-and-indexer/data-model/README.md)

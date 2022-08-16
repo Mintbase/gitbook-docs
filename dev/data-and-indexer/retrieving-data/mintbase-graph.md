@@ -1,4 +1,4 @@
-# 🕸 Mintbase Graph
+# 🕸 Mintbase GraphQL
 
 This is our preferred option as it is probably the most flexible option and allows an easy schema exploration.
 
@@ -10,7 +10,7 @@ This is our preferred option as it is probably the most flexible option and allo
 | testnet | [https://mintbase-testnet.hasura.app/v1/graphql](https://mintbase-testnet.hasura.app/v1/graphql) |
 
 1. Go to [https://graphiql-online.com/](https://graphiql-online.com/)
-2. Enter one of the below endpoints into the input.&#x20;
+2. Enter one of the above endpoints into the input.&#x20;
 3. Click around the tree on the left side, building queries can be done just by clicking around.
 
 The queries and relationships are extensible, we suggest just clicking around the tree to make the queries and it will become easy over time.&#x20;
