@@ -46,7 +46,7 @@ near call nearcon2.mintbase1.near nft_batch_mint "{
 \"owner_id\": \"nearcon2.near\",
 \"metadata\": {
   \"extra\": \"ticket\",
-  \"reference\": \"O0j5Is1vKIhyoaY74EDJs9c1te3SamALSElvw6udJDk\"
+  \"reference\": \"dfnswq0LaXwNgGzqdW0-YPJLtTxc-fhQlLk8k1UCcJw\"
 },
 \"num_to_mint\": 25,
 \"royalty_args\": {
