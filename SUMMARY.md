@@ -49,6 +49,7 @@
   * [Transferring NFTs](creating/minting/transferring-nfts.md)
   * [Burning NFTs](creating/minting/burning-nfts.md)
 * [Redeemer](creating/redeemer.md)
+* [Burning](creating/burning.md)
 * [Fees](creating/fees.md)
 * [Data Storage](creating/data-storage.md)
 * [DAOs & the Mintbase Toolkit](creating/daos-and-the-mintbase-toolkit.md)
