@@ -4,9 +4,7 @@
 
 ## Developer <a href="#dev" id="dev"></a>
 
-* [🥳 Getting Started](dev/getting-started/README.md)
-  * [Overview](dev/getting-started/overview.md)
-  * [🏗 Our Stack](dev/getting-started/our-stack.md)
+* [🥳 Getting Started](dev/getting-started.md)
 * [⚙ Data & Indexer](dev/data-and-indexer/README.md)
   * [📦 Retrieving data](dev/data-and-indexer/retrieving-data/README.md)
     * [🕸 Mintbase GraphQL](dev/data-and-indexer/retrieving-data/mintbase-graph.md)
