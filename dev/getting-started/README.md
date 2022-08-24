@@ -10,30 +10,13 @@ If you are looking to make transactions using [MintbaseJS](../write-data/mintbas
 
 ## Start with Boilerplate Examples
 
+* [Create-Mintbase-App](cmb-create-mintbase-app.md)
 * [Simple Login](https://github.com/Mintbase/examples/blob/main/simple-login)
 * [Simple Gallery](https://github.com/Mintbase/examples/blob/main/simple-gallery)
 * [Simple Marketplace](https://github.com/Mintbase/examples/blob/main/simple-marketplace)
 * [Simple Minter](https://github.com/Mintbase/examples/blob/main/simple-minter)
 
 
-
-
-
-{% content-ref url="../smart-contracts/" %}
-[smart-contracts](../smart-contracts/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="../write-data/mintbasejs.md" %}
-[mintbasejs.md](../write-data/mintbasejs.md)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
 
 Most of our repositories are open source with either the MIT License or the GPL-3.0 License. Mintbase is a tool in the public domain, as such anyone can view and contribute to every aspect of the protocol.
 
