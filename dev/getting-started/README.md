@@ -1,21 +1,10 @@
 ---
-description: >-
-  Anything we have built on Mintbase, (minter, market, auction, airdrop,
-  redeemer) we have open sourced for you to use so you can build your own.
+description: Let's get you to build your own NFT Market!
 ---
 
 # 🛠 Getting Started
 
 
-
-Before jumping into the technical details it’s important to understand that:
-
-1. We are using the [NEAR Protocol](https://near.org/).&#x20;
-2. We have designed our data model aiming to help scaling projects.&#x20;
-   1. [(Data) Store => Thing => Token](../read-data/data-model/)&#x20;
-3. Use [MintbaseJS](https://www.npmjs.com/package/mintbase) For any transactions (write data to chain) we do on Mintbase&#x20;
-4. There is a [testnet](https://testnet.mintbase.io/) environment for testing features.&#x20;
-5. Our Smart Contracts are [open-sourced](https://github.com/Mintbase/mintbase-core/tree/master/store).
 
 ## Tech Stack
 

@@ -7,7 +7,7 @@
 * [🧠 Introduction](dev/introduction.md)
 * [🛠 Getting Started](dev/getting-started/README.md)
   * [Create-Mintbase-App](dev/getting-started/cmb-create-mintbase-app.md)
-  * [Code Examples](dev/getting-started/code-examples.md)
+  * [Code Examples](dev/developer-tools/code-examples.md)
 * [📖 Read Data](dev/read-data/README.md)
   * [GraphQL](dev/read-data/mintbase-graph.md)
   * [Metadata](dev/read-data/metadata.md)
