@@ -4,7 +4,7 @@ description: >-
   redeemer) we have open sourced for you to use so you can build your own.
 ---
 
-# 🥳 Getting Started
+# 🛠 Getting Started
 
 
 
