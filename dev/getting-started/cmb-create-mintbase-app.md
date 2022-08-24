@@ -19,7 +19,7 @@ Developer experience first:
 * 📏 Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
 * 💖 Code Formatter with [Prettier](https://prettier.io)
 * 🧱 Integrated with [MintbaseJS](../write-data/mintbasejs.md)
-* 🖼 Integrated with [MintbaseUI](../developer-tools/mintbaseui.md)
+* 🖼 Integrated with [MintbaseUI](broken-reference)
 
 ### Getting Started
 

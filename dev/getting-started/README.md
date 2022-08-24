@@ -4,8 +4,6 @@ description: Let's get you to build your own NFT Market!
 
 # 🛠 Getting Started
 
-
-
 ## Tech Stack
 
 * [Mintbase.js](https://github.com/mintbase/mintbase-js): For any transactions (write data to chain) we do on Mintbase&#x20;
@@ -28,8 +26,8 @@ description: Let's get you to build your own NFT Market!
 [mintbasejs.md](../write-data/mintbasejs.md)
 {% endcontent-ref %}
 
-{% content-ref url="../developer-tools/mintbaseui.md" %}
-[mintbaseui.md](../developer-tools/mintbaseui.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 Most of our repositories are open source with either the MIT License or the GPL-3.0 License. Mintbase is a tool in the public domain, as such anyone can view and contribute to every aspect of the protocol.

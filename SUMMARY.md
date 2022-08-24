@@ -24,8 +24,6 @@
   * [Batched methods](dev/smart-contracts/batched-methods.md)
   * [Minting and burning](dev/smart-contracts/minting-and-burning.md)
   * [Store management](dev/smart-contracts/mint-burn.md)
-* [🛠 Developer Tools](dev/developer-tools/README.md)
-  * [🖼 MintbaseUI](dev/developer-tools/mintbaseui.md)
 
 ## Creating
 
