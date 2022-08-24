@@ -1,4 +1,4 @@
-# 🔧 MintbaseJS
+# MintbaseJS
 
 Mintbase uses [MintbaseJS](https://www.npmjs.com/package/mintbase) for all of our transactions on both the market and minter including mint, transfer, burn, sell, buy, so if we can use it, so can you.
 

@@ -4,7 +4,7 @@ description: >-
   TypeScript
 ---
 
-# CMB (Create-Mintbase-App)
+# Create-Mintbase-App
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FMintbase%2Fcreate-mintbase-app) [![Open in StackBlitz](https://developer.stackblitz.com/img/open\_in\_stackblitz.svg)](https://stackblitz.com/github/Mintbase/create-mintbase-app)
 
@@ -18,8 +18,8 @@ Developer experience first:
 * ✅ Strict Mode for TypeScript and React 18
 * 📏 Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
 * 💖 Code Formatter with [Prettier](https://prettier.io)
-* 🧱 Integrated with [MintbaseJS](mintbasejs.md)
-* 🖼 Integrated with [MintbaseUI](mintbaseui.md)
+* 🧱 Integrated with [MintbaseJS](../write-data/mintbasejs.md)
+* 🖼 Integrated with [MintbaseUI](../developer-tools/mintbaseui.md)
 
 ### Getting Started
 

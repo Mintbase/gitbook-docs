@@ -211,7 +211,7 @@ Combine the Storage Gateway with Transaction Hash
 
 As you can see from the above example, merging the JSON response from Arweave produces a complete picture of token metadata while saving storage costs on-chain.&#x20;
 
-Note that our [indexer data](./) already provides pre-resolved metadata from Arweave (currently only for Mintbase contracts).
+Note that our [indexer data](broken-reference) already provides pre-resolved metadata from Arweave (currently only for Mintbase contracts).
 
 
 
