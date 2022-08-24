@@ -4,13 +4,18 @@ description: Let's get you to build your own NFT Market!
 
 # 🛠 Getting Started
 
-## Tech Stack
+If you are looking to make transactions using [MintbaseJS](../write-data/mintbasejs.md), get a [developer key here](https://www.mintbase.io/developer)&#x20;
 
-* [Mintbase.js](https://github.com/mintbase/mintbase-js): For any transactions (write data to chain) we do on Mintbase&#x20;
-* [Mintbase UI](https://github.com/mintbase/mintbase-ui): The Mintbase UI library
-* [Developer Docs](https://docs.mintbase.io/dev/data-and-indexer): Learn how to query data from our indexers
-* [Examples](https://github.com/Mintbase/examples): Fire up your own minter, market, or gallery in minutes
-* [Grants](https://github.com/Mintbase/Grants-Program): Learn how to apply for grants
+<figure><img src="../../.gitbook/assets/Screen Shot 2022-08-24 at 4.00.09 PM.png" alt=""><figcaption></figcaption></figure>
+
+## Start with Boilerplate Examples
+
+* [Simple Login](https://github.com/Mintbase/examples/blob/main/simple-login)
+* [Simple Gallery](https://github.com/Mintbase/examples/blob/main/simple-gallery)
+* [Simple Marketplace](https://github.com/Mintbase/examples/blob/main/simple-marketplace)
+* [Simple Minter](https://github.com/Mintbase/examples/blob/main/simple-minter)
+
+
 
 
 
