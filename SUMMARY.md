@@ -24,6 +24,7 @@
   * [Batched methods](dev/smart-contracts/batched-methods.md)
   * [Minting and burning](dev/smart-contracts/minting-and-burning.md)
   * [Store management](dev/smart-contracts/mint-burn.md)
+* [💡 Build Ideas](dev/build-ideas.md)
 
 ## Creating
 
