@@ -24,8 +24,8 @@ description: Not sure what to build? Start here!
 
 ### **Wildcard**
 
-* Trigger mintbase js calls from iOT device, maybe bring your DJI drone?&#x20;
-* Connecting other Smart contracts in your own creative way Zero knowledge research and implementation
+* Trigger mintbase js calls from iOT device, maybe bring your DJI drone in?&#x20;
+* Zero knowledge research and implementation
 * Identity solutions, not soulbound tokens, we love the transfer function, but validating initial issuance through provenance and KYC leveling for accounts would be fun to dive into.&#x20;
 * Up to you, go nuts…
 
