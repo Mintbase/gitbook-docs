@@ -6,8 +6,8 @@ description: Not sure what to build? Start here!
 
 ### Integrations&#x20;
 
-1. Integrate Mintbase NFTs with other web2 platforms like canva, figma, shopify
-2. Integrate Mintbase NFTs with existing NEAR dapps like astro or roketo, or your own
+* Integrate Mintbase NFTs with other web2 platforms like canva, figma, shopify
+* Integrate Mintbase NFTs with existing NEAR dapps like [astro](https://app.astrodao.com/dao/mintbase.sputnik-dao.near) or [roketo](https://www.roke.to/), or your own
 
 ### Apps&#x20;
 
