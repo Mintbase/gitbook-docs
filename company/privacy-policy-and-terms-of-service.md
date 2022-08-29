@@ -1,5 +1,5 @@
 ---
-description: Last updated on 2nd of July 2020.
+description: Last updated on 29th of August 2022.
 ---
 
 # Privacy Policy & Terms of Service
