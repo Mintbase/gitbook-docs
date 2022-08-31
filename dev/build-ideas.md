@@ -21,6 +21,7 @@ description: Not sure what to build? Start here!
 * Build your own auction site
 * Build a music streaming app, only import NFTs with with the metata/animation\_type = “audio/mpeg”
 * Build a 3d gaming asset app, only import NFTs with with the metata/animation\_type = “model/gltf-binary”
+* Enable private sales. Let's say you want to sell a ticket with a discounted price to a friend.
 
 ### **Wildcard**
 
