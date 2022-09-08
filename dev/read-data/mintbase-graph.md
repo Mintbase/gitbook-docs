@@ -4,10 +4,10 @@ This is our preferred option as it is probably the most flexible option and allo
 
 ### How to query data?
 
-| Network | Endpoint                                                                                         |
-| ------- | ------------------------------------------------------------------------------------------------ |
-| mainnet | [https://mintbase-mainnet.hasura.app/v1/graphql](https://mintbase-mainnet.hasura.app/v1/graphql) |
-| testnet | [https://mintbase-testnet.hasura.app/v1/graphql](https://mintbase-testnet.hasura.app/v1/graphql) |
+| Network | Endpoint                                       |
+| ------- | ---------------------------------------------- |
+| mainnet | https://mintbase-mainnet.hasura.app/v1/graphql |
+| testnet | https://interop-testnet.hasura.app/v1/graphql  |
 
 1. Go to [https://graphiql-online.com/](https://graphiql-online.com/)
 2. Enter one of the above endpoints into the input.&#x20;
