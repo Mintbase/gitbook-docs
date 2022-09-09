@@ -39,8 +39,7 @@ Live Demo: [https://examples-simple-gallery-mintbase.vercel.app/](https://exampl
 
 <figure><img src="../.gitbook/assets/Screen Shot 2022-09-09 at 16.40.16.png" alt=""><figcaption></figcaption></figure>
 
-****\
-**simple-login**
+### **** **simple-login**
 
 A Simple Login example, \
 \
