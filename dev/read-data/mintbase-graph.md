@@ -13,19 +13,9 @@ This is our preferred option as it is probably the most flexible option and allo
 **Test on Mintbase GraphQL Playground:**\
 ****Testnet: [https://graphql-playground-mintbase.vercel.app/](https://graphql-playground-mintbase.vercel.app/)\
 Mainnet: [https://graphql-playground-mintbase.vercel.app/?env=mainnet](https://graphql-playground-mintbase.vercel.app/?env=mainnet)\
-Testnet:&#x20;
-
-{% embed url="https://graphql-playground-mintbase.vercel.app/" %}
-
-
-
-
-
 \
 \
-\
-\
-**Test on GraphiQL Online:**
+**Test on Hasura GraphiQL Playground:**
 
 1. Go to [https://graphiql-online.com/](https://graphiql-online.com/)
 2. Enter one of the above endpoints into the input.&#x20;
