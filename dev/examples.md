@@ -39,7 +39,7 @@ Live Demo: [https://examples-simple-gallery-mintbase.vercel.app/](https://exampl
 
 <figure><img src="../.gitbook/assets/Screen Shot 2022-09-09 at 16.40.16.png" alt=""><figcaption></figcaption></figure>
 
-### **** **simple-login**
+### **simple-login**
 
 A Simple Login example, \
 \
@@ -51,4 +51,4 @@ Live Demo: [https://examples-simple-login-mintbase.vercel.app/](https://examples
 \
 
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-09-09 at 16.54.24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2022-09-09 at 16.57.50.png" alt=""><figcaption></figcaption></figure>
