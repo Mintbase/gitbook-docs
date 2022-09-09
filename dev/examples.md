@@ -4,8 +4,8 @@ description: Some Examples built on top of mintbase.js
 
 # 📄 Examples
 
-**simple-marketplace**\
-\
+### **simple-marketplace**
+
 A Simple Marketplace where you can list NFTS, filter by store, and buy NFTS that are available\
 \
 built with Next.js + mintbase.js + Apollo\
@@ -15,8 +15,8 @@ Live Demo: [https://examples-simple-marketplace.vercel.app/](https://examples-si
 
 <figure><img src="../.gitbook/assets/Screen Shot 2022-09-09 at 16.13.06.png" alt=""><figcaption></figcaption></figure>
 
-**simple-minter**\
-\
+### **simple-minter**
+
 A Simple Minter example, where you can mint NFTS to your store.\
 \
 built with Next.js + mintbase.js + Apollo\
@@ -27,8 +27,8 @@ Live Demo: [https://examples-simple-minter.vercel.app/](https://examples-simple-
 
 <figure><img src="../.gitbook/assets/Screen Shot 2022-09-09 at 16.15.58.png" alt=""><figcaption></figcaption></figure>
 
-**simple-gallery**\
-\
+### **simple-gallery**
+
 A Simple Gallery example, where you can showcase your NFTS\
 \
 built with Next.js + mintbase.js + Apollo\
@@ -40,9 +40,8 @@ Live Demo: [https://examples-simple-gallery-mintbase.vercel.app/](https://exampl
 <figure><img src="../.gitbook/assets/Screen Shot 2022-09-09 at 16.40.16.png" alt=""><figcaption></figcaption></figure>
 
 ****\
-****\
-**simple-login**\
-\
+**simple-login**
+
 A Simple Login example, \
 \
 built with Next.js + near-sdk\
@@ -53,4 +52,4 @@ Live Demo: [https://examples-simple-login-mintbase.vercel.app/](https://examples
 \
 
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-09-09 at 16.48.23.png" alt=""><figcaption><p><br><br><br><br><br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2022-09-09 at 16.54.24.png" alt=""><figcaption></figcaption></figure>
