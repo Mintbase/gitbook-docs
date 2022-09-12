@@ -23,7 +23,7 @@ Mainnet: [https://graphql-playground-mintbase.vercel.app/?env=mainnet](https://g
 
 The queries and relationships are extensible, we suggest just clicking around the tree to make the queries and it will become easy over time.&#x20;
 
-Always keep in mind our [data model](data-model.md) and [schema](schema-v1.md#dbml).\
+Always keep in mind our [data model](broken-reference) and [schema](broken-reference).\
 
 
 ### Query Formatting

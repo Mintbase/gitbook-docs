@@ -9,8 +9,6 @@
 * [📖 Read Data](dev/read-data/README.md)
   * [GraphQL](dev/read-data/mintbase-graph.md)
   * [Metadata](dev/read-data/metadata.md)
-  * [Data Model](dev/read-data/data-model.md)
-  * [Schema v1](dev/read-data/schema-v1.md)
 * [🖊 Write Data](dev/write-data/README.md)
   * [MintbaseJS](dev/write-data/mintbasejs.md)
   * [NEAR CLI](dev/write-data/near-cli/README.md)

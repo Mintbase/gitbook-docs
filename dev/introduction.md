@@ -8,7 +8,7 @@ Anything we've built on Mintbase, (minter, market, auction, airdrop, redeemer) y
 
 1. We are using the [NEAR Protocol](https://near.org/)
 2. We have designed our data model aiming to help scaling projects
-   1. [(Data) Store => Thing => Token](read-data/data-model.md)&#x20;
+   1. [(Data) Store => Thing => Token](broken-reference)&#x20;
 3. Use [MintbaseJS](https://www.npmjs.com/package/mintbase) for any transactions (writing data to chain)&#x20;
 4. Use our [GraphQL indexer](read-data/mintbase-graph.md) to get realtime chain data (who owns what)
 5. There is a full [testnet](https://testnet.mintbase.io/) environment for testing ui, indexer, and transactions
