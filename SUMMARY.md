@@ -58,7 +58,7 @@
 
 * [FAQs](company/faqs.md)
 * [Privacy Policy & Terms of Service](company/privacy-policy-and-terms-of-service.md)
-* [🐛 Bug Bounty Policy](company/bug-bounty-policy.md)
+* [Bug Bounty Policy](company/bug-bounty-policy.md)
 * [Roadmap](company/roadmap.md)
 
 ## 🧓 Archive <a href="#ethereum" id="ethereum"></a>

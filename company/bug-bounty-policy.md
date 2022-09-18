@@ -4,7 +4,7 @@ description: >-
   with our platform.
 ---
 
-# 🐛 Bug Bounty Policy
+# Bug Bounty Policy
 
 ### **If an attack vector is disclosed publicly or used to deny service to users for any amount of time the reporting party will be disqualified from receiving bounties.**&#x20;
 
