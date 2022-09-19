@@ -16,11 +16,11 @@ Calling contract method `set_status_of_address` with argument `xyz` results in i
 
 Adding argument `zyx` to smart contract method call results in an unpredicted downstream XCC
 
-&#x20;Header injection calling on Mintbase owned HTTPs endpoint results in 200 vs 403&#x20;
+Header injection calling on Mintbase owned HTTPs endpoint results in 200 vs 403&#x20;
 
 ## Next Steps
 
-Once we have verified there is an issue, our team will work with you to directly to fix the issue.   Only when the issue has been verified by the Mintbase team as fixed will we proceed with payment.
+Once we have verified there is an issue, our team will work with you to directly to fix the issue.   Only when the issue has been verified as fixed by the Mintbase team will we proceed with payment.
 
 ## Bounty Amounts
 
