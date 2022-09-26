@@ -29,8 +29,6 @@ The new market requires a 0.1N storage deposit per listing.
 near call <market-contract> deposit_storage '{}' --deposit 0.1 --accountId <your-account>h
 ```
 
-Transaction example: [https://testnet.nearblocks.io/txns/CRgUHgfPEHcUGFmD6YSxM88aWk8y2gRZrHa49nToUcMu#execution](https://testnet.nearblocks.io/txns/CRgUHgfPEHcUGFmD6YSxM88aWk8y2gRZrHa49nToUcMu#execution)
-
 #### Authorize the market
 
 * **Method**: nft\_approve
@@ -42,8 +40,6 @@ Transaction example: [https://testnet.nearblocks.io/txns/CRgUHgfPEHcUGFmD6YSxM88
     * e.g "{"price":"500000000000000000000000"}" ****&#x20;
 * **Deposit**: 1 yoctoNEAR
 * **Gas**: 200000000000000 yoctoGas | 200 TGas
-
-Transaction example: [https://testnet.nearblocks.io/txns/EQaeWj4wC26Exvspq58vGeL54FBcvZLAkSG1Zi5XTdxj#execution](https://testnet.nearblocks.io/txns/EQaeWj4wC26Exvspq58vGeL54FBcvZLAkSG1Zi5XTdxj#execution)
 
 ```
 near call <nft-contract> nft_approve '{"account_id": <market-contract>, "token_id": <token-id>, "msg": "{\"price\":\"<amount-yocto>\"}"}' --depositYocto 1 --accountId <your-account>
@@ -64,10 +60,6 @@ Once an `account` is registered for collecting fees ([see above](new-marketplace
     * ⚠️ Note that the `referrer_id` has to be registered first by Mintbase ([see above](new-marketplace.md#join-the-referral-program))
 * **Deposit**: the token listing price
 * **Gas**: 200000000000000 yoctoGas | 200 TGas
-
-Transaction example:
-
-[https://testnet.nearblocks.io/txns/CQNaVQFRAcpT6nQif9jJAYiMoycRaymKCwaVqSQCduqd#execution](https://testnet.nearblocks.io/txns/CQNaVQFRAcpT6nQif9jJAYiMoycRaymKCwaVqSQCduqd#execution)
 
 ```
 near call <market-contract> buy '{"nft_contract_id": <nft-contract>, "token_id": <token-id>, "referrer_id": <referrer-id>}' --depositYocto <price-yocto> --accountId <your-account>
