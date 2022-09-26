@@ -23,7 +23,7 @@ The new market requires a 0.1N storage deposit per listing.
 * **Receiver Id**: the market contract address
 * **Arguments**: none
 * **Deposit**: 0.1N
-* **Gas**: 200000000000000 yoctoGas | 200 TGas
+* **Gas**: 200 TGas
 
 ```
 near call <market-contract> deposit_storage '{}' --deposit 0.1 --accountId <your-account>h
@@ -39,7 +39,7 @@ near call <market-contract> deposit_storage '{}' --deposit 0.1 --accountId <your
   * **msg**: a stringified object that contains price expressed in yoctoNEAR
     * e.g "{"price":"500000000000000000000000"}" ****&#x20;
 * **Deposit**: 1 yoctoNEAR
-* **Gas**: 200000000000000 yoctoGas | 200 TGas
+* **Gas**: 200 TGas
 
 ```
 near call <nft-contract> nft_approve '{"account_id": <market-contract>, "token_id": <token-id>, "msg": "{\"price\":\"<amount-yocto>\"}"}' --depositYocto 1 --accountId <your-account>
@@ -59,7 +59,7 @@ Once an `account` is registered for collecting fees ([see above](new-marketplace
   * **referrer\_id**: the account address that will collect the market fee
     * ⚠️ Note that the `referrer_id` has to be registered first by Mintbase ([see above](new-marketplace.md#join-the-referral-program))
 * **Deposit**: the token listing price
-* **Gas**: 200000000000000 yoctoGas | 200 TGas
+* **Gas**: 200 TGas
 
 ```
 near call <market-contract> buy '{"nft_contract_id": <nft-contract>, "token_id": <token-id>, "referrer_id": <referrer-id>}' --depositYocto <price-yocto> --accountId <your-account>
