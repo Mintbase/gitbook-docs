@@ -17,16 +17,16 @@ Listing a token to the marketplace requires two function calls. The first to res
 
 #### Storage deposit
 
-The new market requires a 0.1N storage deposit per listing.
+The new market requires a 0.01N storage deposit per listing. This amount is transferred back when the token is sold or it's unlisted from the marketplace.
 
 * **Method**: deposit\_storage
 * **Receiver Id**: the market contract address
 * **Arguments**: none
-* **Deposit**: 0.1N
+* **Deposit**: 0.01N
 * **Gas**: 200 TGas
 
 ```
-near call <market-contract> deposit_storage '{}' --deposit 0.1 --accountId <your-account>h
+near call <market-contract> deposit_storage '{}' --deposit 0.01 --accountId <your-account>h
 ```
 
 #### Authorize the market
