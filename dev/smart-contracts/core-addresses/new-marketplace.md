@@ -25,8 +25,8 @@ The new market requires a 0.1N storage deposit per listing.
 * **Deposit**: 0.1N
 * **Gas**: 200000000000000 yoctoGas | 200 TGas
 
-```bash
-code
+```
+near call <market-contract> deposit_storage '{}' --deposit 0.1 --accountId <your-account>h
 ```
 
 Transaction example: [https://testnet.nearblocks.io/txns/CRgUHgfPEHcUGFmD6YSxM88aWk8y2gRZrHa49nToUcMu#execution](https://testnet.nearblocks.io/txns/CRgUHgfPEHcUGFmD6YSxM88aWk8y2gRZrHa49nToUcMu#execution)
@@ -70,6 +70,6 @@ Transaction example:
 [https://testnet.nearblocks.io/txns/CQNaVQFRAcpT6nQif9jJAYiMoycRaymKCwaVqSQCduqd#execution](https://testnet.nearblocks.io/txns/CQNaVQFRAcpT6nQif9jJAYiMoycRaymKCwaVqSQCduqd#execution)
 
 ```
-near call <market-contract> buy '{"nft_contract_id": <nft-contract>, "token_id": <token-id>, "referrer_id": <referrer-id>}' --depositYocto <price-yocot> --accountId <your-account>
+near call <market-contract> buy '{"nft_contract_id": <nft-contract>, "token_id": <token-id>, "referrer_id": <referrer-id>}' --depositYocto <price-yocto> --accountId <your-account>
 ```
 
