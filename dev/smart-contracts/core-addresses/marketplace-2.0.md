@@ -56,7 +56,7 @@ Once an `account` is registered for collecting fees ([see above](marketplace-2.0
 * **Arguments**:&#x20;
   * **nft\_contract\_id**: the token contract address
   * **token\_id:** the token id
-  * **referrer\_id**: the account address that will collect the market fee
+  * **referrer\_id** (optional): the account address that will collect the market fee
     * ⚠️ Note that the `referrer_id` has to be registered first by Mintbase ([see above](marketplace-2.0.md#join-the-referral-program))
 * **Deposit**: the token listing price
 * **Gas**: 200 TGas
