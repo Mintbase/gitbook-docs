@@ -15,7 +15,7 @@
     * [Batch Transactions](dev/write-data/near-cli/batch-transactions.md)
 * [📜 Smart Contracts](dev/smart-contracts/README.md)
   * [Core Addresses](dev/smart-contracts/core-addresses/README.md)
-    * [New Marketplace](dev/smart-contracts/core-addresses/new-marketplace.md)
+    * [Marketplace 2.0](dev/smart-contracts/core-addresses/marketplace-2.0.md)
   * [Standards](dev/smart-contracts/standards/README.md)
     * [Coming from Ethereum](dev/smart-contracts/standards/coming-from-ethereum.md)
   * [Batched methods](dev/smart-contracts/batched-methods.md)
