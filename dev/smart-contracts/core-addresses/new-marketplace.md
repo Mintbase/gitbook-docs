@@ -1,7 +1,7 @@
 ---
 description: >-
   Mintbase is introducing a new marketplace contract that enables arbitrary
-  accounts to collect the market fee when a token is sold with its registered
+  accounts to collect the market fee when a token is sold with a registered
   referral id.
 ---
 
@@ -25,6 +25,10 @@ The new market requires a 0.1N storage deposit per listing.
 * **Deposit**: 0.1N
 * **Gas**: 200000000000000 yoctoGas | 200 TGas
 
+```bash
+code
+```
+
 Transaction example: [https://testnet.nearblocks.io/txns/CRgUHgfPEHcUGFmD6YSxM88aWk8y2gRZrHa49nToUcMu#execution](https://testnet.nearblocks.io/txns/CRgUHgfPEHcUGFmD6YSxM88aWk8y2gRZrHa49nToUcMu#execution)
 
 #### Authorize the market
@@ -36,10 +40,14 @@ Transaction example: [https://testnet.nearblocks.io/txns/CRgUHgfPEHcUGFmD6YSxM88
   * **token\_id:** the token id
   * **msg**: a stringified object that contains price expressed in yoctoNEAR
     * e.g "{"price":"500000000000000000000000"}" ****&#x20;
-* **Deposit**: 0.1N
+* **Deposit**: 1 yoctoNEAR
 * **Gas**: 200000000000000 yoctoGas | 200 TGas
 
 Transaction example: [https://testnet.nearblocks.io/txns/EQaeWj4wC26Exvspq58vGeL54FBcvZLAkSG1Zi5XTdxj#execution](https://testnet.nearblocks.io/txns/EQaeWj4wC26Exvspq58vGeL54FBcvZLAkSG1Zi5XTdxj#execution)
+
+```
+near call <nft-contract> nft_approve '{"account_id": <market-contract>, "token_id": <token-id>, "msg": "{\"price\":\"<amount-yocto>\"}"}' --depositYocto 1 --accountId <your-account>
+```
 
 ### Buy a token
 
@@ -60,4 +68,8 @@ Once an `account` is registered for collecting fees ([see above](new-marketplace
 Transaction example:
 
 [https://testnet.nearblocks.io/txns/CQNaVQFRAcpT6nQif9jJAYiMoycRaymKCwaVqSQCduqd#execution](https://testnet.nearblocks.io/txns/CQNaVQFRAcpT6nQif9jJAYiMoycRaymKCwaVqSQCduqd#execution)
+
+```
+near call <market-contract> buy '{"nft_contract_id": <nft-contract>, "token_id": <token-id>, "referrer_id": <referrer-id>}' --depositYocto <price-yocot> --accountId <your-account>
+```
 
