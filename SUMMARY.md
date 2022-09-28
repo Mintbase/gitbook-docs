@@ -13,6 +13,7 @@
   * [MintbaseJS](dev/write-data/mintbasejs.md)
   * [NEAR CLI](dev/write-data/near-cli/README.md)
     * [Batch Transactions](dev/write-data/near-cli/batch-transactions.md)
+    * [(Un) Delisting NFTs](dev/write-data/near-cli/un-delisting-nfts.md)
 * [📜 Smart Contracts](dev/smart-contracts/README.md)
   * [Core Addresses](dev/smart-contracts/core-addresses/README.md)
     * [Marketplace 2.0](dev/smart-contracts/core-addresses/marketplace-2.0.md)
