@@ -22,7 +22,7 @@ The expiration time is fully adjustable on the smart contracts side, but since i
 
 ### **What is a Storage Deposit and why is it required to list on the market?**
 
-A storage (or "state") deposit is a staking mechanism that incentivizes NEAR network participants to store the record or your listing on the blockchain for as long as it is needed.&#x20;
+A storage (or "state") deposit is a staking mechanism that incentivizes NEAR network participants to store the record of your listing on the blockchain for as long as it is needed.&#x20;
 
 Once your token is no longer listed on the market, the storage deposit is no longer required and returned to you. For more information on, you can read more about [Storage Staking on NEAR Protocol](https://docs.near.org/concepts/storage/storage-staking).&#x20;
 
