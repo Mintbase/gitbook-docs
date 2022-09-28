@@ -20,6 +20,12 @@ No sorry. We are working on adding a notification system to warn when an offer h
 
 The expiration time is fully adjustable on the smart contracts side, but since it's just the start, we want to keep the features limited to battle test. In the future we can offer adjustable expiration time.
 
+### **What is a Storage Deposit and why is it required to list on the market?**
+
+A storage (or "state") deposit is a staking mechanism that incentivizes NEAR network participants to store the record or your listing on the blockchain for as long as it is needed.&#x20;
+
+Once your token is no longer listed on the market, the storage deposit is no longer required and returned to you. For more information on, you can read more about [Storage Staking on NEAR Protocol](https://docs.near.org/concepts/storage/storage-staking).&#x20;
+
 ### Can I list Multiple NFTs with the same metadata (Thing) for auction?
 
 Yes. This is the default option, when you list you are including all NFTs of your thing.

@@ -18,7 +18,7 @@ You set a fixed price and anyone can buy it.
 
 ![](<../../.gitbook/assets/Screenshot 2022-08-12 at 10.10.54.png>)
 
-#### Amount to list
+#### Amount to List
 
 This first input is the number of tokens you wish to list. In the example above, the NFT has 7 tokens that you could list. If you want to You can list up to 25 tokens in one go.
 
@@ -27,6 +27,16 @@ If you want to list each one at a different price, leaving "1" in this field, an
 #### Price
 
 Type the price in NEAR of your token (price of each one, if you were to list multiple at once).
+
+
+
+**Storage Deposits**
+
+When you list a token for sale on Mintbase, you will be asked to deposit 0.01N _per token_ listed into the market contract. _**This is NOT an additional fee and will be refunded to you when a token is sold, or your the listing is removed.**_ &#x20;
+
+For more details regarding storage deposits [read this section or our FAQ](../../market/faq.md#what-is-a-storage-deposit-and-why-is-it-required-to-list-on-the-market)
+
+
 
 ### Rolling Auction
 
