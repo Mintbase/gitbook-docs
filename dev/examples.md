@@ -13,7 +13,7 @@ built with Next.js + mintbase.js + Apollo\
 Github Docs: [https://github.com/Mintbase/examples/tree/main/simple-marketplace](https://github.com/Mintbase/examples/tree/main/simple-marketplace)\
 Live Demo: [https://examples-simple-marketplace.vercel.app/](https://examples-simple-marketplace.vercel.app/)
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-09-09 at 16.13.06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/telegram-cloud-photo-size-4-5886677975875827654-y.jpg" alt=""><figcaption></figcaption></figure>
 
 ### **simple-minter**
 
