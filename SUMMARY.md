@@ -33,6 +33,7 @@
 * [Store](creating/store/README.md)
   * [Deploy](creating/store/deploy-fee.md)
   * [Store Settings](creating/store/store-settings.md)
+  * [Store profile](creating/store/store-profile.md)
 * [Launchpad](creating/minting/README.md)
   * [Minting NFTs](creating/minting/minting-nfts.md)
   * [Listing NFTs](creating/minting/listing-nfts.md)
@@ -48,7 +49,7 @@
 
 ## Market
 
-* [FAQ](market/faq.md)
+* [FAQs](market/faq.md)
 * [Thing Page](market/thing-page.md)
 * [Simple Sale](market/simple-sale.md)
 * [Rolling Auctions](market/auctions.md)
