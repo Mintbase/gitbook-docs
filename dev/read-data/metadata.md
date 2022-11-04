@@ -31,7 +31,7 @@ If you are using the [NEAR CLI](https://github.com/near/near-cli) via command li
 
 ```
 export NEAR_ENV=mainnet
-near view nearcon2.mintbase1.near nft_token '{"token_id": "30"}'
+near view nearcon2.mintbase1.near nft_token '{"token_id": "204"}'
 ```
 
 **Returns**
