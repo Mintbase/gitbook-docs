@@ -20,8 +20,15 @@ This is our preferred option as it is probably the most flexible option and allo
 
 
 
-The queries and relationships are extensible, we suggest just clicking around the tree to make the queries and it will become easy over time. \
+The queries and relationships are extensible, we suggest just clicking around the tree to make the queries and it will become easy over time.&#x20;
 
+
+
+### Examples
+
+1. [Get NFTs owned by an account](https://cloud.hasura.io/public/graphiql?endpoint=+https%3A%2F%2Finterop-mainnet.hasura.app%2Fv1%2Fgraphql\&query=query+MyQuery+%7B%0A++mb\_views\_nft\_tokens%28%0A++++distinct\_on%3A+metadata\_id%0A++++where%3A+%7Bowner%3A+%7B\_eq%3A+%22nate.near%22%7D%2C+\_and%3A+%7Bburned\_timestamp%3A+%7B\_is\_null%3A+true%7D%7D%7D%0A++%29+%7B%0A++++nft\_contract\_id%0A++++title%0A++++description%0A++++media%0A++%7D%0A%7D%0A), notice the `burned_timestamp` if null indicates it has not been burned yet
+
+###
 
 ### Query Formatting
 
