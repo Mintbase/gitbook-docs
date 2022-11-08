@@ -20,9 +20,7 @@ This is our preferred option as it is probably the most flexible option and allo
 
 
 
-The queries and relationships are extensible, we suggest just clicking around the tree to make the queries and it will become easy over time.&#x20;
-
-Always keep in mind our [data model](broken-reference) and [schema](broken-reference).\
+The queries and relationships are extensible, we suggest just clicking around the tree to make the queries and it will become easy over time. \
 
 
 ### Query Formatting
