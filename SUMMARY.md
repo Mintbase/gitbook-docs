@@ -8,8 +8,6 @@
 * [🛠 Getting Started](dev/getting-started.md)
 * [📖 Read Data](dev/read-data/README.md)
   * [GraphQL](dev/read-data/mintbase-graph.md)
-[comment]: BEGIN-GQL
-[comment]: END-GQL
   * [Metadata](dev/read-data/metadata.md)
 * [🖊 Write Data](dev/write-data/README.md)
   * [MintbaseJS](dev/write-data/mintbasejs.md)
@@ -115,6 +113,7 @@
     * [Non-fungible token](ethereum/ethereum/general-blockchain-questions/non-fungible-token.md)
     * [Digital Asset](ethereum/ethereum/general-blockchain-questions/digital-asset.md)
   * [About](ethereum/ethereum/about/README.md)
+    * [Test Page](ethereum/ethereum/about/test-page.md)
     * [What is Mintbase?](ethereum/ethereum/about/what-is-mintbase.md)
     * [Fee Structure](ethereum/ethereum/about/fee-structure.md)
   * [Contact](ethereum/ethereum/contact.md)
