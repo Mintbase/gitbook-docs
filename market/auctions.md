@@ -46,7 +46,7 @@ In this table you can visualize the offer history on the specific token.
 
 If more than 1 token is listed as Rolling Auction, you can navigate between them in this upper tab:
 
-![Rolling Auction page with multiple tokens](../.gitbook/assets/auction-tokens-tab.png)
+![Rolling Auction page with multiple tokens](<../.gitbook/assets/auction-tokens-tab (1).png>)
 
 In this example there are 4 tokens of the same thing ([read here about things/tokens](thing-page.md)) listed as Rolling Auction. Three tokens don't have offers (EMPTY) while one token has an offer of 3 NEAR, that is currently selected.
 

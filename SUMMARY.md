@@ -113,7 +113,6 @@
     * [Non-fungible token](ethereum/ethereum/general-blockchain-questions/non-fungible-token.md)
     * [Digital Asset](ethereum/ethereum/general-blockchain-questions/digital-asset.md)
   * [About](ethereum/ethereum/about/README.md)
-    * [Test Page](ethereum/ethereum/about/test-page.md)
     * [What is Mintbase?](ethereum/ethereum/about/what-is-mintbase.md)
     * [Fee Structure](ethereum/ethereum/about/fee-structure.md)
   * [Contact](ethereum/ethereum/contact.md)
