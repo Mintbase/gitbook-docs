@@ -8,6 +8,8 @@
 * [🛠 Getting Started](dev/getting-started.md)
 * [📖 Read Data](dev/read-data/README.md)
   * [GraphQL](dev/read-data/mintbase-graph.md)
+[comment]: BEGIN-GQL
+[comment]: END-GQL
   * [Metadata](dev/read-data/metadata.md)
 * [🖊 Write Data](dev/write-data/README.md)
   * [MintbaseJS](dev/write-data/mintbasejs.md)
