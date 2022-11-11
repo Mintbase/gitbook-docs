@@ -52,7 +52,7 @@
 * [FAQs](market/faq.md)
 * [Thing Page](market/thing-page.md)
 * [Simple Sale](market/simple-sale.md)
-* [Rolling Auctions](market/auctions.md)
+* [Rolling Auction](market/auctions.md)
 * [Selling](market/selling/README.md)
   * [Selling an item that I bought](market/selling/selling-an-item-that-i-bought.md)
 * [Split Revenues & Forever Royalties](market/splits.md)
