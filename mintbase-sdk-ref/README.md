@@ -4,10 +4,10 @@
 
 A series of scoped `@mintbase-js` modules for interacting with Mintbase, NEAR, Arweave (Bundlr network) and other decentralized web services and applications.
 
-
-## ⚠️ The SDKs are currently in Beta.
-
+{% hint style="warning" %}
+## The SDKs are currently in Beta.
 Breaking changes may be introduced at anytime.
+{% endhint %}
 
 
 ## Join us in building the future
