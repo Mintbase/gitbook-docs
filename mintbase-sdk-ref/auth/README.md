@@ -1,4 +1,3 @@
-[//]: # `{ "title": "@mintbase-js/auth", "order": 10 }`
 # @mintbase-js/auth
 
 This module abstracts authentication functions away from the Mintbase core SDK.

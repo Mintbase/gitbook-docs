@@ -1,4 +1,3 @@
-[//]: # `{ "title": "@mintbase-js/react", "order": 50 }`
 # @mintbase-js/react
 
 This module contains React helpers for interacting with Mintbase SDKs.

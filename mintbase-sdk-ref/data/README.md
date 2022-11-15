@@ -1,4 +1,3 @@
-[//]: # `{ "title": "@mintbase-js/data", "order": 1 }`
 # @mintbase-js/data
 
 This is your one stop shop for all things data. We've got it all! Graphql? no problem. Blazing fast wrappers? You betcha.

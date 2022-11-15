@@ -1,4 +1,3 @@
-[//]: # `{ "title": "ownedTokens", "order": 4 }`
 # ownedTokens
 
 Returns tokens owned by `ownerId` with limit and offset pagination.
