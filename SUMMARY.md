@@ -24,6 +24,7 @@
   * [Store management](dev/smart-contracts/mint-burn.md)
 * [💡 Build Ideas](dev/build-ideas.md)
 * [📄 Examples](dev/examples.md)
+* [📚 SDK Reference](mintbase-sdk-ref/README.md)
 
 ## Creating
 
