@@ -28,7 +28,6 @@
 * [💡 Build Ideas](dev/build-ideas.md)
 * [📄 Examples](dev/examples.md)
 * [📚 SDK Reference](mintbase-sdk-ref/README.md)
-  * [app](mintbase-sdk-ref/app/README.md)
   * [auth](mintbase-sdk-ref/auth/README.md)
   * [data](mintbase-sdk-ref/data/README.md)
     * [ownedTokens](mintbase-sdk-ref/data/ownedTokens/README.md)

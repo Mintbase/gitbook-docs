@@ -1,3 +1,4 @@
+
 # @mintbase-js/auth
 
 This module abstracts authentication functions away from the Mintbase core SDK.
@@ -10,7 +11,7 @@ A stateful module that wraps the core features found in [near/wallet-selector](h
 
 This module can be used as a framework agnostic wrapper using framework specific integrations:
 
-  * [React: WalletContenxt]($DOCS_PATH/packages/react#walletcontext)
+  * [React: WalletContenxt]($DOCS_BASE_URL/mintbase-sdk-ref//react#walletcontext)
 
 *Check back soon for documentation on specific methods and well as some examples of using this with other frameworks in the near future.*
 
@@ -42,7 +43,7 @@ const loadAuthenticatedNearAccountInNodeJS = async () => {
 }
 ```
 
-Here is a [working example]($GIT_PATH/packages/testing/src/utils.ts#L7) from our [testing library]($DOCS_PATH/packages/testing) of this using GCP Secret Manager.
+Here is a [working example]($GIT_BASE_URL/packages/testing/src/utils.ts#L7) from our [testing library]($DOCS_BASE_URL/mintbase-sdk-ref//testing) of this using GCP Secret Manager.
 
 
 
