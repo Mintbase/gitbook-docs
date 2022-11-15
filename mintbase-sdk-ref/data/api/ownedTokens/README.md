@@ -1,5 +1,7 @@
 # ownedTokens
+
 Returns tokens owned by `ownerId` with limit and offset pagination.
+
 ### ownedTokens(ownerId: string, { limit, offset }: Pagination)
 
 Example:
