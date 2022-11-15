@@ -35,13 +35,6 @@
         * [graphql](mintbase-sdk-ref/data/graphql/README.md)
       * [react](mintbase-sdk-ref/react/README.md)
       * [sdk](mintbase-sdk-ref/sdk/README.md)
-    * [app](app/README.md)
-    * [auth](auth/README.md)
-    * [data](data/README.md)
-      * [graphql](data/graphql/README.md)
-      * [ownedTokens](data/ownedTokens/README.md)
-    * [react](react/README.md)
-    * [sdk](sdk/README.md)
 
 
 ## Creating
