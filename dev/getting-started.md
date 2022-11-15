@@ -16,9 +16,13 @@ For transactions using [MintbaseJS](write-data/mintbasejs.md), get a [developer 
 ### Mintbase Tools
 
 1. [Learn to read data](read-data/) from our real-time graphQL indexer: Ex: Who owns what token now.
-2. [Learn to write data](write-data/) to the blockchain: Creating transacations like mint, transfer, and make offer.
-3. Dive into the open source [rust smart contract](smart-contracts/) factory.
+2. [Learn to write data](write-data/) to the blockchain: Creating transactions like mint, transfer, and make offers.
+3. Dive into the open-source [rust smart contract](smart-contracts/) factory.
 4. Deploy and check everything on testnet [https://testnet.mintbase.io](https://testnet.mintbase.io)
+
+
+
+*
 
 
 

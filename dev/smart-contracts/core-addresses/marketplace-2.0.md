@@ -7,9 +7,13 @@ description: >-
 
 # Marketplace 2.0
 
-### Join the Referral Program
 
-Referrals collect fees for tokens sold using their referral id. [Join the Referral Program](https://forms.gle/DyFRjrta76fFQp4T7).
+
+### Affiliate Program
+
+No need to build an indexer or deploy market contracts, just focus on your market ui.
+
+<figure><img src="../../../.gitbook/assets/affiliate.drawio (1).png" alt=""><figcaption></figcaption></figure>
 
 ### List a token
 
