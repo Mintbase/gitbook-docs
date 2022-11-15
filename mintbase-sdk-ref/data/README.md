@@ -1,6 +1,6 @@
-[//]: # `{ "title": "Using Data API", "order": 3 }`
-# Using Data APIs
+[//]: # `{ "title": "@mintbase-js/data", "order": 1 }`
+# @mintbase-js/data
 
-The most performant and future proof way to retrieve token data from our indexers is through any of our data API methods.
+This is your one stop shop for all things data. We've got it all! Graphql? no problem. Blazing fast wrappers? You betcha.
 
-
+Check back soon for even more great documentation right here.
