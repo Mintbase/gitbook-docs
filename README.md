@@ -6,7 +6,9 @@ description: All The Welcomes
 
 ## Introduction
 
-GM. We are not just another NFT marketplace, we are here to get you to build your own minter, market, and NFT redeeming systems. The future is niche markets, operated by you on sharded, decentralized, green POS chains (now on [NEAR](https://near.org/)). Less talk, more building.
+GM. We are not just another NFT marketplace, we are here to get you to build your own minter, market, and NFT redeeming systems. The future is niche markets, operated by you on sharded, decentralized, green POS chains (now on [NEAR](https://near.org/)).
+
+Less talk, more building.
 
 1. For [Creators](creating/store/) (Website UI) _NEAR_
 2. For [Developers](dev/getting-started.md) (Build your own Mintbase)&#x20;
