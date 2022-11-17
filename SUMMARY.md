@@ -1,8 +1,11 @@
 # Table of contents
 
+
 * [Overview](README.md)
 
+
 ## Developer <a href="#dev" id="dev"></a>
+
 
 * [🧠 Introduction](dev/introduction.md)
 * [🛠 Getting Started](dev/getting-started.md)
@@ -25,7 +28,9 @@
 * [💡 Build Ideas](dev/build-ideas.md)
 * [📄 Examples](dev/examples.md)
 
+
 ## Creating
+
 
 * [Sign In](creating/sign-in/README.md)
   * [User Settings](creating/sign-in/user-settings.md)
@@ -47,7 +52,9 @@
 * [DAOs & the Mintbase Toolkit](creating/daos-and-the-mintbase-toolkit.md)
 * [Interoperability](creating/interoperability.md)
 
+
 ## Market
+
 
 * [FAQs](market/faq.md)
 * [Thing Page](market/thing-page.md)
@@ -57,14 +64,18 @@
   * [Selling an item that I bought](market/selling/selling-an-item-that-i-bought.md)
 * [Split Revenues & Forever Royalties](market/splits.md)
 
+
 ## Company
+
 
 * [FAQs](company/faqs.md)
 * [Privacy Policy & Terms of Service](company/privacy-policy-and-terms-of-service.md)
 * [Bug Bounty Policy](company/bug-bounty-policy.md)
 * [Roadmap](company/roadmap.md)
 
+
 ## 🧓 Archive <a href="#ethereum" id="ethereum"></a>
+
 
 * [Ethereum](ethereum/ethereum/README.md)
   * [Users (ui)](ethereum/ethereum/minter-ui/README.md)
@@ -116,3 +127,4 @@
     * [What is Mintbase?](ethereum/ethereum/about/what-is-mintbase.md)
     * [Fee Structure](ethereum/ethereum/about/fee-structure.md)
   * [Contact](ethereum/ethereum/contact.md)
+
