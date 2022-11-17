@@ -28,6 +28,7 @@
 * [💡 Build Ideas](dev/build-ideas.md)
 * [📄 Examples](dev/examples.md)
 * [📚 SDK Reference](mintbase-sdk-ref/README.md)
+  * [testing](mintbase-sdk-ref/testing/README.md)
   * [@mintbase-js/sdk](mintbase-sdk-ref/sdk/README.md)
   * [@mintbase-js/data](mintbase-sdk-ref/data/README.md)
     * [Using Graphql](mintbase-sdk-ref/data/graphql/README.md)
