@@ -28,7 +28,6 @@
 * [💡 Build Ideas](dev/build-ideas.md)
 * [📄 Examples](dev/examples.md)
 * [📚 SDK Reference](mintbase-sdk-ref/README.md)
-  * [testing](mintbase-sdk-ref/testing/README.md)
   * [@mintbase-js/sdk](mintbase-sdk-ref/sdk/README.md)
   * [@mintbase-js/data](mintbase-sdk-ref/data/README.md)
     * [Using Graphql](mintbase-sdk-ref/data/graphql/README.md)
@@ -36,6 +35,7 @@
       * [ownedTokens](mintbase-sdk-ref/data/api/ownedTokens/README.md)
   * [@mintbase-js/auth](mintbase-sdk-ref/auth/README.md)
   * [@mintbase-js/react](mintbase-sdk-ref/react/README.md)
+  * [Testing Library](mintbase-sdk-ref/testing/README.md)
 
 
 ## Creating
