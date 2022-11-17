@@ -23,6 +23,7 @@ Details such as the method name, arguments, gas supplied, deposits and some othe
 This is a work in progress, please reach out to us on [Telegram](https://t.me/mintdev) for support.
 {% endhint %}
 
+
 Check back soon for details. Individual methods and documentation will start to be available as we implement in the gitbook documentation menu.
 
 ## Using `execute` <div name="execute"></div>
