@@ -7,8 +7,6 @@ description: >-
 
 # Marketplace 2.0
 
-
-
 ### Affiliate Program
 
 No need to build an indexer or deploy market contracts, just focus on your market ui.

@@ -40,4 +40,6 @@ And of course, all the ones that we haven't thought of yet. &#x20;
 
 ## Summary
 
-**Wear a white hat, bring us a legit report and you will be rewarded appropriately.** We are hiring, so if you're looking for a job with a fun team in a new space, a legit bug report is not a bad way to get our attention.&#x20;
+**Wear a white hat, bring us a legit report and you will be rewarded appropriately.**&#x20;
+
+We view open source software as a collaborative effort and are friendly to work with.&#x20;
