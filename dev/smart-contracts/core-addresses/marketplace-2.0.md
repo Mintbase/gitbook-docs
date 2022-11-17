@@ -11,7 +11,7 @@ description: >-
 
 No need to build an indexer or deploy market contracts, just focus on your market ui.
 
-<figure><img src="../../../.gitbook/assets/affiliate.drawio (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/affiliate.drawio (1).png" alt=""><figcaption></figcaption></figure>
 
 ### List a token
 
