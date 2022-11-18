@@ -2,7 +2,7 @@
 
 # Mintbase SDK
 
-A library for interacting with Mintbase, NEAR, Arweave (Bundlr network) and other decentralized web services and applications.
+A series of scoped `@mintbase-js` modules for interacting with Mintbase, NEAR, Arweave (Bundlr network) and other decentralized web services and applications.
 
 {% hint style="danger" %}
 ## The SDKs are currently in Alpha.
@@ -13,17 +13,13 @@ Breaking changes can and will be introduced on a regular basis until this reache
 
 ## Join us in Building the Future
 
-Have feedback or perhaps need a hand?
+Have feedback on Mintbase SDKs? Need a hand? **Reach out on our [Telegram](https://t.me/mintdev) public developer support channel.**
 
-**Reach out on our [Telegram](https://t.me/mintdev) public developer support channel.**
-
-Building something cool?
-
-**Consider [applying for a grant](https://github.com/Mintbase/Grants-Program).**
+Building something cool? **Consider [applying for a grant](https://github.com/Mintbase/Grants-Program).**
 
 # SDK Road Map
 
-The SDK currently consists of the following packages and features:
+Each package in the SDK has their own development trajectories. There are more modules planned for the future, but this is the current core and existing/planned features:
 
 ### [@mintbase-js/sdk](packages/sdk)
  - Core NEAR smart contract method call util (single and multiple transactions)
@@ -48,7 +44,7 @@ The SDK currently consists of the following packages and features:
 
 # Environment Variables
 
-In order to use mintbase JS functions, often environment variables will need to be supplied via `process.env`, [dotenv](https://www.npmjs.com/package/dotenv) etc.
+In order to use mintbase JS functions environment variables will need to be supplied via `process.env`, [dotenv](https://www.npmjs.com/package/dotenv) etc.
 
 ```
 # default testnet
@@ -70,7 +66,8 @@ npm i
 npm run bootstrap
 ```
 
-Watch all packages for changes via `npm run dev` from root, which runs `npm run watch` in each package.
+Watch the typescript modules via `npm run dev` from root, which lerna runs `npm run watch` in each.
+
 
 This will watch for changes, compile typescript to `/lib` in each package as well as run Jest tests with coverage metrics for any changed code.
 
@@ -78,9 +75,9 @@ The NextJS browser test suite located in `packages/app` can be run with `npm run
 
 # Adding New Packages
 
-Sometimes issues arise with new packages that have not already been published.
+Lerna struggles with versions that have not already been published, especially if they will become dependencies of other packages in this repo.
 
-When adding a new package, the best way is to follow these steps:
+When adding a new package, the fastest way is to:
 
 1. copy the data package and change appropriate values in `package.json`.
 

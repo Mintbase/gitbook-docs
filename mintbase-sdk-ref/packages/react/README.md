@@ -1,6 +1,6 @@
 # @mintbase-js/react
 
-This package contains React helpers for interacting with Mintbase SDKs.
+This module contains React helpers for interacting with Mintbase SDKs.
 
 # WalletContext
 
