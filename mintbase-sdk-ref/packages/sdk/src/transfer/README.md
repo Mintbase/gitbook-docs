@@ -38,7 +38,7 @@ const TransferUI = ({ tokenId, contractId }) => {
     const wallet = await selector.wallet();
     await execute(
       transfer({
-        nftContractId: token.contractId,
+        nftContractId: contractId,
         transfers: [{
           receiverId: 'mb_carol.testnet',
           tokenId: token.tokenId,
