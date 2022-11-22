@@ -53,6 +53,8 @@ near view nearcon2.mintbase1.near nft_token '{"token_id": "204"}'
     updated_at: null,
     extra: 'ticket',
     reference: 'dfnswq0LaXwNgGzqdW0-YPJLtTxc-fhQlLk8k1UCcJw',
+    // New Contracts have the full url to fetch the metadata so might look like
+    // reference: 'https://arweave.net/dfnswq0LaXwNgGzqdW0-YPJLtTxc-fhQlLk8k1UCcJw',
     reference_hash: null
   },
   royalty: {
