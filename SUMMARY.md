@@ -30,7 +30,6 @@
 * [📚 SDK Reference](mintbase-sdk-ref/README.md)
     * [@mintbase-js/sdk](mintbase-sdk-ref/packages/sdk/README.md)
         * [transfer](mintbase-sdk-ref/packages/sdk/src/transfer/README.md)
-        * [Burn](mintbase-sdk-ref/packages/sdk/src/burn/README.md)
     * [@mintbase-js/data](mintbase-sdk-ref/packages/data/README.md)
         * [(NEW!) Indexer API](mintbase-sdk-ref/packages/data/src/api/README.md)
           * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/ownedTokens/README.md)
