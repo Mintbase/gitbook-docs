@@ -6,6 +6,8 @@ description: High level overview
 
 Anything we've built on Mintbase, (minter, market, auction, airdrop, redeemer) you can build yourself, and we are pushing to make this easier every day.
 
+<figure><img src="../.gitbook/assets/affiliate.drawio (1) (2).png" alt=""><figcaption></figcaption></figure>
+
 1. We are using the [NEAR Protocol](https://near.org/)
 2. Use [MintbaseJS](https://www.npmjs.com/package/mintbase) for any transactions (writing data to chain)&#x20;
 3. Use our [GraphQL indexer](read-data/mintbase-graph.md) to get realtime chain data (who owns what)
