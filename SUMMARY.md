@@ -34,6 +34,7 @@
     * [@mintbase-js/data](mintbase-sdk-ref/packages/data/README.md)
         * [(NEW!) Indexer API](mintbase-sdk-ref/packages/data/src/api/README.md)
           * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/ownedTokens/README.md)
+    * [@mintbase-js/storage](mintbase-sdk-ref/packages/storage/README.md)
     * [@mintbase-js/auth](mintbase-sdk-ref/packages/auth/README.md)
     * [@mintbase-js/react](mintbase-sdk-ref/packages/react/README.md)
     * [Testing Library](mintbase-sdk-ref/packages/testing/README.md)
