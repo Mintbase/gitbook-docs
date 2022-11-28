@@ -32,6 +32,7 @@
         * [burn](mintbase-sdk-ref/packages/sdk/src/burn/README.md)
         * [transfer](mintbase-sdk-ref/packages/sdk/src/transfer/README.md)
         * [deployContract](mintbase-sdk-ref/packages/sdk/src/deployContract/README.md)
+        * [transferContractOwnership](mintbase-sdk-ref/packages/sdk/src/transferContractOwnership/README.md)
         * [addMinter](mintbase-sdk-ref/packages/sdk/src/addMinter/README.md)
         * [removeMinter](mintbase-sdk-ref/packages/sdk/src/removeMinter/README.md)
     * [@mintbase-js/data](mintbase-sdk-ref/packages/data/README.md)
