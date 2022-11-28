@@ -35,6 +35,7 @@
         * [transferContractOwnership](mintbase-sdk-ref/packages/sdk/src/transferContractOwnership/README.md)
         * [addMinter](mintbase-sdk-ref/packages/sdk/src/addMinter/README.md)
         * [removeMinter](mintbase-sdk-ref/packages/sdk/src/removeMinter/README.md)
+        * [batchChangeMinters](mintbase-sdk-ref/packages/sdk/src/batchChangeMinters/README.md)
     * [@mintbase-js/data](mintbase-sdk-ref/packages/data/README.md)
         * [(NEW!) Indexer API](mintbase-sdk-ref/packages/data/src/api/README.md)
           * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/ownedTokens/README.md)
