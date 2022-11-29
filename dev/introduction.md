@@ -6,7 +6,7 @@ description: High level overview
 
 Anything we've built on Mintbase, (minter, market, auction, airdrop, redeemer) you can build yourself, and we are pushing to make this easier every day.
 
-<figure><img src="../.gitbook/assets/affiliate.drawio (1) (2).png" alt=""><figcaption></figcaption></figure>
+{% embed url="https://www.loom.com/share/bb449c7b09b644b692c0292315889288" %}
 
 1. We are using the [NEAR Protocol](https://near.org/)
 2. Use [MintbaseJS](https://www.npmjs.com/package/mintbase) for any transactions (writing data to chain)&#x20;
