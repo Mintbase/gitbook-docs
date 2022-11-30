@@ -49,7 +49,7 @@ const loadAuthenticatedNearAccountInNodeJS = async (accountId: string) => {
   const keyStore: KeyStore = new InMemoryKeyStore();
 
   keyStore.setKey(
-    NEAR_NETWORK,
+    NEAR_ENV,
     account,
     KeyPair.fromString(privateKey),
   );
