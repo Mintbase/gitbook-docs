@@ -36,15 +36,18 @@
         * [addMinter](mintbase-sdk-ref/packages/sdk/src/addMinter/README.md)
         * [removeMinter](mintbase-sdk-ref/packages/sdk/src/removeMinter/README.md)
         * [batchChangeMinters](mintbase-sdk-ref/packages/sdk/src/batchChangeMinters/README.md)
-        * [revokeApproval](mintbase-sdk-ref/packages/sdk/src/revoke/README.md)
+    * [@mintbase-js/storage](mintbase-sdk-ref/packages/storage/README.md)
+    * [@mintbase-js/rpc](mintbase-sdk-ref/packages/rpc/README.md)
+    * [Testing Library](mintbase-sdk-ref/packages/testing/README.md)
+    * [react](mintbase-sdk-ref/packages/react/README.md)
+          * [tokensByStatus](mintbase-sdk-ref/packages/data/src/api/tokensByStatus/README.md)
+          * [tokenListingCounts](mintbase-sdk-ref/packages/data/src/api/tokenListingCounts/README.md)
+          * [tokenById](mintbase-sdk-ref/packages/data/src/api/tokenById/README.md)
+          * [ownedNftsByStore](mintbase-sdk-ref/packages/data/src/api/ownedNftsByStore/README.md)
     * [@mintbase-js/data](mintbase-sdk-ref/packages/data/README.md)
         * [(NEW!) Indexer API](mintbase-sdk-ref/packages/data/src/api/README.md)
           * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/ownedTokens/README.md)
-    * [@mintbase-js/storage](mintbase-sdk-ref/packages/storage/README.md)
-    * [@mintbase-js/rpc](mintbase-sdk-ref/packages/rpc/README.md)
     * [@mintbase-js/auth](mintbase-sdk-ref/packages/auth/README.md)
-    * [@mintbase-js/react](mintbase-sdk-ref/packages/react/README.md)
-    * [Testing Library](mintbase-sdk-ref/packages/testing/README.md)
 
 
 ## Creating
