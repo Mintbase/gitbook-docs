@@ -6,8 +6,6 @@
 
 ## Developer <a href="#dev" id="dev"></a>
 
-
-* [🧠 Introduction](dev/introduction.md)
 * [🛠 Getting Started](dev/getting-started.md)
 * [📖 Read Data](dev/read-data/README.md)
   * [GraphQL](dev/read-data/mintbase-graph.md)
