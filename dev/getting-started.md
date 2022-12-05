@@ -16,9 +16,9 @@ Register a [developer key here](https://www.mintbase.io/developer)
 
 Each tool in our SDK ("Mintbase JS") allows you read and write data to the blockchain.
 
-### **Reading** NFT data is done using our [GraphQL Schemas](dev/read-data/mintbase-graph.md) or our new [Indexer API](mintbase-sdk-ref/packages/data/src/api/README.md).
+**Reading** NFT data is done using our [GraphQL Schemas](dev/read-data/mintbase-graph.md) or our new [Indexer API](mintbase-sdk-ref/packages/data/src/api/README.md).
 
-### **Writing** and moving data to perform actions like minting, transferring, listing and buying is done through [Mintbase JS](mintbase-sdk-ref/packages/sdk/README.md)
+**Writing** and moving data to perform actions like minting, transferring, listing and buying is done through [Mintbase JS](mintbase-sdk-ref/packages/sdk/README.md)
 
 
 
