@@ -4,6 +4,8 @@ description: Let's get you to build your own NFT Market!
 
 # 🛠 Getting Started
 
+{% embed url="https://www.loom.com/share/bb449c7b09b644b692c0292315889288" %}
+
 ### Get an API Key
 
 For transactions using [MintbaseJS](write-data/mintbasejs.md), get a [developer key here](https://www.mintbase.io/developer)&#x20;

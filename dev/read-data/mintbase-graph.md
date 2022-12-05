@@ -64,6 +64,22 @@ Find all the different entities and parameters for interacting with the API.
 
 ### Query Examples
 
+#### GetTokenById
+
+Query to retrieve an specific nft/Token
+
+you need tokenId , and contractAddress\
+**ex:**\
+tokenId: 137\
+contract Address: voiceoftheoceans.mintbase1.near\
+
+
+{% embed url="https://gist.github.com/rubenmarcus/c781422542c19cfaca4bbc3a74ffad81#file-gettokenbyid" %}
+
+
+
+####
+
 #### GetStoreNfts
 
 {% embed url="https://gist.github.com/rubenmarcus/c781422542c19cfaca4bbc3a74ffad81#file-getstorenfts" %}
