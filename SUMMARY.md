@@ -1,7 +1,7 @@
 # Table of contents
 
 
-* [Overview](README.md)
+* [🧠 Overview](README.md)
 
 
 ## Developer <a href="#dev" id="dev"></a>

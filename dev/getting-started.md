@@ -22,11 +22,5 @@ For transactions using [MintbaseJS](write-data/mintbasejs.md), get a [developer 
 3. Dive into the open-source [rust smart contract](smart-contracts/) factory.
 4. Deploy and check everything on testnet [https://testnet.mintbase.io](https://testnet.mintbase.io)
 
-
-
-*
-
-
-
 Most of our repositories are open source with either the MIT License or the GPL-3.0 License. Mintbase is a tool in the public domain, as such anyone can view and contribute to every aspect of the protocol.
 
