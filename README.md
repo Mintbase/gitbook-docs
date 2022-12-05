@@ -21,8 +21,8 @@ When you mint an NFT using Mintbase (or another NEAR token contract), you will b
 
 ## Let's do this! Where do I start?
 
-1. If you are a [creator](creating/store/) you will find our website interface the most intuitive way to get started.
-2. For [Developers](dev/getting-started.md) ready to build their own Mintbase, the getting started section of our docs is the best place to start.
+### 1. If you are a [creator](creating/store/) then you will find our website interface the most intuitive way to get started.
+### 2. For [developers](dev/getting-started.md) ready to build their own Mintbase the getting started section of our docs is your starting point.
 
 ## Using Testnet
 
