@@ -28,7 +28,6 @@
 * [📄 Examples](dev/examples.md)
 * [📚 SDK Reference](mintbase-sdk-ref/README.md)
     * [@mintbase-js/sdk](mintbase-sdk-ref/packages/sdk/README.md)
-        * [mint](mintbase-sdk-ref/packages/sdk/src/mint/README.md)
         * [burn](mintbase-sdk-ref/packages/sdk/src/burn/README.md)
         * [transfer](mintbase-sdk-ref/packages/sdk/src/transfer/README.md)
         * [deployContract](mintbase-sdk-ref/packages/sdk/src/deployContract/README.md)
