@@ -1,7 +1,7 @@
 
 # Add Minter
 
-Give an account id minting permission for a contract of your choice.
+Add minter to a smart contract you own
 
 **As with all new SDK api methods, this call should be wrapped in [execute](../#execute) and passed a signing method
 
@@ -12,8 +12,7 @@ Give an account id minting permission for a contract of your choice.
 ```typescript
 type AddMinterArgs = {
     //the contract you own for which you wish to grant minting access
-    //as an argument or through TOKEN_CONTRACT env
-    nftContractId?: string;
+    nftContractId: string;
     //the id of the account that will be allowed to mint on the corresponding nftContractId
     minterId: string;
 };

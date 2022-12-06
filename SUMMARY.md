@@ -39,7 +39,7 @@
         * [addMinter](mintbase-sdk-ref/packages/sdk/src/addMinter/README.md)
         * [removeMinter](mintbase-sdk-ref/packages/sdk/src/removeMinter/README.md)
         * [batchChangeMinters](mintbase-sdk-ref/packages/sdk/src/batchChangeMinters/README.md)
-        * [unlist](mintbase-sdk-ref/packages/sdk/src/unlist/README.md)
+        * [revokeApproval](mintbase-sdk-ref/packages/sdk/src/revoke/README.md)
     * [@mintbase-js/storage](mintbase-sdk-ref/packages/storage/README.md)
     * [@mintbase-js/rpc](mintbase-sdk-ref/packages/rpc/README.md)
     * [Testing Library](mintbase-sdk-ref/packages/testing/README.md)
