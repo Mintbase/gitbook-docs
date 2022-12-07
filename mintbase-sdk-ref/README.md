@@ -27,20 +27,20 @@ The SDK currently consists of the following packages and features:
 
 ### [@mintbase-js/sdk](packages/sdk)
  - Core NEAR smart contract method call util (single and multiple transactions)
- - Mintbase token and market contract method call wrappers (mint, transfer, list etc.)
+ - **[IN PROGRESS]** Mintbase token and market contract method call wrappers (mint, transfer, list etc.)
 
 ### [@mintbase-js/data](packages/data)
-  - Convenience wrapper methods for common use-case GraphQL calls
+  - **[IN PROGRESS]** Convenience wrapper methods for common use-case GraphQL calls
 
 ### [@mintbase-js/auth](packages/auth/)
 
  - Browser based wallet wrapper: [near/wallet-selector](https://github.com/near/wallet-selector/)
  - [near-api-js](https://github.com/near/near-api-js) convenience wrappers for loading accounts and managing keys
- - Message singing and verification utils.
+ - **[IN PROGRESS]** Message singing and verification utils.
 
 ### [@mintbase-js/react](packages/react)
   - WalletContext provider for auth connecting accounts to react applications
-  - Helpers for data fetching via hooks.
+  - **[IN PROGRESS]** Helpers for data fetching via hooks.
 
 ### [@mintbase-js/testing](packages/testing)
   - Testing utilities and integration test suites for running mintbase-js against deployed contracts.
