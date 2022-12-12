@@ -26,7 +26,7 @@
   * [Store management](dev/smart-contracts/mint-burn.md)
 * [💡 Build Ideas](dev/build-ideas.md)
 * [📄 Examples](dev/examples.md)
-* [📚 SDK Reference](mintbase-sdk-ref/README.md)
+* [📚 MintbaseJS Reference](mintbase-sdk-ref/README.md)
     * [@mintbase-js/sdk](mintbase-sdk-ref/packages/sdk/README.md)
         * [mint](mintbase-sdk-ref/packages/sdk/src/mint/README.md)
         * [buy](mintbase-sdk-ref/packages/sdk/src/buy/README.md)
