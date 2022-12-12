@@ -4,6 +4,8 @@ description: Some Examples built on top of mintbase.js
 
 # 📄 Examples
 
+Get building fast with our ready to deploy dapps.
+
 ### **simple-marketplace**
 
 A Simple Marketplace where you can list NFTS, filter by store, and buy NFTS that are available\

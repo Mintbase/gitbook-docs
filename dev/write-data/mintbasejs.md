@@ -1,9 +1,17 @@
 # MintbaseJS
 
+{% hint style="danger" %}
+## New Mintbase JS!
+We are in the process of rolling out a brand new, [modular version of @mintbase-js](mintbase-sdk-ref/README.md) documented in the new SDK section of these docs.
+
+{% endhint %}
+
+
+# MintbaseJS v1 (Deprecating Q2 2022)
+
 Mintbase uses [MintbaseJS](https://www.npmjs.com/package/mintbase) for all of our transactions on both the market and minter including mint, transfer, burn, sell, buy, so if we can use it, so can you.
 
 The best documentation to go off of is the[ typescript docs](https://mintbase.github.io/mintbase-js/classes/wallet.Wallet.html) as this library will change rapidly. If something is broken please make sure you have the latest and run see if the type are matching. Please create issue on Github to help us make it better.
-
 
 
 

@@ -1,13 +1,12 @@
 # Table of contents
 
 
-* [Overview](README.md)
+* [🧠 Overview](README.md)
 
 
 ## Developer <a href="#dev" id="dev"></a>
 
 
-* [🧠 Introduction](dev/introduction.md)
 * [🛠 Getting Started](dev/getting-started.md)
 * [📖 Read Data](dev/read-data/README.md)
   * [GraphQL](dev/read-data/mintbase-graph.md)
@@ -27,6 +26,32 @@
   * [Store management](dev/smart-contracts/mint-burn.md)
 * [💡 Build Ideas](dev/build-ideas.md)
 * [📄 Examples](dev/examples.md)
+* [📚 SDK Reference](mintbase-sdk-ref/README.md)
+    * [@mintbase-js/sdk](mintbase-sdk-ref/packages/sdk/README.md)
+        * [mint](mintbase-sdk-ref/packages/sdk/src/mint/README.md)
+        * [buy](mintbase-sdk-ref/packages/sdk/src/buy/README.md)
+        * [list](mintbase-sdk-ref/packages/sdk/src/list/README.md)
+        * [depositStorage](mintbase-sdk-ref/packages/sdk/src/depositStorage/README.md)
+        * [burn](mintbase-sdk-ref/packages/sdk/src/burn/README.md)
+        * [transfer](mintbase-sdk-ref/packages/sdk/src/transfer/README.md)
+        * [deployContract](mintbase-sdk-ref/packages/sdk/src/deployContract/README.md)
+        * [transferContractOwnership](mintbase-sdk-ref/packages/sdk/src/transferContractOwnership/README.md)
+        * [addMinter](mintbase-sdk-ref/packages/sdk/src/addMinter/README.md)
+        * [removeMinter](mintbase-sdk-ref/packages/sdk/src/removeMinter/README.md)
+        * [batchChangeMinters](mintbase-sdk-ref/packages/sdk/src/batchChangeMinters/README.md)
+        * [delist](mintbase-sdk-ref/packages/sdk/src/delist/README.md)
+    * [@mintbase-js/auth](mintbase-sdk-ref/packages/auth/README.md)
+    * [@mintbase-js/data](mintbase-sdk-ref/packages/data/README.md)
+        * [(NEW!) Indexer API](mintbase-sdk-ref/packages/data/src/api/README.md)
+          * [ownedNftsByStore](mintbase-sdk-ref/packages/data/src/api/ownedNftsByStore/README.md)
+          * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/ownedTokens/README.md)
+          * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/tokenById/README.md)
+          * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/tokenListingCounts/README.md)
+          * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/tokensByStatus/README.md)
+    * [@mintbase-js/react](mintbase-sdk-ref/packages/react/README.md)
+    * [@mintbase-js/storage](mintbase-sdk-ref/packages/storage/README.md)
+    * [@mintbase-js/rpc](mintbase-sdk-ref/packages/rpc/README.md)
+    * [Testing Library](mintbase-sdk-ref/packages/testing/README.md)
 
 
 ## Creating

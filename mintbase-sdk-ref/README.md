@@ -2,41 +2,45 @@
 
 # Mintbase SDK
 
-A series of scoped `@mintbase-js` modules for interacting with Mintbase, NEAR, Arweave (Bundlr network) and other decentralized web services and applications.
+A library for interacting with Mintbase, NEAR, Arweave (Bundlr network) and other decentralized web services and applications.
 
 {% hint style="danger" %}
 ## The SDKs are currently in Alpha.
-Breaking changes can and will be introduced on a regular basis until this reaches beta by Q1 2023.
+Breaking changes can and will be introduced on a regular basis until this reaches beta sometime during Q1 2023.
 
 {% endhint %}
 
 
 ## Join us in Building the Future
 
-Have feedback on Mintbase SDKs? Need a hand? **Reach out on our [Telegram](https://t.me/mintdev) public developer support channel.**
+Have feedback or perhaps need a hand?
 
-Building something cool? **Consider [applying for a grant](https://github.com/Mintbase/Grants-Program).**
+**Reach out on our [Telegram](https://t.me/mintdev) public developer support channel.**
+
+Building something cool?
+
+**Consider [applying for a grant](https://github.com/Mintbase/Grants-Program).**
 
 # SDK Road Map
 
-Each package in the SDK has their own development trajectories. There are more modules planned for the future, but this is the current core and existing/planned features:
+The SDK currently consists of the following packages and features:
 
 ### [@mintbase-js/sdk](packages/sdk)
  - Core NEAR smart contract method call util (single and multiple transactions)
- - **[IN PROGRESS]** Mintbase token and market contract method call wrappers (mint, transfer, list etc.)
+ - Mintbase token and market contract method call wrappers (mint, transfer, list etc.)
 
 ### [@mintbase-js/data](packages/data)
-  - **[IN PROGRESS]** Convenience wrapper methods for common use-case GraphQL calls
+  - Convenience wrapper methods for common use-case GraphQL calls
 
 ### [@mintbase-js/auth](packages/auth/)
 
  - Browser based wallet wrapper: [near/wallet-selector](https://github.com/near/wallet-selector/)
  - [near-api-js](https://github.com/near/near-api-js) convenience wrappers for loading accounts and managing keys
- - **[IN PROGRESS]** Message singing and verification utils.
+ - Message singing and verification utils.
 
 ### [@mintbase-js/react](packages/react)
   - WalletContext provider for auth connecting accounts to react applications
-  - **[IN PROGRESS]** Helpers for data fetching via hooks.
+  - Helpers for data fetching via hooks.
 
 ### [@mintbase-js/testing](packages/testing)
   - Testing utilities and integration test suites for running mintbase-js against deployed contracts.
@@ -44,11 +48,11 @@ Each package in the SDK has their own development trajectories. There are more m
 
 # Environment Variables
 
-In order to use mintbase JS functions environment variables will need to be supplied via `process.env`, [dotenv](https://www.npmjs.com/package/dotenv) etc.
+In order to use mintbase JS functions, often environment variables will need to be supplied via `process.env`, [dotenv](https://www.npmjs.com/package/dotenv) etc.
 
 ```
 # default testnet
-NEAR_ENV = mainnet | testnet
+NEAR_NETWORK = mainnet | testnet
 
 # default sandbox
 NEAR_DATA_ENV = mainnet | testnet | sandbox
@@ -66,8 +70,7 @@ npm i
 npm run bootstrap
 ```
 
-Watch the typescript modules via `npm run dev` from root, which lerna runs `npm run watch` in each.
-
+Watch all packages for changes via `npm run dev` from root, which runs `npm run watch` in each package.
 
 This will watch for changes, compile typescript to `/lib` in each package as well as run Jest tests with coverage metrics for any changed code.
 
@@ -75,9 +78,7 @@ The NextJS browser test suite located in `packages/app` can be run with `npm run
 
 # Adding New Packages
 
-Lerna struggles with versions that have not already been published, especially if they will become dependencies of other packages in this repo.
-
-When adding a new package, the fastest way is to:
+When adding a new package, the best way is to follow these steps:
 
 1. copy the data package and change appropriate values in `package.json`.
 
@@ -86,4 +87,6 @@ When adding a new package, the fastest way is to:
 "@mintbase-js/<new-package>": "file:packages/<new-package>",
 ```
 
-3. Publish out the current locked version as all the other packages from the local command line using `npm publish`.
+3. Publish out the current locked version as all the other packages from the local command line using `npm publish --access public`.
+
+The last step is necessary, because npm will assume that scoped packages are private.
