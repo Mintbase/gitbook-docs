@@ -2,7 +2,7 @@
 
 This package abstracts login, auth and signing functionality away from `@mintbase-js/sdk` core.
 
-As more complex use cases grow with more complex credential verification (ZK), message signing and whatever the future of web3 may hold, having standalone methods and documentation around these features seemed appropriate.
+As more complex use cases grow with more complex credential verification (ZK), message signing and whatever the future of web3 may hold, having standalone methods and documentation around these features is prudent.
 
 # Wallet <div name="wallet"></div>
 
