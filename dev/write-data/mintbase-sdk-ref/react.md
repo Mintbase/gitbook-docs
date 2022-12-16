@@ -1,21 +1,31 @@
+
 # @mintbase-js/react
 
-## @mintbase-js/react
 
 This package contains React helpers for interacting with Mintbase JS.
 
-## Hooks
+# Hooks
 
 **Coming soon!** a variety of hooks to make data fetching and transactions from our SDK/Data modules super easy in your React apps.
 
-## WalletContext
+<!-- |hook name| description  | params
+|--|--|--|
+|useMinter  | hook with function to mint | |
+|useOwnedNftsByStore  | hook to fetch owned nfts by store (contractAddress)  | `ownerId: string,contractAddress: string,pagination: { limit: number; offset?: number}` |
+|useTokenById  | hook to fetch token by Id  | `tokenId: string,contractAddress: string` | -->
+
+
+# WalletContext
 
 The WalletContext provides methods for:
 
 1. Connecting NEAR accounts to your applications via [near-wallet-selector](https://github.com/near/wallet-selector/)
+
 2. Interacting with @mintbase-js/sdk
 
+
 The following props are provided to consumers of the `WalletContext.Provider`:
+
 
 {% code title="NearWalletConnector.ts" overflow="wrap" lineNumbers="true" %}
 ```typescript

@@ -5,7 +5,7 @@
 ## Developer <a href="#dev" id="dev"></a>
 
 * [🛠 Getting Started](dev/getting-started.md)
-* [GraphQL](dev/read-data/mintbase-graph.md)
+* [📊 GraphQL Indexer](dev/read-data/mintbase-graph.md)
 * [📚 Mintbase JS](dev/write-data/mintbase-sdk-ref/README.md)
   * [@mintbase-js/sdk](dev/write-data/mintbase-sdk-ref/sdk/README.md)
     * [mint](dev/write-data/mintbase-sdk-ref/sdk/mint.md)

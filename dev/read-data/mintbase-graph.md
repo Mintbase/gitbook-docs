@@ -1,4 +1,4 @@
-# GraphQL
+# 📊 GraphQL Indexer
 
 This is our preferred option as it is probably the most flexible option and allows an easy schema exploration.
 
