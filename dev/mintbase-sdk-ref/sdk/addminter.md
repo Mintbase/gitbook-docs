@@ -2,7 +2,7 @@
 
 Give an account id minting permission for a smart contract of your choice.
 
-**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## addMinter(args: addMinterArgs): NearContractCall
 

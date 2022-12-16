@@ -1,5 +1,4 @@
-
-# Storage
+# @mintbase-js/storage
 
 Convenience methods for storing NFT reference materials.
 

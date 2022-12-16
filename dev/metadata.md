@@ -1,4 +1,4 @@
-# 📕 Metadata
+# 📕. Metadata
 
 ![](<../.gitbook/assets/Screenshot 2022-07-07 at 10.56.14.png>)
 

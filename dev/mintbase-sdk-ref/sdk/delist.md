@@ -14,7 +14,7 @@ If you wish to remove a listing specifically on the mintbase market, addresses a
 
 testnet: `market-v2-beta.mintspace2.testnet` mainnet: `simple.market.mintbase1.near`
 
-**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## delist(args: DelistArgs): NearContractCall
 

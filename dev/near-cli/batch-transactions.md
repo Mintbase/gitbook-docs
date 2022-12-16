@@ -22,17 +22,17 @@ near login
 
 &#x20;
 
-![](<../../../.gitbook/assets/Screen Shot 2022-07-25 at 5.14.35 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-07-25 at 5.14.35 PM.png>)
 
 2\. Initiate the transaction, but click "More Information" on the Approve Page.
 
 
 
-![](<../../../.gitbook/assets/Screen Shot 2022-07-25 at 5.15.53 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-07-25 at 5.15.53 PM.png>)
 
 3\. Then click the function name \`nft\__batch_\_mint\` to reveal the code
 
-![](<../../../.gitbook/assets/Screen Shot 2022-07-25 at 5.17.14 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-07-25 at 5.17.14 PM.png>)
 
 ### Run a Loop on the Command line
 
