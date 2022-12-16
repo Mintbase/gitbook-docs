@@ -1,5 +1,4 @@
-
-# Buy
+# buy
 
 Buys a token that has been listed on the mintbase market as long as the price provided is greater than what it is currently listed for.
 
@@ -11,7 +10,7 @@ An affiliate kickback is also possible using the referrer field. This allows mar
 
 Market address default values depend on the `NEAR_NETWORK` environment variable. If you set it to `mainnet` you will get the mainnet address `simple.market.mintbase1.near` otherwise it will default to the `testnet` value `market-v2-beta.mintspace2.testnet`.
 
-**As with all new SDK api methods, this call should be wrapped in [execute](../#execute) and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## buy(args: BuyArgs): NearContractCall
 

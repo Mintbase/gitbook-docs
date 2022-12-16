@@ -1,5 +1,4 @@
-
-# Delist 
+# delist
 
 Calling this method revokes token approval from the supplied market address resulting in the delisting of the provided token.
 
@@ -13,10 +12,9 @@ If no `marketId` is provided approval is removed from all markets/accounts
 
 If you wish to remove a listing specifically on the mintbase market, addresses are:
 
-testnet: `market-v2-beta.mintspace2.testnet`
-mainnet: `simple.market.mintbase1.near`
+testnet: `market-v2-beta.mintspace2.testnet` mainnet: `simple.market.mintbase1.near`
 
-**As with all new SDK api methods, this call should be wrapped in [execute](../#execute) and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## delist(args: DelistArgs): NearContractCall
 

@@ -1,10 +1,8 @@
-
-# Transfer Tokens
+# transfer
 
 Transfers one or more tokens from the transaction signer to the recipient(s) specified.
 
-
-**As with all new SDK api methods, this call should be wrapped in [execute](../#execute) and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## transfer(args: TransferArgs): NearContractCall
 
@@ -25,8 +23,8 @@ type TransferArgs = {
 ```
 
 Example usage of transfer method in a hypothetical React component:
-{% code title="TransferUI.ts" overflow="wrap" lineNumbers="true" %}
 
+{% code title="TransferUI.ts" overflow="wrap" lineNumbers="true" %}
 ```typescript
 import { useState } from 'react';
 import { useWallet } from '@mintbase-js/react';

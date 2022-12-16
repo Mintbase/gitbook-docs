@@ -1,9 +1,8 @@
-
-# Transfer Contract Ownership
+# transferContractOwnership
 
 Transfers ownership of a given contractId to an intended ownerId, must be called by current owner
 
-**As with all new SDK api methods, this call should be wrapped in [execute](../#execute) and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## transferContractOwnership(args: TransferContractOwnershipArgs): NearContractCall
 
@@ -22,9 +21,9 @@ export type TransferContractOwnershipArgs = {
   };
 ```
 
-Example usage of ```transferContractOwnership``` method in a hypothetical React component:
-{% code title="transferContractOwnershipUI.ts" overflow="wrap" lineNumbers="true" %}
+Example usage of `transferContractOwnership` method in a hypothetical React component:
 
+{% code title="transferContractOwnershipUI.ts" overflow="wrap" lineNumbers="true" %}
 ```typescript
 import { useState } from 'react';
 import { useWallet } from '@mintbase-js/react';

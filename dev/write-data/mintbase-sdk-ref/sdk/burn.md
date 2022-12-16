@@ -1,5 +1,4 @@
-
-# Burn Tokens
+# burn
 
 Tries to buy one or more tokens for a given smart contract id.
 
@@ -7,7 +6,7 @@ You must own a token to be able to burn it.
 
 The nftContactId can be supplied as an argument or through the `NFT_CONTRACT_ID` environment variable.
 
-**As with all new SDK api methods, this call should be wrapped in [execute](../#execute) and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## burn(args: BurnArgs): NearContractCall
 
@@ -26,8 +25,8 @@ type BurnArgs = {
 ```
 
 Example usage of burn method in a hypothetical React component:
-{% code title="BurnUI.ts" overflow="wrap" lineNumbers="true" %}
 
+{% code title="BurnUI.ts" overflow="wrap" lineNumbers="true" %}
 ```typescript
 import { useState } from 'react';
 import { useWallet } from '@mintbase-js/react';

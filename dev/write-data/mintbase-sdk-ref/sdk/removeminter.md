@@ -1,13 +1,12 @@
+# removeMinter
 
-# Add Minter
+Remove minter from a smart contract you own
 
-Give an account id minting permission for a smart contract of your choice.
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
-**As with all new SDK api methods, this call should be wrapped in [execute](../#execute) and passed a signing method**
+## removeMinter(args: removeMinterArgs): NearContractCall
 
-## addMinter(args: addMinterArgs): NearContractCall
-
-`addMinter` takes a single argument of type `AddMinterArgs`
+`removeMinter` takes a single argument of type `AddMinterArgs`
 
 ```typescript
 type AddMinterArgs = {
@@ -19,13 +18,13 @@ type AddMinterArgs = {
 };
 ```
 
-Example usage of addMinter method in a hypothetical React component:
-{% code title="AddMinterUI.ts" overflow="wrap" lineNumbers="true" %}
+Example usage of removeMinter method in a hypothetical React component:
 
+{% code title="RemoveMinterUI.ts" overflow="wrap" lineNumbers="true" %}
 ```typescript
 import { useState } from 'react';
 import { useWallet } from '@mintbase-js/react';
-import { execute, addMinter } from '@mintbase-js/sdk';
+import { execute, removeMinter } from '@mintbase-js/sdk';
 
 
 export const AddMinterUI = ({ contractId, minterId }:any) => {
@@ -33,12 +32,12 @@ export const AddMinterUI = ({ contractId, minterId }:any) => {
   const handleAddMinter = async (): Promise<void> => {
     const wallet = await selector.wallet();
     await execute(
-      addMinter({ nftContractId: contractId, minterId: minterId })
+      removeMinter({ nftContractId: contractId, minterId: minterId })
     );
   return (
     <div>
       <button onClick={() => handleAddMinter()}>
-        addMinter to contract you own
+        removeMinter from contract you own
       </button>
     </div>
   );

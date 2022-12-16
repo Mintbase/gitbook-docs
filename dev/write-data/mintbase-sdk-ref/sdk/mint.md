@@ -1,5 +1,4 @@
-
-# Mint
+# mint
 
 Mint a token for a specified reference material on a contract of your choice. You need to have been given minting permission.
 
@@ -11,7 +10,7 @@ It is possible to configure the amount of copies you want to mint through the `a
 
 The nftContactId can be supplied as an argument or through the `TOKEN_CONTRACT` environment variable.
 
-**As with all new SDK api methods, this call should be wrapped in [execute](../#execute) and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## mint(args: MintArgs): NearContractCall
 
@@ -50,8 +49,8 @@ export type MintOptions = {
 ```
 
 Example usage of mint method in a hypothetical React component:
-{% code title="MintUI.ts" overflow="wrap" lineNumbers="true" %}
 
+{% code title="MintUI.ts" overflow="wrap" lineNumbers="true" %}
 ```typescript
 import { useState } from 'react';
 import { useWallet } from '@mintbase-js/react';

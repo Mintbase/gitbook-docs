@@ -1,9 +1,8 @@
-
-# Deploy Contract
+# deployContract
 
 Deploys a new contract from a given factoryContractId
 
-**As with all new SDK api methods, this call should be wrapped in [execute](../#execute) and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## deployContract(args: DeployContractArgs): NearContractCall
 
@@ -33,8 +32,8 @@ export type DeployContractArgs = {
 ```
 
 Example usage of deployContract method in a hypothetical React component:
-{% code title="DeployContractUI.ts" overflow="wrap" lineNumbers="true" %}
 
+{% code title="DeployContractUI.ts" overflow="wrap" lineNumbers="true" %}
 ```typescript
 import { useState } from 'react';
 import { useWallet } from '@mintbase-js/react';

@@ -1,11 +1,10 @@
-
-# Batch change minters
+# batchChangeMinters
 
 Change minting permissions for your smart contract by removing or adding multiple accountIds in one call.
 
 Account IDs in the `removeMinters` array will lose minting permission for the specified contract. Ids in the `addMinters` array get granted that permission.
 
-**As with all new SDK api methods, this call should be wrapped in [execute](../#execute) and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## batchChangeMinters(args: addMinterArgs): NearContractCall
 
@@ -24,8 +23,8 @@ type BatchChangeMintersArgs = {
 ```
 
 Example usage of batchChangeMinters method in a hypothetical React component:
-{% code title="BatchChangeMintersUI.ts" overflow="wrap" lineNumbers="true" %}
 
+{% code title="BatchChangeMintersUI.ts" overflow="wrap" lineNumbers="true" %}
 ```typescript
 import { useState } from 'react';
 import { useWallet } from '@mintbase-js/react';

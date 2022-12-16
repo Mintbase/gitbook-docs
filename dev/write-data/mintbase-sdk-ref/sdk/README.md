@@ -1,19 +1,21 @@
-## Core Features
+# @mintbase-js/sdk
+
+### Core Features
 
 The core `@mintbase-js/sdk` is a set of convenience wrappers around invocation of Mintbase smart contract methods.
 
-It also exposes a low-level isomorphic [execute](#execute) method that can be passed raw `NearContractCall` information.
+It also exposes a low-level isomorphic [execute](./#execute) method that can be passed raw `NearContractCall` information.
 
-## Calling Smart Contract Methods
+### Calling Smart Contract Methods
 
 In order to invoke a smart contract method, the transaction has to be signed using a public/private key pair.
 
-There are two options, both provided from the [@mintbase-js/auth](../auth/) module:
+There are two options, both provided from the [@mintbase-js/auth](../auth.md) module:
 
-  1. Sign with a [browser wallet](../auth/#wallet)
-  2. Sign with an [authenticated account](../auth/#account).
+1. Sign with a [browser wallet](../auth.md#wallet)
+2. Sign with an [authenticated account](../auth.md#account).
 
-## Using API Methods <div name="api"></div>
+### Using API Methods
 
 The easiest way to call mintbase token and market contracts are with the convenience methods.
 
@@ -25,9 +27,7 @@ This is a work in progress, please reach out to us on [Telegram](https://t.me/mi
 
 Check back soon for details. Individual methods and documentation will start to be available as we implement in the gitbook documentation menu.
 
-<div name="execute"></div>
-
-## Using `execute`
+### Using `execute`
 
 The `excecute` method can be used without api helpers, however you will need to specify all `NearContractCall` properties.
 
@@ -39,8 +39,10 @@ execute(
   calls: NearContractCall[],
 ): Promise<providers.FinalExecutionOutcome | providers.FinalExecutionOutcome[]>
 ```
+
 Here is an example using the execute function call:
-## NearContractCall
+
+### NearContractCall
 
 This type specifies properties of a contract calls:
 
@@ -86,15 +88,13 @@ makeSmartContractCall()
 ```
 {% endcode %}
 
-## Batching Transactions <div name="batching"></div>
+### Batching Transactions
 
-When calling more than one method with execute the returned value will be a promise with an array of results `Promise<FinalExecutionOutcome[]>`
-To use execute with batching all you need to do is supply as many calls as intended through arguments `execute(sign, mint, transfer, mint, burn )` in this manner executions will happen in order.
+When calling more than one method with execute the returned value will be a promise with an array of results `Promise<FinalExecutionOutcome[]>` To use execute with batching all you need to do is supply as many calls as intended through arguments `execute(sign, mint, transfer, mint, burn )` in this manner executions will happen in order.
 
-## Composition of Calls <div name="composition"></div>
+### Composition of Calls
 
-Some api wrappers might be a composition of various contract calls that are often executed in succession like `depositStorage`+ `list` or `revoke`+ `unlist`.
-The only difference is that in this case although you are technically calling execute with one method `execute(sign, delist)` you will receive 2 outcome objects in the resulting promise.
+Some api wrappers might be a composition of various contract calls that are often executed in succession like `depositStorage`+ `list` or `revoke`+ `unlist`. The only difference is that in this case although you are technically calling execute with one method `execute(sign, delist)` you will receive 2 outcome objects in the resulting promise.
 
 If you would like to create a composition yourself you can do so like this.
 
@@ -111,10 +111,8 @@ const mintCall = mint({
 
 ```
 
-## Further
+### Further
 
 {% hint style="warning" %}
-
 Should you encounter this [known issue](https://docs.near.org/tools/near-api-js/faq#class-x-is-missing-in-schema-publickey) `Class PublicKey is missing in schema: publicKey` make sure you are not importing modules directly from `near-api-js`, import them from `@mintbase-js/sdk` instead to avoid the duplicate import.
-
 {% endhint %}

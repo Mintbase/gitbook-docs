@@ -26,27 +26,27 @@ Building something cool?
 
 The new library currently consists of the following packages and features:
 
-#### [@mintbase-js/sdk](packages/sdk/)
+#### [@mintbase-js/sdk](sdk/)
 
 * Core NEAR smart contract method call util (single and multiple transactions)
 * Mintbase token and market contract method call wrappers (mint, transfer, list etc.)
 
-#### [@mintbase-js/data](packages/data/)
+#### [@mintbase-js/data](data/)
 
 * Convenience wrapper methods for common use-case GraphQL calls
 
-#### [@mintbase-js/auth](packages/auth/)
+#### [@mintbase-js/auth](auth.md)
 
 * Browser based wallet wrapper: [near/wallet-selector](https://github.com/near/wallet-selector/)
 * [near-api-js](https://github.com/near/near-api-js) convenience wrappers for loading accounts and managing keys
 * Message singing and verification utils.
 
-#### [@mintbase-js/react](packages/react/)
+#### [@mintbase-js/react](react.md)
 
 * WalletContext provider for auth connecting accounts to react applications
 * Helpers for data fetching via hooks.
 
-#### [@mintbase-js/testing](packages/testing/)
+#### [@mintbase-js/testing](testing.md)
 
 * Testing utilities and integration test suites for running mintbase-js against deployed contracts.
 
