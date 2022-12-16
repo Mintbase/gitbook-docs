@@ -11,7 +11,7 @@ This is our preferred option as it is probably the most flexible option and allo
 
 ### Use GraphiQL
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-11-08 at 4.44.15 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2022-11-08 at 4.44.15 PM.png" alt=""><figcaption></figcaption></figure>
 
 | Network                                                                                                                                       | URL                                                                                                                                                                                                                                                                                                                           |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -100,4 +100,4 @@ contract Address: voiceoftheoceans.mintbase1.near\
 
 ### Demo
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-09-09 at 15.51.12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2022-09-09 at 15.51.12.png" alt=""><figcaption></figcaption></figure>

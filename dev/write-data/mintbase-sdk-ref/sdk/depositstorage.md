@@ -6,7 +6,7 @@ If the amount of active listings becomes larger than the corresponding deposits 
 
 Market address default values depend on the NEAR\_NETWORK enviroment variable. If you set it to `mainnet` you will get the mainnet `marketId` `simple.market.mintbase1.near` otherwise it will default to the `testnet` value `market-v2-beta.mintspace2.testnet`.
 
-**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## depositStorage(args: DepositStorageArgs): NearContractCall
 

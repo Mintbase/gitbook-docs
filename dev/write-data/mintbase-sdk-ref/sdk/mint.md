@@ -10,7 +10,7 @@ It is possible to configure the amount of copies you want to mint through the `a
 
 The nftContactId can be supplied as an argument or through the `TOKEN_CONTRACT` environment variable.
 
-**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## mint(args: MintArgs): NearContractCall
 

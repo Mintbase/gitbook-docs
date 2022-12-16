@@ -2,7 +2,7 @@
 
 Transfers ownership of a given contractId to an intended ownerId, must be called by current owner
 
-**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## transferContractOwnership(args: TransferContractOwnershipArgs): NearContractCall
 

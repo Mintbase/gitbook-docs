@@ -1,6 +1,6 @@
-# 📕. Metadata
+# 🗺 Metadata
 
-![](<../.gitbook/assets/Screenshot 2022-07-07 at 10.56.14.png>)
+![](<../../.gitbook/assets/Screenshot 2022-07-07 at 10.56.14.png>)
 
 {% embed url="https://www.loom.com/share/cd3efad270314784aa750ca5003f21c3" %}
 
@@ -157,7 +157,7 @@ If we inspect our thing page:
 
 If you scroll down to **Details**, you'll see transaction hash
 
-![](<../.gitbook/assets/Screen Shot 2022-06-07 at 4.01.17 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-06-07 at 4.01.17 PM.png>)
 
 Combine the Storage Gateway with Transaction Hash
 

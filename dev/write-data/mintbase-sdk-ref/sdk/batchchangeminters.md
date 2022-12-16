@@ -4,7 +4,7 @@ Change minting permissions for your smart contract by removing or adding multipl
 
 Account IDs in the `removeMinters` array will lose minting permission for the specified contract. Ids in the `addMinters` array get granted that permission.
 
-**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
+**As with all new SDK api methods, this call should be wrapped in** [**execute**](../../../../mintbase-sdk-ref/packages/sdk/src/#execute) **and passed a signing method**
 
 ## batchChangeMinters(args: addMinterArgs): NearContractCall
 
