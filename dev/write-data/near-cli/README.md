@@ -1,4 +1,4 @@
-# NEAR CLI
+# ⛓ NEAR CLI
 
 
 

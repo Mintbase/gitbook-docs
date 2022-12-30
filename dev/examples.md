@@ -6,9 +6,17 @@ description: Some Examples built on top of mintbase.js
 
 Get building fast with our ready to deploy dapps.
 
+
+
+<mark style="color:red;">These examples are currently being updated to use the newest version of our SDK.</mark>
+
 ### **simple-marketplace**
 
-A Simple Marketplace where you can list NFTS, filter by store, and buy NFTS that are available\
+A Simple Marketplace where you can list and buy tokens that are available and filter selection by store.
+
+This allows you to easily create your own niche marketplace where you have total control over curation. With access to all tokens being minted via our indexer, it is easy to select and aggregate the markets of your choosing.
+
+\
 \
 built with Next.js + mintbase.js + Apollo\
 \

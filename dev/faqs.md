@@ -2,7 +2,7 @@
 description: Frequently Asked Questions on Mintbase
 ---
 
-# FAQs
+# 🙋 FAQs
 
 ### What is Mintbase?
 
@@ -10,7 +10,7 @@ Way more than an NFT marketplace, we enable developers & creators to build produ
 
 ### **I am a builder. Can I use Mintbase’s infrastructure to spin off my own marketplace/ dapp?**
 
-You can guess the answer to this one: YES! That’s what we’re here for. Head over to our [developer tools](https://docs.mintbase.io/dev/getting-started) and join our [developer community](https://t.me/mintdev) to get started. &#x20;
+You can guess the answer to this one: YES! That’s what we’re here for. Head over to our [developer tools](getting-started/) and join our [developer community](https://t.me/mintdev) to get started. &#x20;
 
 ### **Who can apply to Mintbase's Grants Program?**
 
