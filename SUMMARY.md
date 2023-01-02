@@ -27,7 +27,6 @@
         * [batchChangeMinters](mintbase-sdk-ref/packages/sdk/src/batchChangeMinters/README.md)
         * [delist](mintbase-sdk-ref/packages/sdk/src/delist/README.md)
     * [@mintbase-js/data](mintbase-sdk-ref/packages/data/README.md)
-        * [(NEW!) Indexer API](mintbase-sdk-ref/packages/data/src/api/README.md)
           * [ownedNftsByStore](mintbase-sdk-ref/packages/data/src/api/ownedNftsByStore/README.md)
           * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/ownedTokens/README.md)
           * [tokenById](mintbase-sdk-ref/packages/data/src/api/tokenById/README.md)
