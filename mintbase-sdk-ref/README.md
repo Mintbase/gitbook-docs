@@ -1,68 +1,69 @@
-# 📚 Mintbase JS
-
 ![Licence](https://img.shields.io/badge/license-MIT-blue.svg) [![Coverage Status](https://coveralls.io/repos/github/Mintbase/mintbase-js/badge.svg?branch=add-wallet-selector)](https://coveralls.io/github/Mintbase/mintbase-js?branch=add-wallet-selector)
 
-## Mintbase JS
+# Mintbase JS
 
 A library for making web3 end to end development as easy as possible from smart contract deployment and interaction to metadata storage and blockchain data access.
 
 {% hint style="danger" %}
-### All packages are currently in Alpha.
-
+## All packages are currently in Alpha.
 Breaking changes can and will be introduced on a regular basis until this reaches beta sometime during Q1 2023.
+
 {% endhint %}
 
-## Getting started
 
+# Getting started
 Visit any of the below links to access the documentation and usage examples for the different packages
 
-### Deploy or interact with smart contracts and mintbase market
+## Deploy or interact with smart contracts and mintbase market 
 
-#### [@mintbase-js/sdk docs](packages/sdk/)
+### [@mintbase-js/sdk docs](packages/sdk)
+  
+ - Core NEAR smart contract method call util (single and multiple transactions)
+ - Mintbase token and market contract method call wrappers (mint, transfer, list etc.)
 
-* Core NEAR smart contract method call util (single and multiple transactions)
-* Mintbase token and market contract method call wrappers (mint, transfer, list etc.)
 
-### Add and manage wallet connection on your react dapp out of the box
+ ## Add and manage wallet connection on your react dapp out of the box
 
-#### [@mintbase-js/react docs](packages/react/)
+ ### [@mintbase-js/react docs](packages/react)
+  - WalletContext provider for auth connecting accounts to react applications
+  - Helpers for data fetching via hooks.
 
-* WalletContext provider for auth connecting accounts to react applications
-* Helpers for data fetching via hooks.
 
-### Get blockchain data in a few lines of code
+ ## Get blockchain data in a few lines of code 
 
-#### [@mintbase-js/data docs](packages/data/)
+### [@mintbase-js/data docs](packages/data)
+  - Convenience wrapper methods for common use-case GraphQL calls
 
-* Convenience wrapper methods for common use-case GraphQL calls
+  ## Upload metadata to permanent storage
 
-### Upload metadata to permanent storage
+### [@mintbase-js/storage docs](packages/auth/)
 
-#### [@mintbase-js/storage docs](packages/auth/)
+ - Browser based wallet wrapper: [near/wallet-selector](https://github.com/near/wallet-selector/)
+ - [near-api-js](https://github.com/near/near-api-js) convenience wrappers for loading accounts and managing keys
+ - Message singing and verification utils.
 
-* Browser based wallet wrapper: [near/wallet-selector](https://github.com/near/wallet-selector/)
-* [near-api-js](https://github.com/near/near-api-js) convenience wrappers for loading accounts and managing keys
-* Message singing and verification utils.
+## Manage wallet connection manually
+### [@mintbase-js/auth docs](packages/auth/)
 
-### Manage wallet connection manually
+ - Browser based wallet wrapper: [near/wallet-selector](https://github.com/near/wallet-selector/)
+ - [near-api-js](https://github.com/near/near-api-js) convenience wrappers for loading accounts and managing keys
+ - Message singing and verification utils.
 
-#### [@mintbase-js/auth docs](packages/auth/)
 
-* Browser based wallet wrapper: [near/wallet-selector](https://github.com/near/wallet-selector/)
-* [near-api-js](https://github.com/near/near-api-js) convenience wrappers for loading accounts and managing keys
-* Message singing and verification utils.
 
-## Join us in Building the Future
+# Join us in Building the Future
 
 Have feedback or perhaps need a hand?
 
-**Reach out on our** [**Telegram**](https://t.me/mintdev) **public developer support channel.**
+**Reach out on our [Telegram](https://t.me/mintdev) public developer support channel.**
 
 Building something cool?
 
-**Consider** [**applying for a grant**](https://github.com/Mintbase/Grants-Program)**.**
+**Consider [applying for a grant](https://github.com/Mintbase/Grants-Program).**
 
-## Environment Variables
+
+
+# Environment Variables
 
 In order to use mintbase JS functions, often environment variables will need to be supplied via `process.env`, [dotenv](https://www.npmjs.com/package/dotenv) etc.
 
@@ -77,3 +78,6 @@ NEAR_NETWORK = mainnet | testnet
 NEAR_DATA_ENV = mainnet | testnet | sandbox
 
 ```
+
+
+
