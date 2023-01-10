@@ -89,7 +89,7 @@ You can check in the Auction Page or in the My Offers page in how long your offe
 
 ### Keep in mind as an buyer:
 
-* You can check all your offers in the [My Offers](https://www.mintbase.io/launchpad/my-offers/0) page (under Launchpad)
+* You can check all your offers in the [My Offers](https://www.mintbase.xyz/launchpad/my-offers/0) page (under Launchpad)
 * When you bid, you put your NEAR into escrow
 * When you get outbidded your funds are automatically released from escrow
 * The owner of the listing can accept anytime within 24 hours, or later if you do not withdraw your offer
@@ -103,7 +103,7 @@ If you have the top offer, and don’t withdraw after 24 hours, the seller can a
 
 ### Keep in mind as an seller
 
-* You can check all your received offers in the [Offered To Me](https://www.mintbase.io/launchpad/offered-to-me/0) page
+* You can check all your received offers in the [Offered To Me](https://www.mintbase.xyz/launchpad/offered-to-me/0) page
 * After 24 hours that an offer is made, the offerer can withdraw it and you will no longer be able to accept it
 
 {% hint style="info" %}

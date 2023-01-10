@@ -10,7 +10,7 @@ description: Frequently Asked Questions on Mintbase
 
 ### Lister burned or transferred the NFT while my offer was pending
 
-Just wait until your offer expires (24 hours) and you can withdraw it from the[ orders page](https://www.mintbase.io/orders).
+Just wait until your offer expires (24 hours) and you can withdraw it from the[ orders page](https://www.mintbase.xyz/launchpad/my-offers/0).
 
 ### Bid expired on my NFT, can I still take?
 
