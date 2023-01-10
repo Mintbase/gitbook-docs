@@ -10,7 +10,7 @@ To sign in you need to have a NEAR wallet. If you don't have one, you can learn 
 
 ### Step by step login:&#x20;
 
-Go to [Mintbase.io](https://www.mintbase.io/)
+Go to [Mintbase.xyz](https://www.mintbase.xyz/)
 
 Find the white **Connect Wallet** button on the top right side. Anything you do you can do on Mainnet, or on Testnet. To switch between the networks, click the Near Mainnet button and choose what you need.
 
