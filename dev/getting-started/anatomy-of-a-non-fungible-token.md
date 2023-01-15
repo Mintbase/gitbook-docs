@@ -4,15 +4,13 @@ description: Understanding the components that make NFTs work
 
 # 👩🔬 Anatomy of a Non-Fungible Token
 
-When using Mintbase tools, it's really helpful to understand the parts that make up an NFT.&#x20;
+When using Mintbase it's helpful to understand the parts that make up an NFT. If you're already familiar with how NFTs work and are structured, you can [skip ahead and start coding](add-wallet-connection-to-your-react-app.md).
 
-Already understand how NFTs work and are structured? [Skip ahead and start coding](add-wallet-connection-to-your-react-app.md).
+When you see an NFT on a marketplace or in your wallet, it's easy to draw the conclusion the creative representation, the "media" (image, music, video etc.) _is the token._&#x20;
 
-When you see an NFT on a marketplace or in your wallet, it's easy to draw the conclusion that the creative representation (image, music, video etc.) _is the token._&#x20;
+While a token is _viewed_ through its media a **token's concerns** **are its** **identifier**, **contract**, **reference** and most importantly - **its** **owner**. &#x20;
 
-While a token is _viewed_ with its media, a **token's concerns** **are its** **identifier**, **contract**, **reference** and most importantly - **its** **owner**. &#x20;
-
-An NFTs sole use case is providing a cryptographically verifiable way to ascertain that _something_, the reference pointer, is owned by _someone,_ the owner.&#x20;
+An NFT's primary use case is providing a cryptographically verifiable way to ascertain that _something_, the reference pointer, is owned by _someone,_ the owner.&#x20;
 
 Worth noting, that the **price** of a token is **not** the concern of the token or token contract itself, but instead a function of the market.&#x20;
 
