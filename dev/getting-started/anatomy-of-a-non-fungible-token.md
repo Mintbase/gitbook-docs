@@ -18,7 +18,7 @@ Worth noting, that the **price** of a token is **not** the concern of the token 
 
 An NFT is made up of several parts, each of those can be grouped into three types: **multimedia**, **reference** **data**, and then **token** itself which lives on chain.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>NFTs on Mintbase are composed of three basic parts in three steps: Media, reference JSON and the on-chain token data. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>NFTs on Mintbase are composed of three basic parts in three steps: Media, reference JSON and the on-chain token data. </p></figcaption></figure>
 
 Wether you are minting programmatically, using our interface, or one of our minting services you will perform the following operations in order:&#x20;
 

@@ -4,7 +4,9 @@ description: How to programmatically delist NFTs from our marketplace
 
 # (Un) Delisting NFTs
 
-We are currently working on adding delisting token functionality to our suite of Launchpad features, however if you wish to (un)delist tokens from the Mintbase simple market contract you can do this programmatically as follows:&#x20;
+**You can also do this using the mintbase.xyz Launchpad UI by following** [**these instructions**](../../../market/selling/removing-a-listing-from-the-market.md)****
+
+Using the CLI, you can call the Mintbase simple market contract to remove listings programmatically:
 
 1. Export variables for near env (mainnet or testnet), your \*.mintbase1.near contract address and account. Note the list of tokens must be a comma delimited list of strings wrapped in double quotes "".
 

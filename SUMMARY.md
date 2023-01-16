@@ -92,6 +92,7 @@
 * [Rolling Auction](market/auctions.md)
 * [Selling](market/selling/README.md)
   * [Selling an item that I bought](market/selling/selling-an-item-that-i-bought.md)
+  * [Removing a listing from the market](market/selling/removing-a-listing-from-the-market.md)
 * [Split Revenues & Forever Royalties](market/splits.md)
 
 ## Company
