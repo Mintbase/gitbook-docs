@@ -2,7 +2,7 @@
 description: Understanding the components that make NFTs work
 ---
 
-# 👩🔬 Anatomy of a Non-Fungible Token
+# 🔬 Anatomy of a Non-Fungible Token
 
 When using Mintbase it's helpful to understand the parts that make up an NFT. If you're already familiar with how NFTs work and are structured, you can [skip ahead and start coding](add-wallet-connection-to-your-react-app.md).
 
