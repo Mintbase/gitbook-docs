@@ -22,6 +22,19 @@ This is our preferred option as it is probably the most flexible option and allo
 
 The queries and relationships are extensible, we suggest just clicking around the tree to make the queries and it will become easy over time.&#x20;
 
+### API Key
+
+In the future, users may be required to register using an api key. For now, simply passing the value`anon` for `mb-api-key` will work: e.g.
+
+```bash
+
+curl --location --request POST 'https://graph.mintbase.xyz/sandbox/' \
+--header 'mb-api-key: anon' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query":"query blocks {\n    blocks {\n        synced_height\n    }\n}","variables":{}}'
+
+```
+
 
 
 ### Examples
