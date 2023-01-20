@@ -26,7 +26,7 @@ The queries and relationships are extensible, we suggest just clicking around th
 
 ### Examples
 
-1. [Get NFTs owned by an account](https://cloud.hasura.io/public/graphiql?endpoint=+https%3A%2F%2Finterop-mainnet.hasura.app%2Fv1%2Fgraphql\&query=query+MyQuery+%7B%0A++mb\_views\_nft\_tokens%28%0A++++where%3A+%7Bowner%3A+%7B\_eq%3A+%22nate.near%22%7D%2C+\_and%3A+%7Bburned\_timestamp%3A+%7B\_is\_null%3A+true%7D%7D%7D%0A++++limit%3A+30%0A++++order\_by%3A+%7Blast\_transfer\_timestamp%3A+desc%7D%0A++%29+%7B%0A++++nft\_contract\_id%0A++++title%0A++++description%0A++++media%0A++%7D%0A%7D%0A), notice the `burned_timestamp` if null indicates it has not been burned yet
+1. [Get NFTs owned by an account](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Fmainnet\&header=mb-api-key:anon\&query=query+MyQuery+%7B%0A++mb\_views\_nft\_tokens%28%0A++++where%3A+%7Bowner%3A+%7B\_eq%3A+%22nate.near%22%7D%2C+\_and%3A+%7Bburned\_timestamp%3A+%7B\_is\_null%3A+true%7D%7D%7D%0A++++limit%3A+30%0A++++order\_by%3A+%7Blast\_transfer\_timestamp%3A+desc%7D%0A++%29+%7B%0A++++nft\_contract\_id%0A++++title%0A++++description%0A++++media%0A++%7D%0A%7D%0A), notice the `burned_timestamp` if null indicates it has not been burned yet
 
 ###
 
