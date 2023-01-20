@@ -28,7 +28,7 @@ In the future, users may be required to register using an api key. For now, simp
 
 ```bash
 
-curl --location --request POST 'https://graph.mintbase.xyz/sandbox/' \
+curl --location --request POST 'https://graph.mintbase.xyz' \
 --header 'mb-api-key: anon' \
 --header 'Content-Type: application/json' \
 --data-raw '{"query":"query blocks {\n    blocks {\n        synced_height\n    }\n}","variables":{}}'
