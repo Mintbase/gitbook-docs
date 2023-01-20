@@ -7,7 +7,7 @@ This is our preferred option as it is probably the most flexible option and allo
 | Network | Endpoint                                                              |
 | ------- | --------------------------------------------------------------------- |
 | mainnet | <mark style="color:green;">https://graph.mintbase.xyz/mainnet</mark>  |
-| testnet | <mark style="color:orange;">https://graph.mintbase.xyx/testnet</mark> |
+| testnet | <mark style="color:orange;">https://graph.mintbase.xyz/testnet</mark> |
 
 ### Use GraphiQL
 
