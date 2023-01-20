@@ -4,19 +4,19 @@ This is our preferred option as it is probably the most flexible option and allo
 
 ### Endpoints
 
-| Network | Endpoint                                                                         |
-| ------- | -------------------------------------------------------------------------------- |
-| mainnet | <mark style="color:green;">https://interop-mainnet.hasura.app/v1/graphql</mark>  |
-| testnet | <mark style="color:orange;">https://interop-testnet.hasura.app/v1/graphql</mark> |
+| Network | Endpoint                                                              |
+| ------- | --------------------------------------------------------------------- |
+| mainnet | <mark style="color:green;">https://graph.mintbase.xyz/mainnet</mark>  |
+| testnet | <mark style="color:orange;">https://graph.mintbase.xyx/testnet</mark> |
 
 ### Use GraphiQL
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2022-11-08 at 4.44.15 PM.png" alt=""><figcaption></figcaption></figure>
 
-| Network                                                                                                                                       | URL                                                                                                                                                                                                                                                                                                                           |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>mainnet<a href="https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Finterop-mainnet.hasura.app%2Fv1%2Fgraphql"><br></a><br></p> | [https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Finterop-mainnet.hasura.app%2Fv1%2Fgraphql](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Finterop-mainnet.hasura.app%2Fv1%2Fgraphql)                                                                                                          |
-| testnet                                                                                                                                       | <mark style="color:orange;"></mark>[<mark style="color:orange;">https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Finterop-testnet.hasura.app%2Fv1%2Fgraphql</mark>](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Finterop-testnet.hasura.app%2Fv1%2Fgraphql)<mark style="color:orange;"></mark> |
+| Network                                                                                                                                       | URL                                                                                                                                                                                                                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>mainnet<a href="https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Finterop-mainnet.hasura.app%2Fv1%2Fgraphql"><br></a><br></p> | [https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Fmainnet\&header=mb-api-key:anon](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Fmainnet\&header=mb-api-key:anon)                                                                                                          |
+| testnet                                                                                                                                       | <mark style="color:orange;"></mark>[<mark style="color:orange;">https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Ftestnet\&header=mb-api-key:anon</mark>](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Ftestnet\&header=mb-api-key:anon)<mark style="color:orange;"></mark> |
 
 
 
