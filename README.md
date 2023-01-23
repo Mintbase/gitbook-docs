@@ -4,24 +4,13 @@ description: What can I do with Mintbase?
 
 # Overview
 
-### We are not just an NFT marketplace.
+The only fully automated Minter + Marketplace on NEAR that helps you create and list NFTs on your own smart contract with a full developer suite to enable you to build your own stand alone market and NFT systems.
 
-With mintbase, you can **build your own minter, market, and NFT redeeming systems** that support the next evolutions in web commerce.
+## Where do I start?
 
-## What is an NFT?
+1\. If you are a [creator](creating/store/), then you will find our website interface the most intuitive way to get started.
 
-An NFT consists of two main parts:
-
-1. A unique identifier a blockchain can use to track ownership between user accounts.
-2. A pointer to what we call metadata. This pointer does not have to live on the blockchain.
-
-When you mint an NFT using Mintbase (or another NEAR token contract), you will be creating metadata and letting the token contract know that this new record exists. Now, it can be transferred, listed and sold anywhere in the NEAR ecosystem.
-
-## Let's do this! Where do I start?
-
-### 1. If you are a [creator](creating/store/) then you will find our website interface the most intuitive way to get started.
-
-### 2. For [developers](dev/getting-started/) ready to build their own Mintbase the getting started section of our docs is your starting point.
+2\. For [developers](dev/getting-started/) ready to build their own Mintbase the getting started section of our docs is your starting point.
 
 ## Using Testnet
 
