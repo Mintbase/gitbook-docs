@@ -4,6 +4,10 @@
 
 MintbaseJS is a library created to lower the barrier to entry for decentralized application development on the NEAR ecosystem as well as facilitating integrations with Mintbase systems.
 
+
+
+Or use our [boilerplate examples](../examples.md) to deploy your own market in minutes.
+
 ## Quick Start
 
 * [Add Wallet Connection To Your React App](add-wallet-connection-to-your-react-app.md)
