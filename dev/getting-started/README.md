@@ -6,7 +6,7 @@ MintbaseJS is a library created to lower the barrier to entry for decentralized 
 
 
 
-Or use our [boilerplate examples](../examples.md) to deploy your own market in minutes.
+Or use our [boilerplate examples](../examples/) to deploy your own market in minutes.
 
 ## Quick Start
 
@@ -48,7 +48,7 @@ For most operations moving forward an API key will be required.
 
 Register a [developer key here](https://www.mintbase.io/developer)
 
-## [Use Case Examples](../examples.md)
+## [Use Case Examples](../examples/)
 
 Get building fast with our pre-built examples.
 

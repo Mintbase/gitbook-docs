@@ -8,7 +8,7 @@ description: How to delist items from the market
 
 Click on the LIST button below the media thumbnail for the NFT listings you wish to manage. &#x20;
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (6).png>)
 
 The LIST button will open a dialog showing any current listings along with the option to remove individual listings and remove call listings if desired.
 
