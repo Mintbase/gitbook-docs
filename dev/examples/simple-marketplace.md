@@ -204,6 +204,8 @@ To handle selecting the current store, we update the `storeData` with the select
 
 To display NFT pricing information, available quantities, and other details in the user interface, it is necessary to access the NFT metadata using the `metadataByMetadataId` method.
 
+You can find more metadata information in our [metadata guide](../read-data/metadata.md).
+
 ```typescript
 import { metadataByMetadataId, ParsedDataReturn } from '@mintbase-js/data';
 import { MetadataByMetadataIdQueryResult } from '@mintbase-js/data/lib/api/metadataByMetadataId/metadataByMetadataId.types';
