@@ -343,7 +343,9 @@ function AvailableNftComponent({
         ...buy({
           contractAddress: nftContractId,
           tokenId,
-          referrerId: process.env.NEXT_PUBLIC_AFFILIATE_ACCOUNT || MAINNET_CONFIG.affiliate,
+          affiliateAccount: 
+            process.env.NEXT_PUBLIC_AFFILIATE_ACCOUNT 
+            || MAINNET_CONFIG.affiliate,
           marketId,
           price: nearToYocto(currentPrice.toString()),
         }),
