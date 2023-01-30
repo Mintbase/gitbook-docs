@@ -156,6 +156,9 @@ By utilizing react-query, we can take advantage of the loading state to display 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-01-24 at 11.26.51.png" alt=""><figcaption></figcaption></figure>
 
+You can read more about the `storeNfts` method [here](../../mintbase-sdk-ref/packages/data/src/api/storeNfts/).\
+
+
 ### Step 3: Get store data
 
 To control the tabs, we need to retrieve store data using the `storeData` method. \
@@ -199,6 +202,9 @@ export { useStoreData };
 To handle selecting the current store, we update the `storeData` with the selected store in order to retrieve the corresponding NFTs.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-01-24 at 11.43.34.png" alt=""><figcaption></figcaption></figure>
+
+You can read more about the `storeData` method [here](../../mintbase-sdk-ref/packages/data/src/api/storeData/).\
+
 
 ### Step 4: Get metadata from an nft
 
@@ -267,6 +273,9 @@ This information is displayed in a pop-up window after clicking on the NFT card.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-01-24 at 11.47.29.png" alt=""><figcaption></figcaption></figure>
 
+You can read more about the `metadataByMetadataId` method [here](../../mintbase-sdk-ref/packages/data/src/api/metadataByMetadataId/).\
+
+
 ### Step 5: Get current near price
 
 To obtain the current price of the NFT in USD, it is necessary to retrieve the current Near price. We accomplish this by using the `nearPrice` method.
@@ -294,6 +303,8 @@ const useNearPrice = (): string => {
 export { useNearPrice };
 
 ```
+
+You can read more about the `nearPrice` method [here](../../mintbase-sdk-ref/packages/data/src/api/nearPrice/).
 
 ### Step 6: Execute the contract call - buy
 
@@ -426,3 +437,5 @@ function AvailableNftComponent({
   );
 }
 ```
+
+You can read more about the buy call [here](../../mintbase-sdk-ref/packages/sdk/src/buy/).
