@@ -38,7 +38,9 @@ Example:
 
 ```typescript
 
-import { tokenById } from  '@mintbase-js/data'
+import { tokenById } from  '@mintbase/data'
+
+
 
 const { data, error } = await tokenById( '1','rub3n.testnet');
 

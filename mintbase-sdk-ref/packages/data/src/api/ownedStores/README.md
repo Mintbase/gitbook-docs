@@ -32,7 +32,7 @@ Example:
 {% code title="queryOwnedStores.ts" overflow="wrap" lineNumbers="true" %}
 
 ```typescript
-import { ownedStores } from  '@mintbase-js/data'
+import { ownedStores } from  '@mintbase/data'
 
 const {data, error} = await ownedStores('test.near');
 

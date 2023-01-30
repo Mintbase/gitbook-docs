@@ -1,7 +1,5 @@
 # Using Data APIs
 
-Currently, these wrappers are methods for the [GraphQL API](https://docs.mintbase.xyz/dev/mintbase-graph). They are still in alpha and may change at anytime.
-
 # methods
 
 | method name | params | description |
@@ -19,4 +17,3 @@ Currently, these wrappers are methods for the [GraphQL API](https://docs.mintbas
 | [nearPrice](https://github.com/Mintbase/mintbase-js/tree/alpha/packages/data/src/api/nearPrice/README.md) | - |get near price in usd|
 | [storeData](https://github.com/Mintbase/mintbase-js/tree/alpha/packages/data/src/api/storeData/README.md) | `contractAddress: string | string[]` |get store data by certain contract or contracts|
 | [storeNfts](https://github.com/Mintbase/mintbase-js/tree/alpha/packages/data/src/api/storeNfts/README.md) | `contractAddress: string | string[], showOnlyListed?: boolean, pagination?: {limit: number, offset:number}` |get store nfts by certain contract|
-| [metadataByMetadataId](https://github.com/Mintbase/mintbase-js/tree/alpha/packages/data/src/api/metadataByMetadataId/README.md) | `metadataId: string` |get metadata by metadataId|

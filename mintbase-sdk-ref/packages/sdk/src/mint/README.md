@@ -20,8 +20,8 @@ The nftContactId can be supplied as an argument or through the `TOKEN_CONTRACT` 
 ```typescript
 export type MintArgs =  {
   //the contractId from which you want to mint
-  //can be specified through CONTRACT_ADDRESS enviroment var
-  contractAddress?: string;
+  //can be specified through NFT_CONTRACT_ID enviroment var
+  nftContractId?: string;
   //url of reference material used to mint, this is typically a arweave or ipfs link
   //you can upload to arweave easily using our storage module 'uploadFileToArweave' method
   reference: string;
@@ -60,7 +60,7 @@ import { useWallet } from '@mintbase-js/react';
 import { execute, mint, MintArgs } from '@mintbase-js/sdk';
 
 
-export const MintComponent = ({ reference, contractAddress, owner }:MintArgs): JSX.Element => {
+export const MintComponent = ({ reference, contractId, owner }:MintArgs): JSX.Element => {
  
   const { selector } = useWallet();
 
@@ -69,7 +69,7 @@ export const MintComponent = ({ reference, contractAddress, owner }:MintArgs): J
     const wallet = await selector.wallet();
     
     await execute(
-      mint({ contractAddress: contractAddress, reference: reference, ownerId: owner })
+      mint({ nftContractId: contractId, reference: reference, ownerId: owner })
     );
 
   }

@@ -42,7 +42,7 @@ import { storeData } from  '@mintbase-js/data'
 
 
 
-const { data, error } = await storeData('teammintbase.mintbase1.near');
+const { data, error } = await storeData( 'teammintbase.mintbase1.near');
 
 if (error) {console.log('error', error)}
 

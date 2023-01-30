@@ -25,8 +25,8 @@ mainnet: `simple.market.mintbase1.near`
 ```typescript
 type DelistArgs = {
     // contract from which the token belongs to
-    //as an argument or through CONTRACT_ADDRESS env
-    contractAddress?: string;
+    //as an argument or through NFT_CONTRACT_ID env
+    nftContractId?: string;
     // id of the token for which the approval will be revoked
     tokenId: string;
     //if removal is necessary for only a specific market/account
@@ -46,7 +46,7 @@ import { useWallet } from '@mintbase-js/react';
 import { execute, delist, DelistArgs } from '@mintbase-js/sdk';
 
 
-export const DelistComponent = ({ contractAddress, tokenId, marketAddress }:DelistArgs): JSX.Element => {
+export const DelistComponent = ({ nftContractId, tokenId, marketId }:DelistArgs): JSX.Element => {
   
   const { selector } = useWallet();
   
@@ -54,7 +54,7 @@ export const DelistComponent = ({ contractAddress, tokenId, marketAddress }:Deli
     
     const wallet = await selector.wallet();
 
-    const delistArgs = {contractAddress: contractAddress, tokenId:tokenId, marketAddress:marketAddress}
+    const delistArgs = {nftContractId: nftContractId, tokenId:tokenId, marketId:marketId}
 
     await execute(
       {wallet},
@@ -66,7 +66,7 @@ export const DelistComponent = ({ contractAddress, tokenId, marketAddress }:Deli
   return (
     <div>
       <button onClick={handleDelist}>
-        Burn provided token array from {contractAddress}
+        Burn provided token array from {contractId}
       </button>
     </div>
   );

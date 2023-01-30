@@ -18,7 +18,7 @@ export type DepositStorageArgs = {
     //the deposit corresponding roughly to the amounts of listings you will be doing
     listAmount?: number;
     //accountId of the mintbase market, this defaults to the correct value depending on the NEAR_NETWORK environment variable
-    marketAddress?: string;
+    marketId?: string;
   };
 ```
 
@@ -35,7 +35,7 @@ import { useWallet } from '@mintbase-js/react';
 import { execute, depositStorage, DepositStorageArgs } from '@mintbase-js/sdk';
 
 
-export const DepositStorageComponent = ({ listAmount, marketAddress }:DepositStorageArgs):JSX.Element => {
+export const DepositStorageComponent = ({ listAmount, marketId }:DepositStorageArgs):JSX.Element => {
   
   const { selector } = useWallet();
 
@@ -46,7 +46,7 @@ export const DepositStorageComponent = ({ listAmount, marketAddress }:DepositSto
         {wallet},
         depositStorage({
           listAmount: listAmount, 
-          marketAddress: marketAddress
+          marketId: marketId
         })
       )
   }
