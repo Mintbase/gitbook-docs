@@ -72,11 +72,12 @@ const makeSmartContractCall = async (): Promise<FinalExecutionOutcome> => {
   // before the getWallet can be called, you will need to setup the components in the browser, it will throw othwerise
   const wallet = await getWallet();
 
-  const sign: NearCallSigningOptions = {
+  const sign: NearExecuteOptions = {
     // account
     wallet,
+    callbackUrl: 'https://www.yourwebsite.xyz/success'
   }
-  return await execute(sign, transfer);
+  return await execute(sign, transferCall);
 }
 
 makeSmartContractCall()
@@ -84,6 +85,10 @@ makeSmartContractCall()
   .catch((err) => console.error('things went wrong', err));
 
 ```
+
+- please read more detailed information about the execute method [here](/execute)
+
+
 {% endcode %}
 
 ## Batching Transactions <div name="batching"></div>

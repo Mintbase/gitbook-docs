@@ -19,6 +19,7 @@
         * [mint](mintbase-sdk-ref/packages/sdk/src/mint/README.md)
         * [buy](mintbase-sdk-ref/packages/sdk/src/buy/README.md)
         * [list](mintbase-sdk-ref/packages/sdk/src/list/README.md)
+        * [execute](mintbase-sdk-ref/packages/sdk/src/execute/README.md)
         * [depositStorage](mintbase-sdk-ref/packages/sdk/src/depositStorage/README.md)
         * [burn](mintbase-sdk-ref/packages/sdk/src/burn/README.md)
         * [transfer](mintbase-sdk-ref/packages/sdk/src/transfer/README.md)
