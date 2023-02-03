@@ -1,10 +1,18 @@
+---
+description: Describe your NFT to the world using reference JSON
+---
+
 # 🗺 Metadata
 
-![](<../../.gitbook/assets/Screenshot 2022-07-07 at 10.56.14.png>)
+### Metadata On-Chain  vs. Reference JSON Off-Chain
 
-{% embed url="https://www.loom.com/share/cd3efad270314784aa750ca5003f21c3" %}
+Metadata is responsible for describing the properties of your token. A set of standard fields allow for on-chain metadata storage, however a more efficient and robust means of expressing the properties including attributes further documentation and more lives **off-chain in a reference.**
 
-For tokens created on Mintbase all metadata lives on [Arweave](https://www.arweave.org/), a permanent, cheap, and decentralized storage platform.  We use the **reference** to get the entire metadata block on Arweave (title, description, media) to save on space.
+_Looking for a quick example of reference JSON? ****_ [Skip to the example.](metadata.md#full-example-of-nft-reference-data-with-media-title-attributes-and-tags)
+
+The **reference** field is where the URL reference to this JSON document will be stored. This field's value is passed to the the [mint transaction](../../mintbase-sdk-ref/packages/sdk/src/mint/) before the NFT is created on the blockchain.
+
+Here are the on-chain options for token metadata provided by the NEAR[ NEP-177](https://nomicon.io/Standards/Tokens/NonFungibleToken/Metadata#nep-177) standard:&#x20;
 
 ```
 type TokenMetadata = {
@@ -23,9 +31,15 @@ type TokenMetadata = {
 }
 ```
 
+Mintbase prefers to store reference JSON on [Arweave](https://www.arweave.org/), a permanent, cheap, and decentralized storage platform. &#x20;
 
+The following video walks through how to find metadata for an existing token:
 
-### Get metadata from chain
+{% embed url="https://www.loom.com/share/cd3efad270314784aa750ca5003f21c3" %}
+
+![An example of tickets to NEAR conference in 2022](<../../.gitbook/assets/Screenshot 2022-07-07 at 10.56.14.png>)
+
+### Get token metadata using NEAR cli
 
 If you are using the [NEAR CLI](https://github.com/near/near-cli) via command line on mainnet, you can see that Mintbase tokens will only return the reference field from metadata:
 
@@ -72,13 +86,15 @@ near view nearcon2.mintbase1.near nft_token '{"token_id": "204"}'
 }
 ```
 
-Take the reference `dfnswq0LaXwNgGzqdW0-YPJLtTxc-fhQlLk8k1UCcJw` and stick it on the end of an arweave node base uri like \`https://arweave.net\`
-
-#### So....
+The reference field, in this case `dfnswq0LaXwNgGzqdW0-YPJLtTxc-fhQlLk8k1UCcJw` is a hash on the Arweave network. So, constructing the following URL and requesting it over https:
 
 {% embed url="https://arweave.net/dfnswq0LaXwNgGzqdW0-YPJLtTxc-fhQlLk8k1UCcJw" %}
+The full Arweve URL with refernce field (hash)
+{% endembed %}
 
-#### returns
+Results in the following...
+
+### Full example of NFT reference data
 
 ```
 
@@ -149,7 +165,7 @@ Take the reference `dfnswq0LaXwNgGzqdW0-YPJLtTxc-fhQlLk8k1UCcJw` and stick it on
 
 
 
-### Find the Metadata via the UI
+### Get token Metadata via the UI
 
 If we inspect our thing page:
 
