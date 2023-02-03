@@ -22,9 +22,13 @@ yarn install @mintbase-js/storage
 
 ### &#x20;**Step 3: Make a component that uploads a file**
 
-&#x20;This example accepts a file via input and then calls the storage method `uploadResult`which receives an argument of type File.
+This example accepts a file via input and then creates a metadata object in which it is contained. It then calls the storage method `uploadReference,` receiving a JSON argument resulting in an upload of the reference to arweave.
 
-When a result is returned the payload will contain an id field. When this is appended to the https://arweave.net/ base URI we will have a link to a permanently stored file!&#x20;
+The neat trick here is that within this JSON object, you can have certain fields containing files (media, document, animation\_url) and these will also get permanently uploaded!\
+\
+If you want to learn more about how permanent storage and metadata work check out the [Anatomy of a Non-Fungible Token Guide](anatomy-of-a-non-fungible-token.md)
+
+When a result is returned the payload will contain an id field. When this is appended to the https://arweave.net/ base URI we will have a link to a permanently stored JSON containing our also permanently stored media!
 
 ```typescript
 import { useState } from 'react';
@@ -41,7 +45,11 @@ const FileUpload = () => {
     e.preventDefault();
     if (!file) return;
     //call storage method to upload file to arweave
-    const uploadResult = await uploadFile(file);
+    const metadata = {
+    title: "Storage Guide"
+    media: file
+  }
+    const uploadResult = await uploadReference(metadata);
     console.log("https://arweave.net/" + uploadResult.id)
   };
 
