@@ -36,6 +36,7 @@
           * [storeData](mintbase-sdk-ref/packages/data/src/api/storeData/README.md)
           * [storeNfts](mintbase-sdk-ref/packages/data/src/api/storeNfts/README.md)
           * [metadataByMetadataId](mintbase-sdk-ref/packages/data/src/api/metadataByMetadataId/README.md)
+          * [checkStoreName](mintbase-sdk-ref/packages/data/src/api/checkStoreName/README.md)
           * [contractAttributes](mintbase-sdk-ref/packages/data/src/api/contractAttributes/README.md)
           * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/ownedTokens/README.md)
           * [tokenById](mintbase-sdk-ref/packages/data/src/api/tokenById/README.md)
