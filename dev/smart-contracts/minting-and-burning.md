@@ -34,4 +34,4 @@ To burn tokens, you can use the `nft_batch_burn` method:
 function nft_batch_burn(token_ids: Array<string>);
 ```
 
-This will remove the token from the on-chain storage! This means you can no longer use methos such as `nft_token` with this token ID, but storage requirements are being decreased by burning. To verify your identity, you are required to attach one yoctoNEAR to the method call.
+This will remove the token from the on-chain storage! This means you can no longer use methods such as `nft_token` with this token ID, but storage requirements are being decreased by burning. To verify your identity, you are required to attach one yoctoNEAR to the method call.
