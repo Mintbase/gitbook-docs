@@ -80,7 +80,7 @@ Find all the different entities and parameters for interacting with the API.
 
 #### GetTokenById
 
-Query to retrieve an specific nft/Token
+Query to retrieve a specific nft/Token
 
 you need tokenId , and contractAddress\
 **ex:**\
