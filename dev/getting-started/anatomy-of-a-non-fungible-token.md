@@ -20,7 +20,7 @@ An NFT is made up of several parts, each of those can be grouped into three type
 
 <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>NFTs on Mintbase are composed of three basic parts in three steps: Media, reference JSON and the on-chain token data. </p></figcaption></figure>
 
-Wether you are minting programmatically, using our interface, or one of our minting services you will perform the following operations in order:&#x20;
+Whether you are minting programmatically, using our interface, or one of our minting services you will perform the following operations in order:&#x20;
 
 ### **1. Upload Multimedia**
 
@@ -59,5 +59,5 @@ More than one token can share the same reference material URL. This can be usefu
 
 **Ready to get going? Start by** [**deploying your contract**](make-your-first-contract-call-deploycontract.md)**, then, move on to** [**upload/mint**](upload-reference-material-to-arweave-and-mint.md)**!**
 
-_\*IPFS currently carries a risk of loosing your content forever if no one hosts it. While solutions to this problem are being worked on, we suggest using Arweave instead. Hosts there are incentivized to keep as many of the networks' contents as possible with Proof of Access block production rewards._&#x20;
+_\*IPFS currently carries a risk of losing your content forever if no one hosts it. While solutions to this problem are being worked on, we suggest using Arweave instead. Hosts there are incentivized to keep as many of the networks' contents as possible with Proof of Access block production rewards._&#x20;
 
