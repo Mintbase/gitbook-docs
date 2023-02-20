@@ -46,7 +46,7 @@ const FileUpload = () => {
     if (!file) return;
     //call storage method to upload file to arweave
     const metadata = {
-    title: "Storage Guide"
+    title: "Storage Guide",
     media: file
   }
     const uploadResult = await uploadReference(metadata);
