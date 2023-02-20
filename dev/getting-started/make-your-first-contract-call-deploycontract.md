@@ -74,14 +74,15 @@ const DeployContractUI = ({ name, owner, contractId, symbol }:any) => {
   const handleDeployContract = async (): Promise<void> => {
     const wallet = await selector.wallet();
     await execute(
-          {wallet}),
+          {wallet},
           deployContract({
           name: name,
           ownerId: owner,
           metadata: {
             symbol: symbol
           }
-        })
+      })
+    )
   };
   return (
     <div>
