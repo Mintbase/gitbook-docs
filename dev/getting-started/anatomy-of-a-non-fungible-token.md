@@ -8,7 +8,7 @@ When using Mintbase it's helpful to understand the parts that make up an NFT. If
 
 When you see an NFT on a marketplace or in your wallet, it's easy to draw the conclusion the creative representation, the "media" (image, music, video etc.) _is the token._&#x20;
 
-While a token is _viewed_ through its media a **token's concerns** **are its** **identifier**, **contract**, **reference** and most importantly - **its** **owner**. &#x20;
+Although a token is presented digitally using its media, an on-chain **token's concerns** **are its** **identifier**, **contract**, **reference** and most importantly - **its** **owner**. &#x20;
 
 An NFT's primary use case is providing a cryptographically verifiable way to ascertain that _something_, the reference pointer, is owned by _someone,_ the owner.&#x20;
 
