@@ -38,7 +38,7 @@ Make your Store shine with a nice header image. The accepted upload formats ****
 
 **Important:** Up to 2/3 of the header image may be cropped out on desktop screens, depending on how wide they are. **Consider a safezone of the center 1/3 of the image.**
 
-![Safezone for header images](../../.gitbook/assets/mintbase-header-safezone.png)
+![Safezone for header images](../../.gitbook/assets/mintbase-header-safezone-23.png)
 
 
 
