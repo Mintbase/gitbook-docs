@@ -10,7 +10,7 @@ Blockchain is a technology, often referred to as Distributed Ledger Technology (
 
 In particular, cryptocurrencies which are based on blockchain technology enable the transfer of digital assets of any kind.  Digital currencies allow billions of users to take part in the financial ecosystem. As such, cryptocurrencies based on blockchain networks embrace the idea of decentralization, borderless trade and free flow of digital assets.
 
-****
+
 
 \
 

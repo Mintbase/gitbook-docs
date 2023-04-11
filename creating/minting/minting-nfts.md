@@ -28,7 +28,7 @@ A description explaining what this NFT is about.
 
 #### Main Image
 
-A cover image for your NFT. This is only how your NFT will appear around the marketplace, you can add more media if you want in the Forever Media section. The accepted upload formats **** are **.png / .jpeg / .gif / .svg+xml.** The ideal dimension is **500x500px (1:1)** and the max accepted size is **5mb**.
+A cover image for your NFT. This is only how your NFT will appear around the marketplace, you can add more media if you want in the Forever Media section. The accepted upload formats are **.png / .jpeg / .gif / .svg+xml.** The ideal dimension is **500x500px (1:1)** and the max accepted size is **5mb**.
 
 #### Category
 

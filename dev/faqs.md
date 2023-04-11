@@ -18,7 +18,7 @@ Anyone is welcome to apply for a grant. The projects funded through our program 
 
 ### **What chain is Mintbase built on?**
 
-We initially built on Ethereum **** but decided to stop and rebuild on NEAR Protocol: a sharded, proof-of-stake, scalable, green, WASM blockchain. Our [ETH fork](https://docs.mintbase.io/ethereum/minter-ui) is still up, but we’re no longer updating it.&#x20;
+We initially built on Ethereum but decided to stop and rebuild on NEAR Protocol: a sharded, proof-of-stake, scalable, green, WASM blockchain. Our [ETH fork](https://docs.mintbase.io/ethereum/minter-ui) is still up, but we’re no longer updating it.&#x20;
 
 ### What wallet do I need to connect to Mintbase?
 

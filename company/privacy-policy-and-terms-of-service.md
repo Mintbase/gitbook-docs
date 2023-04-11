@@ -64,7 +64,7 @@ We may update our Privacy Policy from time to time. Thus, we advise you to revie
 **Contact Us**
 
 If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.\
-****
+
 
 #### **YOUR RIGHTS AS A DATA SUBJECT (GDPR)**
 
@@ -140,7 +140,7 @@ If you wish to raise a complaint on how we have handled your personal data, you 
 
 You also have the right to lodge a complaint with the supervisory authority in the country of your habitual residence, place of work, or the place where you allege an infringement of one or more of our rights has taken place, if that is based in the EEA.
 
-****
+
 
 ## **Terms of Service**
 
@@ -163,8 +163,8 @@ Because we have a growing number of services, we sometimes need to describe addi
 THESE TERMS OF USE ARE IMPORTANT AND AFFECT YOUR LEGAL RIGHTS, SO PLEASE READ THEM CAREFULLY. WE WANT TO LET YOU KNOW THAT THE TERMS INCLUDE AN ARBITRATION AGREEMENT WHICH WILL, WITH LIMITED EXCEPTIONS, REQUIRE DISPUTES BETWEEN US TO BE SUBMITTED TO BINDING AND FINAL ARBITRATION. UNLESS YOU OPT OUT OF THE ARBITRATION AGREEMENT: (1) YOU WILL ONLY BE PERMITTED TO PURSUE CLAIMS AND SEEK RELIEF AGAINST US ON AN INDIVIDUAL BASIS, NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY CLASS OR REPRESENTATIVE ACTION OR PROCEEDING; AND (2) YOU ARE AGREEING TO MANDATORY INDIVIDUAL ARBITRATION FOR THE RESOLUTION OF DISPUTES AND WAIVING YOUR RIGHT TO A JURY TRIAL ON YOUR CLAIMS. PLEASE READ SECTION 15 CAREFULLY.\
 BY COMPLETING THE ACCOUNT REGISTRATION PROCESS (CONNECTING YOUR WALLET), USING OUR SERVICES AND/OR PURCHASING CRYPTO ASSETS, YOU AGREE TO BE BOUND BY THESE TERMS AND ALL OF THE TERMS INCORPORATED HEREIN BY REFERENCE. If you do not agree to these Terms, you may not access or use the Service or purchase the  Assets.
 
-****\
-****Mintbase reserves the right to change or modify these Terms at any time and at our sole discretion. If we make changes to these Terms, we will provide notice of such changes, such as updating the “Last Updated” date at the beginning of these Terms. By continuing to access or use the Service, you confirm your acceptance of the revised Terms and all of the terms incorporated therein by reference. We encourage you to review the Terms frequently to ensure that you understand the terms and conditions that apply when you access or use the Service. If you do not agree to the revised Terms, you may not access or use the Service.
+\
+Mintbase reserves the right to change or modify these Terms at any time and at our sole discretion. If we make changes to these Terms, we will provide notice of such changes, such as updating the “Last Updated” date at the beginning of these Terms. By continuing to access or use the Service, you confirm your acceptance of the revised Terms and all of the terms incorporated therein by reference. We encourage you to review the Terms frequently to ensure that you understand the terms and conditions that apply when you access or use the Service. If you do not agree to the revised Terms, you may not access or use the Service.
 
 2\. Privacy Policy
 
@@ -204,8 +204,8 @@ You are hereby granted a limited, nonexclusive, non-transferable, non-sublicensa
 
 6\. Third Party Services
 
-****\
-****The Service may contain links to third-party websites (“Third-Party Websites”) and applications (“Third-Party Applications”). When you click on a link to a Third-Party Website or Third-Party Application, we will not warn you that you have left our Service and are subject to the Terms and conditions (including privacy policies) of another website or destination. Such Third-Party Websites and Third-Party Applications are not under the control of Mintbase. Mintbase is not responsible for any Third-Party Websites or Third-Party Applications. Mintbase provides these Third-Party Websites and Third-Party Applications only as a convenience and does not review, approve, monitor, endorse, warrant, or make any representations with respect to Third-Party Websites or Third-Party Applications, or their products or services. You use all links in Third-Party Websites, and Third-Party Applications at your own risk. When you leave our Service, our Terms and policies no longer govern. You should review all applicable agreements and policies, including privacy and data gathering practices, of any Third-Party Websites or Third-Party Applications, and should make whatever investigation you feel necessary or appropriate before proceeding with any transaction with any third party.
+\
+The Service may contain links to third-party websites (“Third-Party Websites”) and applications (“Third-Party Applications”). When you click on a link to a Third-Party Website or Third-Party Application, we will not warn you that you have left our Service and are subject to the Terms and conditions (including privacy policies) of another website or destination. Such Third-Party Websites and Third-Party Applications are not under the control of Mintbase. Mintbase is not responsible for any Third-Party Websites or Third-Party Applications. Mintbase provides these Third-Party Websites and Third-Party Applications only as a convenience and does not review, approve, monitor, endorse, warrant, or make any representations with respect to Third-Party Websites or Third-Party Applications, or their products or services. You use all links in Third-Party Websites, and Third-Party Applications at your own risk. When you leave our Service, our Terms and policies no longer govern. You should review all applicable agreements and policies, including privacy and data gathering practices, of any Third-Party Websites or Third-Party Applications, and should make whatever investigation you feel necessary or appropriate before proceeding with any transaction with any third party.
 
 7\. User Conduct
 
@@ -228,8 +228,8 @@ You agree that you will not violate any law, contract, intellectual property or 
 
 Mintbase provides a platform to create non-fungible tokens and facilitates trade to buyers and sellers. We are community driven and our core values are providing an honest, safe and secure platform. We require all users to be 18 years old or older. If you are under 18, you may ask your parents, but only with involvement of the account holder. However, the account holder is responsible for everything done with that account.
 
-****\
-****8. User Content and Copyright
+\
+8\. User Content and Copyright
 
 \
 You are solely responsible for your use of the Services and for any Content you provide, including compliance with applicable laws, rules, and regulations. We take no responsibility for the Content posted or listed via the Services.\
@@ -241,6 +241,6 @@ Mintbase reserves the right to remove content without prior notice.&#x20;
 
 **END OF AGREEMENT**\
 \
-****
+
 
 ##

@@ -4,7 +4,7 @@ description: How to programmatically delist NFTs from our marketplace
 
 # (Un) Delisting NFTs
 
-**You can also do this using the mintbase.xyz Launchpad UI by following** [**these instructions**](../../../market/selling/removing-a-listing-from-the-market.md)****
+**You can also do this using the mintbase.xyz Launchpad UI by following** [**these instructions**](../../../creating/selling-nfts/relisting-or-remove-listing.md)
 
 Using the CLI, you can call the Mintbase simple market contract to remove listings programmatically:
 

@@ -100,7 +100,7 @@ Split Revenues clears after every transaction (sell or transfer).
 
 The amount of Split Revenue available depends on the amount of royalties: **100% - X% of Forever Royalties - 2.5% of Market Fee = available revenue.**
 
-****
+
 
 If you **click the percentage** you can see how many accounts are set, which accounts, and how much percentage of the total each one will get. **Like this:**
 

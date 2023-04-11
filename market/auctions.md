@@ -107,5 +107,5 @@ If you have the top offer, and don’t withdraw after 24 hours, the seller can a
 * After 24 hours that an offer is made, the offerer can withdraw it and you will no longer be able to accept it
 
 {% hint style="info" %}
-Both buyers and sellers can get e-mail notifications of auction events, when turning it on on [User Settings](../creating/sign-in/user-settings.md)
+Both buyers and sellers can get e-mail notifications of auction events, when turning it on on [User Settings](../creating/getting-started/user-settings.md)
 {% endhint %}

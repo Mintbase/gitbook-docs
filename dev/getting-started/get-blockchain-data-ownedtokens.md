@@ -33,7 +33,7 @@ This endpoint enables you to make GraphQL queries to our API.\
 
 You can try this and other queries on the[ Hasura Sandbox](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Finterop-mainnet.hasura.app%2Fv1%2Fgraphql)
 
-**More examples and information on how to query all sorts of blockchain information can be found** [**here**](get-blockchain-data-ownedtokens.md#graphql-indexer)****
+**More examples and information on how to query all sorts of blockchain information can be found** [**here**](get-blockchain-data-ownedtokens.md#graphql-indexer)
 
 ```typescript
 query ownedTokens {

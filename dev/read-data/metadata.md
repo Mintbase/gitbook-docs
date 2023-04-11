@@ -8,7 +8,7 @@ description: Describe your NFT to the world using reference JSON
 
 Metadata is responsible for describing the properties of your token. A set of standard fields allow for on-chain metadata storage, however a more efficient and robust means of expressing the properties including attributes further documentation and more lives **off-chain in a reference.**
 
-_Looking for a quick example of reference JSON? ****_ [Skip to the example.](metadata.md#full-example-of-nft-reference-data-with-media-title-attributes-and-tags)
+_Looking for a quick example of reference JSON?_ [Skip to the example.](metadata.md#full-example-of-nft-reference-data-with-media-title-attributes-and-tags)
 
 The **reference** field is where the URL reference to this JSON document will be stored. This field's value is passed to the the [mint transaction](../../mintbase-sdk-ref/packages/sdk/src/mint/) before the NFT is created on the blockchain.
 

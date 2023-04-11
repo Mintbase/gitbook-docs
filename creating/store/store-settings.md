@@ -28,13 +28,13 @@ When filled, they will display on your Store as buttons.
 
 #### Profile Image
 
-Displayed on your Store and across Mintbase. The accepted upload formats **** are **.png / .jpeg / .gif / .svg+xml.** The ideal dimension is **500x500px (1:1)** and the max accepted size is **500mb**.
+Displayed on your Store and across Mintbase. The accepted upload formats are **.png / .jpeg / .gif / .svg+xml.** The ideal dimension is **500x500px (1:1)** and the max accepted size is **500mb**.
 
 
 
 ### Header Image
 
-Make your Store shine with a nice header image. The accepted upload formats **** are **.png / .jpeg / .gif / .svg+xml.** The ideal dimension is **1500x500px (3:1)** and the max accepted size is **500mb**.
+Make your Store shine with a nice header image. The accepted upload formats are **.png / .jpeg / .gif / .svg+xml.** The ideal dimension is **1500x500px (3:1)** and the max accepted size is **500mb**.
 
 **Important:** Up to 2/3 of the header image may be cropped out on desktop screens, depending on how wide they are. **Consider a safezone of the center 1/3 of the image.**
 

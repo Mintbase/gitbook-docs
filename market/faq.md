@@ -38,7 +38,7 @@ Read more about [interoperability.md](../creating/interoperability.md "mention")
 
 For now, we don't support fiat payments. However, if you're listing your tokens on other platforms, they can decide to integrate fiat (credit card) payments or other cryptocurrencies.
 
-****
+
 
 ## **Locked content**
 

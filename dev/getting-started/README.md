@@ -24,11 +24,11 @@ With our tools, **it is possible to cover all points of token blockchain app dev
 
 Easily deploy a ready-to-use token contract from Mintbase and interact with it in a few lines of code. Curate your own market by listing, buying and selling on Mintbase markets with affiliate bonuses.&#x20;
 
-### ****[**@mintbase-js/react**](./#mintbase-js-react)****
+### [**@mintbase-js/react**](./#mintbase-js-react)
 
 Out-of-the-box wallet integration with our react wallet selector wrapper.
 
-### ****[**@mintbase-js/storage**](../../mintbase-sdk-ref/packages/storage/)****
+### [**@mintbase-js/storage**](../../mintbase-sdk-ref/packages/storage/)
 
 Easily upload your source material to Arweave where it will be permanently stored to be used in minting.
 
@@ -36,7 +36,7 @@ Easily upload your source material to Arweave where it will be permanently store
 
 Get general [data from the blockchain in a few lines of code](../../mintbase-sdk-ref/packages/data/) or use our [GraphQl indexer](../read-data/mintbase-graph.md) to make your own custom queries.&#x20;
 
-****
+
 
 {% hint style="info" %}
 Visit the documentation for each of the modules to find usage examples as well as descriptions of the available methods.

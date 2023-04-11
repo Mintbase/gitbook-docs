@@ -32,7 +32,7 @@ A quick search will turn up many ways which you can use these new services. Howe
 
 {% hint style="success" %}
 **Need permanent storage?** \
-****We are developing a service on top of **Arweave** which makes uploading simple and pairs perfectly with our minting APIs. _This service is in alpha, but will be available to the general public sometime in 2023._ &#x20;
+We are developing a service on top of **Arweave** which makes uploading simple and pairs perfectly with our minting APIs. _This service is in alpha, but will be available to the general public sometime in 2023._ &#x20;
 {% endhint %}
 
 ### 2. Create a Reference (Metadata)

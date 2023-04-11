@@ -10,11 +10,11 @@ Web2 infrastructure is centralized and all your data, connections and general in
 
 Web3 is based around blockchain technology and works in a more decentralized and public manner, where we try to always achieve **interoperability.**
 
-****
+
 
 **Interoperability** is the highway connecting all the different platforms on the Web3 universe.
 
-****
+
 
 Everything you do on Mintbase is on the NEAR blockchain using **NEP-171** token standard.&#x20;
 
