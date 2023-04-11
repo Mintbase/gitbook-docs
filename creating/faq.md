@@ -2,7 +2,7 @@
 description: Frequently Asked Questions on Mintbase
 ---
 
-# FAQs
+# 🙋 FAQs
 
 ## Marketplace
 
@@ -32,7 +32,7 @@ Once your token is no longer listed on the market, the storage deposit is no lon
 
 You can sell the NFT on whatever platform you like as long as it follows the NFT standard. Even if you decide to build your own platform, later on, your NFTs can be sold and resold there. NFTs are interoperable.&#x20;
 
-Read more about [interoperability.md](../creating/interoperability.md "mention")
+Read more about [interoperability.md](additional-content/interoperability.md "mention")
 
 ## **What happens if we have thousands of sales and you decide to close it etc?**
 

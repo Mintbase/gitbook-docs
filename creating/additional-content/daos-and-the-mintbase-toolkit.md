@@ -24,7 +24,7 @@ When you go to app.astrodao.com and select any DAO — we will be using the [Min
 
 This will open another window with **Propose a Transfer** as the default setting. Click on **Propose a Transfer** and search for **Function Call.**&#x20;
 
-![](<../.gitbook/assets/Screenshot 2022-08-01 at 16.37.17.png>)
+![](<../../.gitbook/assets/Screenshot 2022-08-01 at 16.37.17.png>)
 
 To do anything via your DAO - you need to **add your DAO as a minter** to an existing store - or **create the store via the DAO**.&#x20;
 

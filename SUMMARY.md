@@ -88,24 +88,20 @@
   * [Buying as Rolling Auction](creating/buying-nfts/buying-as-rolling-auction.md)
 * [🚀 Creating NFTs](creating/creating-nfts/README.md)
   * [What is a Mintbase Store](creating/creating-nfts/what-is-a-mintbase-store.md)
-  * [Deploy a Store](creating/creating-nfts/deploy-fee.md)
-  * [Store Page](creating/creating-nfts/store-profile.md)
-  * [Customizing your store](creating/creating-nfts/store-settings.md)
-  * [Minting NFTs](creating/creating-nfts/minting-nfts.md)
-  * [Multiplying NFTs](creating/creating-nfts/multiplying-nfts.md)
-  * [Transferring NFTs](creating/creating-nfts/transferring-nfts.md)
-  * [Burning NFTs](creating/creating-nfts/burning-nfts.md)
-* [Data Storage](creating/data-storage.md)
-* [DAOs & the Mintbase Toolkit](creating/daos-and-the-mintbase-toolkit.md)
-* [Interoperability](creating/interoperability.md)
-
-## Market
-
-* [FAQs](market/faq.md)
-* [Thing Page](market/thing-page.md)
-* [Simple Sale](market/simple-sale.md)
-* [Rolling Auction](market/auctions.md)
-* [Split Revenues & Forever Royalties](market/splits.md)
+  * [Deploy a Store](creating/store/deploy-fee.md)
+  * [Store Page](creating/store/store-profile.md)
+  * [Customizing your store](creating/store/store-settings.md)
+  * [Minting NFTs](creating/minting/minting-nfts.md)
+  * [Split Revenues & Forever Royalties](creating/creating-nfts/splits.md)
+  * [Multiplying NFTs](creating/minting/multiplying-nfts.md)
+  * [Transferring NFTs](creating/minting/transferring-nfts.md)
+  * [Burning NFTs](creating/minting/burning-nfts.md)
+* [📚 Additional Content](creating/additional-content/README.md)
+  * [Thing Page](creating/additional-content/thing-page.md)
+  * [Interoperability](creating/additional-content/interoperability.md)
+  * [Data Storage](creating/additional-content/data-storage.md)
+  * [DAOs & the Mintbase Toolkit](creating/additional-content/daos-and-the-mintbase-toolkit.md)
+* [🙋 FAQs](creating/faq.md)
 
 ## Company
 

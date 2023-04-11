@@ -46,4 +46,4 @@ You can choose to [List as Simple Sale](listing-as-simple-sale.md) or [List as R
 
 When you list a token for sale on Mintbase, you will be asked to deposit 0.01N _per token_ listed into the market contract. This deposit is required by NEAR protocol and **is not a Mintbase fee. The deposit will be refunded to you when a token is sold or the listing is removed.** &#x20;
 
-For more details regarding storage deposits on NEAR [read this section or our FAQ](../../market/faq.md#what-is-a-storage-deposit-and-why-is-it-required-to-list-on-the-market)
+For more details regarding storage deposits on NEAR [read this section or our FAQ](../faq.md#what-is-a-storage-deposit-and-why-is-it-required-to-list-on-the-market)
