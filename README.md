@@ -8,7 +8,7 @@ The only fully automated Minter + Marketplace on NEAR that helps you create and 
 
 ## Where do I start?
 
-1\. If you are a [creator](creating/store/), then you will find our website interface the most intuitive way to get started.
+1\. If you are a [creator](creating/getting-started/), then you will find our website interface the most intuitive way to get started.
 
 2\. For [developers](dev/getting-started/) ready to build their own Mintbase the getting started section of our docs is your starting point.
 

@@ -1,8 +1,8 @@
 ---
-description: Customize your smart contract settings
+description: Change your store settings
 ---
 
-# Store Settings
+# Customizing your store
 
 Click on the user image on the top right to open the dropdown menu and select **Store Settings.**
 
@@ -10,7 +10,7 @@ Click on the user image on the top right to open the dropdown menu and select **
 **If you don't own a store, you will not have the "Store Settings" option in the menu.**
 {% endhint %}
 
-![](<../../.gitbook/assets/Screenshot 2022-04-12 at 15.24.37.png>)
+![](<../../.gitbook/assets/Screenshot 2023-04-11 at 15.53.22.png>)
 
 If you have multiple stores, you can easily switch between the settings of each one:
 
@@ -30,9 +30,7 @@ When filled, they will display on your Store as buttons.
 
 Displayed on your Store and across Mintbase. The accepted upload formats are **.png / .jpeg / .gif / .svg+xml.** The ideal dimension is **500x500px (1:1)** and the max accepted size is **500mb**.
 
-
-
-### Header Image
+#### Header Image
 
 Make your Store shine with a nice header image. The accepted upload formats are **.png / .jpeg / .gif / .svg+xml.** The ideal dimension is **1500x500px (3:1)** and the max accepted size is **500mb**.
 

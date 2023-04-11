@@ -1,4 +1,4 @@
-# Buying NFTs
+# 🛒 Buying NFTs
 
 Everything you need to know to buy NFTs on Mintbase.
 

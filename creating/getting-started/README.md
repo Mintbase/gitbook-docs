@@ -2,7 +2,7 @@
 description: Hello! Happy to have you here
 ---
 
-# Getting Started
+# 🛠 Getting Started
 
 ## Mintbase for Creators
 

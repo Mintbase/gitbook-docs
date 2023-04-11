@@ -8,7 +8,7 @@ The Thing Page is where all the the info of an NFT is displayed. Here you can ch
 
 
 
-A **thing** is a collection of multiple **tokens.** When [minting](../creating/minting/minting-nfts.md) an NFT, you can choose to mint either 1/1 or multiple editions of the same thing. On the thing page, you can check all this, and access the individual token pages.
+A **thing** is a collection of multiple **tokens.** When [minting](../creating/creating-nfts/minting-nfts.md) an NFT, you can choose to mint either 1/1 or multiple editions of the same thing. On the thing page, you can check all this, and access the individual token pages.
 
 
 
@@ -26,7 +26,7 @@ These fields will be visible in all thing pages.
 
 ### Listing Details
 
-Here you can check if this NFT is [listed](../creating/minting/listing-nfts.md) via Simple Sale or Rolling Auction.
+Here you can check if this NFT is [listed](broken-reference) via Simple Sale or Rolling Auction.
 
 ![Example of a Listing Details section](<../.gitbook/assets/Screenshot 2022-05-10 at 17.41.20.png>)
 
@@ -48,7 +48,7 @@ This section is a summary of a bunch of infos of the NFT. All the infos that are
 
 #### **Store**
 
-[Store](../creating/store/) where this NFT was minted.
+[Store](broken-reference) where this NFT was minted.
 
 #### **Minter**
 
@@ -80,7 +80,7 @@ Some NFTs can have websites with "See More" info, that will be linked in this se
 
 On this section, you can check the percentage set for Royalties and Revenues. Also, which accounts are set to receive Royalties and Revenues (and how much %) once this NFT gets sold.
 
-All this info is set during the [minting](../creating/minting/minting-nfts.md) process.
+All this info is set during the [minting](../creating/creating-nfts/minting-nfts.md) process.
 
 
 
@@ -120,7 +120,7 @@ Here is specified the storage where the info of the NFT is stored. It's on [Arwe
 
 #### **Contract**
 
-The smart contract, or [store](../creating/store/), from where this NFT was minted.
+The smart contract, or [store](broken-reference), from where this NFT was minted.
 
 #### **Transaction ID**
 

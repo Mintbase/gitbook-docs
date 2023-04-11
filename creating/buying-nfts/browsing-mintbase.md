@@ -30,7 +30,7 @@ Use the activity table to keep an eye on the latest transactions happening all a
 
 You can follow all the main events like Sales, Transfers, Mints, Burns and more.
 
-Clicking the "open in new tab" icon next to the date will open the specific transaction on Nearblock in a new tab.
+Clicking the "open in new tab" icon next to the date will open the specific transaction on [Nearblocks](https://nearblocks.io/) in a new tab.
 
 To access from any page, go to **Stats** in the navbar and click on **Activity**
 

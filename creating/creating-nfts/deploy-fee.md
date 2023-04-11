@@ -2,19 +2,22 @@
 description: How to deploy a new store on Mintbase
 ---
 
-# Deploy
+# Deploy a Store
 
-In the [Launchpad](../minting/) tab, press **New Store.**
+In the navbar, go to **Create** and **My Stores**\
+![](<../../.gitbook/assets/Screenshot 2023-04-11 at 11.28.35.png>)
 
-![](<../../.gitbook/assets/Untitled design (16).png>)
+Click on **New Store**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 15.45.png" alt=""><figcaption></figcaption></figure>
 
 A modal will show up, with 2 fields you need to fill:
-
-![New Store Modal](<../../.gitbook/assets/Screenshot 2022-04-20 at 18.00.39.png>)
 
 #### Store Name
 
 The name of your store (must be unique and no spaces). You can't change this later.
+
+This is the name of your contract, all transactions on it can be seen on [Nearblocks](https://nearblocks.io/).
 
 #### Symbol
 
@@ -26,7 +29,7 @@ After filling out both fields, click on **Deploy Store**. You will be redirected
 
 ### Why 6.5 NEAR?
 
-It costs 6.5 NEAR to deploy a store, **this goes to the NEAR blockchain and not Mintbase.** These are storage costs as you are paying to reserve space on the chain. You can see 602929 Bytes are used.
+It costs 6.5 NEAR to deploy a store, **this goes to the NEAR blockchain and not Mintbase.** These are **storage costs** as you are paying to reserve space on the chain. You can see 602929 Bytes are used.
 
 ![](<../../.gitbook/assets/Screen Shot 2021-06-07 at 4.13.47 PM.png>)
 
@@ -36,4 +39,11 @@ If your "Available" balance becomes too low,  just send more NEAR to your contra
 
 ![](<../../.gitbook/assets/Screen Shot 2021-06-07 at 4.14.41 PM.png>)
 
-###
+## Nice, you deployed your store!
+
+You're now the owner of a smart contract on the NEAR blockchain.
+
+Time to start customizing your store and adding minters.
+
+Or you can go directly mint your first NFT on your new store :rocket:
+
