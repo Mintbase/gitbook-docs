@@ -8,7 +8,7 @@ On the navbar go to **Create** and **My Stores**
 You can click **Mint NFT** on the navbar to go mint from the latest selected store
 {% endhint %}
 
-**Select the store** you want to mint from. If you don't have a store, you need to [deploy](../store/deploy-fee.md) one first.
+**Select the store** you want to mint from. If you don't have a store, you need to [deploy](deploy-fee.md) one first.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 15.45_v2.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,7 +61,7 @@ Forever Royalties are perpetual and are set for the lifetime of the NFT. The wal
 * You can add up to 25 wallets (the sum of the percentages can't exceed 50%).
 * If this field is left empty, the NFT will have no Forever Royalties.
 
-The store owner can set **Default Forever Royalties OR Revenues** on the [Store Settings](../store/store-settings.md), which can't be edited on the minting flow.
+The store owner can set **Default Forever Royalties OR Revenues** on the [Store Settings](store-settings.md), which can't be edited on the minting flow.
 
 ## Split Revenues
 
@@ -93,7 +93,7 @@ Option to add a website to your NFT.
 
 ## Custom
 
-Add custom attributes to your NFT. This is very important because it defines the [filters](../store/store-profile.md#filters) of your store.
+Add custom attributes to your NFT. This is very important because it defines the [filters](store-profile.md#filters) of your store.
 
 ##
 

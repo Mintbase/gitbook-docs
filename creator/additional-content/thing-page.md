@@ -8,7 +8,7 @@ The Thing Page is where all the the info of an NFT is displayed. Here you can ch
 
 
 
-A **thing** is a collection of multiple **tokens.** When [minting](../minting/minting-nfts.md) an NFT, you can choose to mint either 1/1 or multiple editions of the same thing. On the thing page, you can check all this, and access the individual token pages.
+A **thing** is a collection of multiple **tokens.** When [minting](../creating-nfts/minting-nfts.md) an NFT, you can choose to mint either 1/1 or multiple editions of the same thing. On the thing page, you can check all this, and access the individual token pages.
 
 
 
@@ -58,7 +58,7 @@ This section is a summary of important information of the NFT. All the infos tha
 
 ### **Minter**
 
-A store can have [multiple minters](../store/store-settings.md#minters), here you can check who minted this specific NFT.
+A store can have [multiple minters](../creating-nfts/store-settings.md#minters), here you can check who minted this specific NFT.
 
 ### **Type**
 
@@ -82,7 +82,7 @@ Some NFTs can have websites with "See More" info, that will be linked in this se
 
 ## Properties
 
-Here you can see all the properties of the NFT. These are the properties that you can [filter by on the Store Page](../store/store-profile.md#filters).
+Here you can see all the properties of the NFT. These are the properties that you can [filter by on the Store Page](../creating-nfts/store-profile.md#filters).
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 18.12.42.png" alt=""><figcaption></figcaption></figure>
 
@@ -90,7 +90,7 @@ Here you can see all the properties of the NFT. These are the properties that yo
 
 On this section, you can check the percentage set for Royalties and Revenues. Also, which accounts are set to receive Royalties and Revenues (and how much %) once this NFT gets sold.
 
-All this info is set during the [minting](../minting/minting-nfts.md) process.
+All this info is set during the [minting](../creating-nfts/minting-nfts.md) process.
 
 ![Splits section on the Thing Page](<../../.gitbook/assets/Screenshot 2022-05-20 at 10.53.08.png>)
 
