@@ -44,7 +44,7 @@ If you're looking for some new NFTS, the core of Mintbase is the browsing and ex
 
 We hope you enjoy you're time creating NFTs on Mintbase.
 
-## Singing Out
+## Signing Out
 
 Click on the user image on the top right to open the menu and select **Sign Out.**
 
