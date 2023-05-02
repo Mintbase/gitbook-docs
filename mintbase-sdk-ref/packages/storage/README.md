@@ -1,4 +1,3 @@
-
 # Storage
 
 Convenience methods for storing NFT reference materials.
@@ -85,7 +84,7 @@ const FileUpload = () => {
 # Upload References in the Browser
 
 The easiest way to upload a reference json for your token is with this method.
-Calling it uploads a JSON object containing media of type [File](https://developer.mozilla.org/en-US/docs/Web/API/File) that is uploaded as well automatically. 
+Calling it uploads a JSON object containing media of type [File](https://developer.mozilla.org/en-US/docs/Web/API/File) that is uploaded as well automatically.
 This produces a permanently stored reference object containing a media field which has also been uploaded to arweave to save you from uploading twice.
 ## uploadReference(referenceObject: ReferenceObject): ArweaveResponse
 
