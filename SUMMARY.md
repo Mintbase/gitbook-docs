@@ -1,11 +1,8 @@
 # Table of contents
 
-
 * [Overview](README.md)
 
-
 ## Developer <a href="#dev" id="dev"></a>
-
 
 * [🛠 Getting Started](dev/getting-started/README.md)
   * [🔬 Anatomy of a Non-Fungible Token](dev/getting-started/anatomy-of-a-non-fungible-token.md)
@@ -14,44 +11,44 @@
   * [☁ Upload Reference Material To Arweave and Mint](dev/getting-started/upload-reference-material-to-arweave-and-mint.md)
   * [🖼 Get Blockchain Data (ownedTokens)](dev/getting-started/get-blockchain-data-ownedtokens.md)
 * [📚 Mintbase JS](mintbase-sdk-ref/README.md)
-    * [@mintbase-js/sdk](mintbase-sdk-ref/packages/sdk/README.md)
-        * [config](mintbase-sdk-ref/packages/sdk/src/config/README.md)
-        * [mint](mintbase-sdk-ref/packages/sdk/src/mint/README.md)
-        * [buy](mintbase-sdk-ref/packages/sdk/src/buy/README.md)
-        * [list](mintbase-sdk-ref/packages/sdk/src/list/README.md)
-        * [execute](mintbase-sdk-ref/packages/sdk/src/execute/README.md)
-        * [depositStorage](mintbase-sdk-ref/packages/sdk/src/depositStorage/README.md)
-        * [burn](mintbase-sdk-ref/packages/sdk/src/burn/README.md)
-        * [transfer](mintbase-sdk-ref/packages/sdk/src/transfer/README.md)
-        * [deployContract](mintbase-sdk-ref/packages/sdk/src/deployContract/README.md)
-        * [transferContractOwnership](mintbase-sdk-ref/packages/sdk/src/transferContractOwnership/README.md)
-        * [addMinter](mintbase-sdk-ref/packages/sdk/src/addMinter/README.md)
-        * [removeMinter](mintbase-sdk-ref/packages/sdk/src/removeMinter/README.md)
-        * [batchChangeMinters](mintbase-sdk-ref/packages/sdk/src/batchChangeMinters/README.md)
-        * [delist](mintbase-sdk-ref/packages/sdk/src/delist/README.md)
-    * [@mintbase-js/data](mintbase-sdk-ref/packages/data/README.md)
-        * [API Methods](mintbase-sdk-ref/packages/data/src/api/README.md)
-          * [ownedNftsByStore](mintbase-sdk-ref/packages/data/src/api/ownedNftsByStore/README.md)
-          * [nearPrice](mintbase-sdk-ref/packages/data/src/api/nearPrice/README.md)
-          * [storeData](mintbase-sdk-ref/packages/data/src/api/storeData/README.md)
-          * [storeNfts](mintbase-sdk-ref/packages/data/src/api/storeNfts/README.md)
-          * [metadataByMetadataId](mintbase-sdk-ref/packages/data/src/api/metadataByMetadataId/README.md)
-          * [checkStoreName](mintbase-sdk-ref/packages/data/src/api/checkStoreName/README.md)
-          * [attributesByContract](mintbase-sdk-ref/packages/data/src/api/attributesByContract/README.md)
-          * [tokensByAttributes](mintbase-sdk-ref/packages/data/src/api/tokensByAttributes/README.md)
-          * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/ownedTokens/README.md)
-          * [tokenById](mintbase-sdk-ref/packages/data/src/api/tokenById/README.md)
-          * [tokenListingCounts](mintbase-sdk-ref/packages/data/src/api/tokenListingCountsByMetaId/README.md)
-          * [tokenByStatus](mintbase-sdk-ref/packages/data/src/api/tokensByStatus/README.md)
-          * [tokenOwner](mintbase-sdk-ref/packages/data/src/api/tokenOwner/README.md)
-          * [tokenProvenance](mintbase-sdk-ref/packages/data/src/api/tokenProvenance/README.md)
-          * [tokenOwnersByMetadataId](mintbase-sdk-ref/packages/data/src/api/tokenOwnersByMetadataId/README.md)
-          * [ownedStores](mintbase-sdk-ref/packages/data/src/api/ownedStores/README.md)
-    * [@mintbase-js/react](mintbase-sdk-ref/packages/react/README.md)
-    * [@mintbase-js/storage](mintbase-sdk-ref/packages/storage/README.md)
-    * [@mintbase-js/auth](mintbase-sdk-ref/packages/auth/README.md)
-    * [@mintbase-js/rpc](mintbase-sdk-ref/packages/rpc/README.md)
-    * [Testing Library](mintbase-sdk-ref/packages/testing/README.md)
+  * [@mintbase-js/sdk](mintbase-sdk-ref/packages/sdk/README.md)
+    * [config](mintbase-sdk-ref/packages/sdk/src/config/README.md)
+    * [mint](mintbase-sdk-ref/packages/sdk/src/mint/README.md)
+    * [buy](mintbase-sdk-ref/packages/sdk/src/buy/README.md)
+    * [list](mintbase-sdk-ref/packages/sdk/src/list/README.md)
+    * [execute](mintbase-sdk-ref/packages/sdk/src/execute/README.md)
+    * [depositStorage](mintbase-sdk-ref/packages/sdk/src/depositStorage/README.md)
+    * [burn](mintbase-sdk-ref/packages/sdk/src/burn/README.md)
+    * [transfer](mintbase-sdk-ref/packages/sdk/src/transfer/README.md)
+    * [deployContract](mintbase-sdk-ref/packages/sdk/src/deployContract/README.md)
+    * [transferContractOwnership](mintbase-sdk-ref/packages/sdk/src/transferContractOwnership/README.md)
+    * [addMinter](mintbase-sdk-ref/packages/sdk/src/addMinter/README.md)
+    * [removeMinter](mintbase-sdk-ref/packages/sdk/src/removeMinter/README.md)
+    * [batchChangeMinters](mintbase-sdk-ref/packages/sdk/src/batchChangeMinters/README.md)
+    * [delist](mintbase-sdk-ref/packages/sdk/src/delist/README.md)
+  * [@mintbase-js/data](mintbase-sdk-ref/packages/data/README.md)
+    * [API Methods](mintbase-sdk-ref/packages/data/src/api/README.md)
+      * [ownedNftsByStore](mintbase-sdk-ref/packages/data/src/api/ownedNftsByStore/README.md)
+      * [nearPrice](mintbase-sdk-ref/packages/data/src/api/nearPrice/README.md)
+      * [storeData](mintbase-sdk-ref/packages/data/src/api/storeData/README.md)
+      * [storeNfts](mintbase-sdk-ref/packages/data/src/api/storeNfts/README.md)
+      * [metadataByMetadataId](mintbase-sdk-ref/packages/data/src/api/metadataByMetadataId/README.md)
+      * [checkStoreName](mintbase-sdk-ref/packages/data/src/api/checkStoreName/README.md)
+      * [attributesByContract](mintbase-sdk-ref/packages/data/src/api/attributesByContract/README.md)
+      * [tokensByAttributes](mintbase-sdk-ref/packages/data/src/api/tokensByAttributes/README.md)
+      * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/ownedTokens/README.md)
+      * [tokenById](mintbase-sdk-ref/packages/data/src/api/tokenById/README.md)
+      * [tokenListingCounts](mintbase-sdk-ref/packages/data/src/api/tokenListingCountsByMetaId/README.md)
+      * [tokenByStatus](mintbase-sdk-ref/packages/data/src/api/tokensByStatus/README.md)
+      * [tokenOwner](mintbase-sdk-ref/packages/data/src/api/tokenOwner/README.md)
+      * [tokenProvenance](mintbase-sdk-ref/packages/data/src/api/tokenProvenance/README.md)
+      * [tokenOwnersByMetadataId](mintbase-sdk-ref/packages/data/src/api/tokenOwnersByMetadataId/README.md)
+      * [ownedStores](mintbase-sdk-ref/packages/data/src/api/ownedStores/README.md)
+  * [@mintbase-js/react](mintbase-sdk-ref/packages/react/README.md)
+  * [@mintbase-js/storage](mintbase-sdk-ref/packages/storage/README.md)
+  * [@mintbase-js/auth](mintbase-sdk-ref/packages/auth/README.md)
+  * [@mintbase-js/rpc](mintbase-sdk-ref/packages/rpc/README.md)
+  * [Testing Library](mintbase-sdk-ref/packages/testing/README.md)
 * [📊 GraphQL Indexer](dev/read-data/mintbase-graph.md)
 * [📄 Examples](dev/examples/README.md)
   * [Build a Simple Marketplace](dev/examples/simple-marketplace.md)
@@ -72,9 +69,7 @@
   * [(Un) Delisting NFTs](dev/write-data/near-cli/un-delisting-nfts.md)
 * [🚁 Get Help](dev/get-help.md)
 
-
 ## Creator
-
 
 * [🛠 Getting Started](creator/getting-started/README.md)
   * [Set up a Wallet](creator/getting-started/set-up-a-wallet.md)
@@ -86,6 +81,7 @@
   * [Listing as Simple Sale](creator/selling-nfts/listing-as-simple-sale.md)
   * [Listing as Rolling Auction](creator/selling-nfts/listing-as-rolling-auction.md)
   * [Relisting or Remove Listing](creator/selling-nfts/relisting-or-remove-listing.md)
+  * [Stripe Connection](creator/selling-nfts/stripe-connection.md)
   * [Selling as Affiliate](creator/selling-nfts/selling-as-affiliate.md)
 * [🛒 Buying NFTs](creator/buying-nfts/README.md)
   * [Browsing Mintbase](creator/buying-nfts/browsing-mintbase.md)
@@ -108,17 +104,13 @@
   * [DAOs & the Mintbase Toolkit](creator/additional-content/daos-and-the-mintbase-toolkit.md)
 * [🙋 FAQs](creator/faq.md)
 
-
 ## Company
-
 
 * [Privacy Policy & Terms of Service](company/privacy-policy-and-terms-of-service.md)
 * [Bug Bounty Policy](company/bug-bounty-policy.md)
 * [Roadmap](company/roadmap.md)
 
-
 ## 🧓 Archive <a href="#ethereum" id="ethereum"></a>
-
 
 * [Ethereum](ethereum/ethereum/README.md)
   * [Users (ui)](ethereum/ethereum/minter-ui/README.md)
@@ -170,4 +162,3 @@
     * [What is Mintbase?](ethereum/ethereum/about/what-is-mintbase.md)
     * [Fee Structure](ethereum/ethereum/about/fee-structure.md)
   * [Contact](ethereum/ethereum/contact.md)
-
