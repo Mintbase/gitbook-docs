@@ -1,21 +1,37 @@
 # 🛠 Getting Started
 
-## Mintbase JS
+### GraphQL Indexer
 
-MintbaseJS is a library created to lower the barrier to entry for decentralized application development on the NEAR ecosystem as well as facilitating integrations with Mintbase systems.
+[All read-only graphQL](./#graphql-indexer) data generated from blockchain transactions happen here. It's how we know who ones what tokens with what royalties quickly.
 
+### Rust Contracts
 
+* [Main Repo](https://github.com/Mintbase/mb-contracts)
+* [Market](https://github.com/Mintbase/mb-contracts/tree/main/mb-interop-market) with USDC listings
+* [NEP171 NFT contract](https://github.com/Mintbase/mb-contracts/tree/main/mb-store), we call a store
+* [Factory](https://github.com/Mintbase/mb-contracts/tree/main/mb-factory) to recreate stores (Mintbase has deployed over 1,400 on NEAR)
+* [Audits](https://arweave.net/WvB-T\_sg6HbpG08NLutna0bw65hq4tkZZoUJzw4iRK4)
+
+### MintbaseJS
+
+[MintbaseJS](https://github.com/Mintbase/mintbase-js) is a library created to lower the barrier to entry for decentralized application development on the NEAR ecosystem and facilitate integrations with Mintbase systems.
+
+All transitions made on Mintbase.xyz are done with MintbaseJS, mint, transfer, burn, buy, list...
 
 Or use our [boilerplate examples](../examples/) to deploy your own market in minutes.
 
-## Quick Start
+
+
+### Quick Start
 
 * [Add Wallet Connection To Your React App](add-wallet-connection-to-your-react-app.md)
 * [Make Your First Contract Call (deployContract)](make-your-first-contract-call-deploycontract.md)
 * [Upload Reference Material To Arweave and Mint](upload-reference-material-to-arweave-and-mint.md)
 * [Get Blockchain Data (ownedTokens)](get-blockchain-data-ownedtokens.md)
 
-## Modules
+
+
+### Modules
 
 With our tools, **it is possible to cover all points of token blockchain app development.** For that, we focused on these 4 themes.\
 
