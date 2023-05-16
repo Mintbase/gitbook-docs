@@ -1,6 +1,10 @@
 # OpenSea Integration
 
-![](<../../../.gitbook/assets/opensea (1).jpg>)
+<div align="left">
+
+<img src="../../../.gitbook/assets/opensea (1).jpg" alt="">
+
+</div>
 
 ### Interoperability!
 

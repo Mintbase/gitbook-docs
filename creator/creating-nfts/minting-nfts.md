@@ -1,6 +1,6 @@
 # Minting NFTs
 
-On the navbar go to **Create** and **My Stores**
+On the navbar go to **Create** and **My Contracts**
 
 ![](<../../.gitbook/assets/Screenshot 2023-04-11 at 11.28.35.png>)
 
@@ -8,7 +8,7 @@ On the navbar go to **Create** and **My Stores**
 You can click **Mint NFT** on the navbar to go mint from the latest selected store
 {% endhint %}
 
-**Select the store** you want to mint from. If you don't have a store, you need to [deploy](deploy-fee.md) one first.
+**Select the contracts** you want to mint from. If you don't have a store, you need to [deploy](deploy-fee.md) one first.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 15.45_v2.png" alt=""><figcaption></figcaption></figure>
 

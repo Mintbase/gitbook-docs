@@ -1,21 +1,24 @@
 ---
-description: How to deploy a new store on Mintbase
+description: How to deploy a new contract on Mintbase
 ---
 
-# Deploy a Store
+# Deploy a Contract
 
-In the navbar, go to **Create** and **My Stores**\
-![](<../../.gitbook/assets/Screenshot 2023-04-11 at 11.28.35.png>)
+In the navbar, go to **Create** and **My Contracts**\
 
-Click on **New Store**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 15.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-16 at 15.45.00.png" alt=""><figcaption></figcaption></figure>
+
+Click on **New Contract**\
+
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-16 at 15.45.15.png" alt=""><figcaption></figcaption></figure>
 
 A modal will show up, with 2 fields you need to fill:
 
-#### Store Name
+#### Contract Name
 
-The name of your store (must be unique and no spaces). You can't change this later.
+The name of your contract(must be unique and no spaces). You can't change this later.
 
 This is the name of your contract, all transactions on it can be seen on [Nearblocks](https://nearblocks.io/).
 
@@ -25,7 +28,7 @@ Create a symbol (Pretend you are listing your store on the NYSE and needed a [ti
 
 
 
-After filling out both fields, click on **Deploy Store**. You will be redirected to your NEAR wallet, where you need to accept the transaction of 6.5 NEAR.
+After filling out both fields, click on **Deploy Contract**. You will be redirected to your NEAR wallet, where you need to accept the transaction of 6.5 NEAR.
 
 ### Why 6.5 NEAR?
 
@@ -39,11 +42,11 @@ If your "Available" balance becomes too low,  just send more NEAR to your contra
 
 ![](<../../.gitbook/assets/Screen Shot 2021-06-07 at 4.14.41 PM.png>)
 
-## Nice, you deployed your store!
+## Nice, you deployed your contract!
 
 You're now the owner of a smart contract on the NEAR blockchain.
 
-Time to start customizing your store and adding minters.
+Time to start customizing your contract and adding minters.
 
-Or you can go directly mint your first NFT on your new store :rocket:
+Or you can go directly mint your first NFT on your new contract :rocket:
 
