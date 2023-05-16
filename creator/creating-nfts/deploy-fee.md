@@ -7,12 +7,12 @@ description: How to deploy a new contract on Mintbase
 In the navbar, go to **Create** and **My Contracts**\
 
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-16 at 15.45.00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-16 at 15.45.00.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Click on **New Contract**\
 
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-16 at 15.45.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-16 at 15.45.15.png" alt="" width="375"><figcaption></figcaption></figure>
 
 A modal will show up, with 2 fields you need to fill:
 
