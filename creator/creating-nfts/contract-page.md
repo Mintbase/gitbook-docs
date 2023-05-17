@@ -8,7 +8,7 @@ Your store page is the front page of your smart contract. It's the first thing p
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 15.41.png" alt=""><figcaption></figcaption></figure>
 
-You can see different types of information in the contract's profile. Let's start at the top. First, there's the [#profile-image](store-settings.md#profile-image "mention") and [#header-image](store-settings.md#header-image "mention") (add these via [store-settings.md](store-settings.md "mention")).&#x20;
+You can see different types of information in the contract's profile. Let's start at the top. First, there's the [#profile-image](customize-contract.md#profile-image "mention") and [#header-image](customize-contract.md#header-image "mention") (add these via [customize-contract.md](customize-contract.md "mention")).&#x20;
 
 You can also see your social media links & the general stats for that contract such as number of NFT's minted, total owners or total transaction volume.&#x20;
 

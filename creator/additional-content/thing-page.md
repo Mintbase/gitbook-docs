@@ -58,7 +58,7 @@ This section is a summary of important information of the NFT. All the infos tha
 
 ### **Minter**
 
-A store can have [multiple minters](../creating-nfts/store-settings.md#minters), here you can check who minted this specific NFT.
+A store can have [multiple minters](../creating-nfts/customize-contract.md#minters), here you can check who minted this specific NFT.
 
 ### **Type**
 
@@ -82,7 +82,7 @@ Some NFTs can have websites with "See More" info, that will be linked in this se
 
 ## Properties
 
-Here you can see all the properties of the NFT. These are the properties that you can [filter by on the Store Page](../creating-nfts/store-profile.md#filters).
+Here you can see all the properties of the NFT. These are the properties that you can [filter by on the Store Page](../creating-nfts/contract-page.md#filters).
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 18.12.42.png" alt=""><figcaption></figcaption></figure>
 

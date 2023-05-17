@@ -61,7 +61,7 @@ Forever Royalties are perpetual and are set for the lifetime of the NFT. The wal
 * You can add up to 25 wallets (the sum of the percentages can't exceed 50%).
 * If this field is left empty, the NFT will have no Forever Royalties.
 
-The store owner can set **Default Forever Royalties OR Revenues** on the [Store Settings](store-settings.md), which can't be edited on the minting flow.
+The store owner can set **Default Forever Royalties OR Revenues** on the [Store Settings](customize-contract.md), which can't be edited on the minting flow.
 
 ## Split Revenues
 
@@ -93,7 +93,7 @@ Option to add a website to your NFT.
 
 ## Custom
 
-Add custom attributes to your NFT. This is very important because it defines the [filters](store-profile.md#filters) of your store.
+Add custom attributes to your NFT. This is very important because it defines the [filters](contract-page.md#filters) of your store.
 
 ##
 

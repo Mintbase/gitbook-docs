@@ -10,8 +10,8 @@ Let's mint NFTs with no code on Mintbase!
 [deploy-contract.md](deploy-contract.md)
 {% endcontent-ref %}
 
-{% content-ref url="store-profile.md" %}
-[store-profile.md](store-profile.md)
+{% content-ref url="contract-page.md" %}
+[contract-page.md](contract-page.md)
 {% endcontent-ref %}
 
 
