@@ -6,8 +6,8 @@ Let's mint NFTs with no code on Mintbase!
 [what-is-a-mintbase-store.md](what-is-a-mintbase-store.md)
 {% endcontent-ref %}
 
-{% content-ref url="deploy-fee.md" %}
-[deploy-fee.md](deploy-fee.md)
+{% content-ref url="deploy-contract.md" %}
+[deploy-contract.md](deploy-contract.md)
 {% endcontent-ref %}
 
 {% content-ref url="store-profile.md" %}

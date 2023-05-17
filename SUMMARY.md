@@ -89,7 +89,7 @@
   * [Buying as Rolling Auction](creator/buying-nfts/buying-as-rolling-auction.md)
 * [🚀 Creating NFTs](creator/creating-nfts/README.md)
   * [What is a Mintbase Contract](creator/creating-nfts/what-is-a-mintbase-store.md)
-  * [Deploy a Contract](creator/creating-nfts/deploy-fee.md)
+  * [Deploy a Contract](creator/creating-nfts/deploy-contract.md)
   * [Contract Page](creator/creating-nfts/store-profile.md)
   * [Customizing your Contract](creator/creating-nfts/store-settings.md)
   * [Minting NFTs](creator/creating-nfts/minting-nfts.md)
