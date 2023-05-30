@@ -1,6 +1,8 @@
 # Stripe Connection
 
-Want to sell any NFT on NEAR, including your own mints for credit cards, ApplePay, AliPay, Google Pay in +135 global currencies? Get connected to Mintbase Connect.
+Want to sell any NFT on NEAR, including your own mints for credit cards, ApplePay, AliPay, Google Pay in +135 global currencies? Get connected to Mintbase Connect.\
+\
+Sign up [here](https://017x7bax139.typeform.com/to/qhXQGy1p) to get access.
 
 {% embed url="https://www.mintbase.xyz/meta/base.mintbase1.near%3A7fd946c08c043af7babaad66cd88a98f" %}
 
