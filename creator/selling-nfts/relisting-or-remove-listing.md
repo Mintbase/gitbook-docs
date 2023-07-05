@@ -8,13 +8,11 @@ Follow the same steps of [how to list](how-to-list.md) and **the new listing wil
 
 ## Remove Listing
 
-Find the NFT you want to unlist, under **My Stores** or **My NFTs**.
-
-![](<../../.gitbook/assets/Screenshot 2023-04-11 at 11.54.40.png>)
+Find the NFT you want to unlist, and **click on the More Options (...) button**.
 
 Click on **Remove Listing**
 
-![](<../../.gitbook/assets/Screenshot 2023-04-11 at 11.53.25.png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.00.42.png" alt="" width="339"><figcaption></figcaption></figure>
 
 A modal will pop up with information about the listing, click on **Remove Listing** and authorize the transaction on your wallet.
 
