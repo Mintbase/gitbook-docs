@@ -4,7 +4,7 @@ After [finding](browsing-mintbase.md) an listed NFT that you like, you can decid
 
 On the right side of the thing page, you can see that this NFT is listed as [**Simple Sale**](buying-as-simple-sale.md) and as **Rolling Auction**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 12.30.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.13.00.png" alt=""><figcaption></figcaption></figure>
 
 Click on **See Auctions** to go to the Auction page.
 
