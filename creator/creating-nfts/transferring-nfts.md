@@ -4,10 +4,6 @@ description: Learn how to transfer NFTs to other accounts
 
 # Transferring NFTs
 
-{% hint style="info" %}
-The receivers account doesn't need to be on Mintbase. All you need is a valid NEAR wallet
-{% endhint %}
-
 Find the NFT you want and click **Transfer**
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.46.46.png" alt="" width="340"><figcaption></figcaption></figure>
@@ -19,6 +15,10 @@ You can also do this directly on the Thing Page (top right):
 A modal will pop up in the same page. Here you can input the accounts you want to send to, and how many tokens you want to send to each account.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 17.41.43.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+The receivers account doesn't need to be on Mintbase. All you need is a valid NEAR wallet
+{% endhint %}
 
 Your can send up to 100 tokens of the same NFT in a single transaction.
 

@@ -1,22 +1,26 @@
+---
+description: To burn an NFT, is to erase it
+---
+
 # Burning NFTs
 
-To burn an NFT, is to erase it. This has multiple use cases, like redeeming tickets for a concert. When entering the concert you would burn your ticket.
+This has multiple use cases, like redeeming tickets for a concert. When entering the concert you would burn your ticket.
 
 {% hint style="danger" %}
 **Important:** once you burn your token it will be destroyed and you will have no way to recover it.
 {% endhint %}
 
-On the navbar go to **Create** and click on **My Stores** or **My NFTs**
 
-**My Stores:** Go here to find NFTs that you have minted on your contract
-
-**My NFTs:** Go here to find all your owned NFTs, including the ones that you have bought or received from other sources
-
-![](<../../.gitbook/assets/Screenshot 2023-04-11 at 11.28.35.png>)
 
 Find the NFT you want and click **Burn**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 15.45_v5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.46.52.png" alt="" width="339"><figcaption></figcaption></figure>
+
+You can also do this directly from the Thing Page (top right):
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 18.44.27.png" alt=""><figcaption></figcaption></figure>
+
+
 
 A modal will pop up in the same page. Here you can input the amount of tokens you want to burn.
 
