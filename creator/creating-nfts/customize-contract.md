@@ -4,17 +4,25 @@ description: Change your contract settings
 
 # Customizing your Contract
 
-Click on the user image on the top right to open the dropdown menu and select **Contract Settings.**
+In the homepage, the first row you see are all your contracts. You can always click View All to go to the **My Contracts** page.
+
+
+
+Click **Settings** to go to the settings page of each contract.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.22.33.png" alt=""><figcaption></figcaption></figure>
+
+You can also directly from the contract page navigate to the Settings tab (if you're connected as the Owner).
+
+
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.25.25.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**If you don't own a contract, you will not have the "Contract Settings" option in the menu.**
+All the tabs with the green dot are only visibile to the Owner of the contract, when connected.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-16 at 15.49.52.png" alt="" width="279"><figcaption></figcaption></figure>
 
-If you have multiple contracts, you can easily switch between the settings of each one:
-
-![](<../../.gitbook/assets/Untitled design (17).png>)
 
 ## Basic Information
 
@@ -71,3 +79,25 @@ Transfer your contract to another NEAR account.
 **This is a permanent action** that will remove your ownership of the contract - you won't be able to mint, customize or do anything with it.
 
 ![](<../../.gitbook/assets/Screenshot 2022-08-01 at 15.52.30.png>)
+
+## About Tab
+
+On the contract page click on the About tab. The About tab is a place where you can extensively give context and explain everything about your contract or project.
+
+{% hint style="info" %}
+The tab remains hidden by default and only becomes visible when the contract owner chooses to publish it.
+{% endhint %}
+
+When it's not published, it's only visibile for the owner and will look like this:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.29.38.png" alt=""><figcaption></figcaption></figure>
+
+You can then edit its content using Markdown. [Learn more about Markdown here.](https://www.markdownguide.org/basic-syntax/)
+
+Once you hit Publish it will appear publicly [like this](https://www.mintbase.xyz/contract/flyingthings.mintbase1.near/about):&#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.36.15.png" alt=""><figcaption></figcaption></figure>
+
+Click on **Edit** (top right) to make changes or Delete the about tab, which will hide it again and erase all its content.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.35.05.png" alt=""><figcaption></figcaption></figure>
