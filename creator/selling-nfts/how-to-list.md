@@ -36,7 +36,7 @@ On any contract page the Sell and More Options button will be visible on NFTs th
 
 ## After clicking Sell
 
-You can choose to Sell as Simple Sale or Sell as Rolling Auction
+You can choose to [Sell as Simple Sale](listing-as-simple-sale.md) or [Sell as Rolling Auction](listing-as-rolling-auction.md)
 
 ## Storage Deposits
 

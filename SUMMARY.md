@@ -79,7 +79,7 @@
 * [🤑 Selling NFTs](creator/selling-nfts/README.md)
   * [How to sell](creator/selling-nfts/how-to-list.md)
   * [Selling as Simple Sale](creator/selling-nfts/listing-as-simple-sale.md)
-  * [Listing as Rolling Auction](creator/selling-nfts/listing-as-rolling-auction.md)
+  * [Selling as Rolling Auction](creator/selling-nfts/listing-as-rolling-auction.md)
   * [Relisting or Remove Listing](creator/selling-nfts/relisting-or-remove-listing.md)
   * [Stripe Connection](creator/selling-nfts/stripe-connection.md)
   * [Selling as Affiliate](creator/selling-nfts/selling-as-affiliate.md)

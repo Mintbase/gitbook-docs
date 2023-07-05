@@ -4,7 +4,7 @@ After [finding](browsing-mintbase.md) an listed NFT that you like, you can decid
 
 On the right side of the thing page, you can see that this NFT is listed as **Simple Sale** (for a fixed price).
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 12.29.31.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.05.53.png" alt=""><figcaption></figcaption></figure>
 
 You can see the price in NEAR and the approximated conversion in USD.
 
