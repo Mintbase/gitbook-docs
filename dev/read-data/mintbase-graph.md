@@ -4,19 +4,13 @@ This is our preferred option as it is probably the most flexible option and allo
 
 ### Endpoints
 
-| Network | Endpoint                                                              |
-| ------- | --------------------------------------------------------------------- |
-| mainnet | <mark style="color:green;">https://graph.mintbase.xyz/mainnet</mark>  |
-| testnet | <mark style="color:orange;">https://graph.mintbase.xyz/testnet</mark> |
+<table><thead><tr><th width="249.57142857142856">Network</th><th>Endpoint</th></tr></thead><tbody><tr><td>mainnet</td><td><mark style="color:green;">https://graph.mintbase.xyz/mainnet</mark></td></tr><tr><td>testnet</td><td><mark style="color:orange;">https://graph.mintbase.xyz/testnet</mark></td></tr></tbody></table>
 
 ### Use GraphiQL
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2022-11-08 at 4.44.15 PM.png" alt=""><figcaption></figcaption></figure>
 
-| Network                                                                                                                                       | URL                                                                                                                                                                                                                                                                           |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>mainnet<a href="https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Finterop-mainnet.hasura.app%2Fv1%2Fgraphql"><br></a><br></p> | [https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Fmainnet\&header=mb-api-key:anon](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Fmainnet\&header=mb-api-key:anon)                                    |
-| testnet                                                                                                                                       | [<mark style="color:orange;">https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Ftestnet\&header=mb-api-key:anon</mark>](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Ftestnet\&header=mb-api-key:anon) |
+<table><thead><tr><th width="249.57142857142856">Network</th><th>URL</th></tr></thead><tbody><tr><td>mainnet<a href="https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Finterop-mainnet.hasura.app%2Fv1%2Fgraphql"><br></a><br></td><td><a href="https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Fmainnet&#x26;header=mb-api-key:anon">https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Fmainnet&#x26;header=mb-api-key:anon</a></td></tr><tr><td>testnet</td><td><a href="https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Ftestnet&#x26;header=mb-api-key:anon"><mark style="color:orange;">https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Ftestnet&#x26;header=mb-api-key:anon</mark></a></td></tr></tbody></table>
 
 
 
@@ -39,8 +33,16 @@ curl --location --request POST 'https://graph.mintbase.xyz' \
 
 ### Examples
 
-1. Get NFTs owned by an account, notice the `burned_timestamp` if null indicates it has not been burned yet [https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Fmainnet\&header=mb-api-key%3Aanon\&query=query+MyQuery+%7B%0A++mb\_views\_nft\_tokens%28%0A++++where%3A+%7Bowner%3A+%7B\_eq%3A+%22nate.near%22%7D%2C+\_and%3A+%7Bburned\_timestamp%3A+%7B\_is\_null%3A+true%7D%2C+last\_transfer\_timestamp%3A+%7B\_is\_null%3A+false%7D%7D%7D%0A++++limit%3A+30%0A++++order\_by%3A+%7Blast\_transfer\_timestamp%3A+desc%7D%0A++%29+%7B%0A++++nft\_contract\_id%0A++++title%0A++++description%0A++++media%0A++++last\_transfer\_receipt\_id%0A++%7D%0A%7D%0A](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Fmainnet\&header=mb-api-key%3Aanon\&query=query+MyQuery+%7B%0A++mb\_views\_nft\_tokens%28%0A++++where%3A+%7Bowner%3A+%7B\_eq%3A+%22nate.near%22%7D%2C+\_and%3A+%7Bburned\_timestamp%3A+%7B\_is\_null%3A+true%7D%2C+last\_transfer\_timestamp%3A+%7B\_is\_null%3A+false%7D%7D%7D%0A++++limit%3A+30%0A++++order\_by%3A+%7Blast\_transfer\_timestamp%3A+desc%7D%0A++%29+%7B%0A++++nft\_contract\_id%0A++++title%0A++++description%0A++++media%0A++++last\_transfer\_receipt\_id%0A++%7D%0A%7D%0A)
+1. [Get NFTs owned by an account,](https://t.ly/9gtj) notice the `burned_timestamp` if null indicates it has not been burned yet
 2. [Get Metadata from token reference](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Fmainnet\&header=mb-api-key%3Aanon\&query=query+MyQuery+%7B%0A++nft\_metadata%28%0A++++where%3A+%7Breference%3A+%7B\_eq%3A+%22nb0-oBR379DzoFYeYv-LesjVNmrVlDs5IqQ8hfDfnMU%22%7D%7D%0A++%29+%7B%0A++++id%0A++++media%0A++++reference\_blob%0A++%7D%0A%7D%0A) including title, media, documents, sound, 3d.
+
+
+
+{% embed url="https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Fmainnet&header=mb-api-key%3Aanon&query=query+MyQuery+%7B%0A++mb_views_nft_tokens%28%0A++++where%3A+%7Bowner%3A+%7B_eq%3A+%22nate.near%22%7D%2C+_and%3A+%7Bburned_timestamp%3A+%7B_is_null%3A+true%7D%2C+last_transfer_timestamp%3A+%7B_is_null%3A+false%7D%7D%7D%0A++++limit%3A+30%0A++++order_by%3A+%7Blast_transfer_timestamp%3A+desc%7D%0A++%29+%7B%0A++++nft_contract_id%0A++++title%0A++++description%0A++++media%0A++++last_transfer_receipt_id%0A++%7D%0A%7D%0A" %}
+
+
+
+
 
 ###
 
