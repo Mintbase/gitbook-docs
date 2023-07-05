@@ -10,7 +10,7 @@ Read more about how AffiliateDirects work on this article:
 
 On any Thing Page, click on **Copy AffiliateDirect Link**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 15.14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.03.png" alt=""><figcaption></figcaption></figure>
 
 Start sharing the link.
 
