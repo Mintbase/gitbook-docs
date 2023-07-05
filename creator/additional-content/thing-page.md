@@ -14,7 +14,7 @@ A **thing** is a collection of multiple **tokens.** When [minting](../creating-n
 
 **To access a Thing Page, simply click on any NFT in the Marketplace.**
 
-![Example of a Thing Page](<../../.gitbook/assets/Screenshot 2022-05-10 at 11.43.05.png>)
+![Example of a Thing Page](<../../.gitbook/assets/Screenshot 2023-07-05 at 18.48.40.png>)
 
 There's a lot of stuff to cover here, so we're going to break down each section.
 
@@ -28,7 +28,7 @@ These fields will be visible in all thing pages.
 
 Here you can check if this NFT is listed via [Simple Sale](../selling-nfts/listing-as-simple-sale.md) or [Rolling Auction](../selling-nfts/listing-as-rolling-auction.md).
 
-![Example of a Listing Details section](<../../.gitbook/assets/Screenshot 2022-05-10 at 17.41.20.png>)
+![Example of a Listing Details section](<../../.gitbook/assets/Screenshot 2023-07-05 at 18.48.46.png>)
 
 #### Simple Sale
 
@@ -50,35 +50,41 @@ If there are tokens listed as Rolling Auction, it will show how many are availab
 
 This section is a summary of important information of the NFT. All the infos that are blue, you can click.
 
-![Example of a About section](<../../.gitbook/assets/Screenshot 2022-05-10 at 17.41.28.png>)
+![Example of a About section](<../../.gitbook/assets/Screenshot 2023-07-05 at 18.49.10.png>)
 
-### **Store**
+### **Contract**
 
-[Store](../creating-nfts/what-is-a-mintbase-store.md) where this NFT was minted.
-
-### **Minter**
-
-A store can have [multiple minters](../creating-nfts/customize-contract.md#minters), here you can check who minted this specific NFT.
-
-### **Type**
-
-The type of the NFT, it could be an Image, Video, 3D or Audio.
+[Contract](../creating-nfts/contract-page.md) where this NFT was minted.
 
 ### **Owners**
 
 How many unique owners own this NFT. If it has multiple editions, it can have multiple owners. Or maybe 1 owner who owns all the editions. If it's a 1/1 NFT, if can only have 1 owner.
 
-### **Minted NFTs**
+### **Total Minted**
 
 How many editions have been minted.
+
+### **Minter**
+
+A store can have [multiple minters](../creating-nfts/customize-contract.md#minters), here you can check who minted this specific NFT.
 
 ### **Listed NFTs**
 
 Of the total that has been minted, how many are currently listed.
 
-### **Website Button**
+### **Type**
 
-Some NFTs can have websites with "See More" info, that will be linked in this section.
+The type of the NFT, it could be an Image, Video, 3D or Audio.
+
+##
+
+## Listings
+
+If this NFT has multiple editions, here you can see all the different listings to easily compare prices.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 18.49.18.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## Properties
 
