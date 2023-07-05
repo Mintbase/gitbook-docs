@@ -1,18 +1,18 @@
+---
+description: To multiply an NFT is to mint more tokens of the same NFT
+---
+
 # Multiplying NFTs
 
-To multiply an NFT is to mint more tokens of the same NFT
+Find the NFT you want and click **Multiply**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.46.40.png" alt="" width="339"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 You can only Multiply NFTs that you have minted, and not all NFTs that you own.
 {% endhint %}
 
-On the navbar go to **Create** and **My Stores**
 
-![](<../../.gitbook/assets/Screenshot 2023-04-11 at 11.28.35.png>)
-
-Find the NFT you want and click **Multiply**
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 15.45_v3.png" alt=""><figcaption></figcaption></figure>
 
 A modal will pop up in the same page. Here you can input the amount you wish to mint.
 
