@@ -2,11 +2,11 @@
 
 When listing for Rolling Auction you're starting an auction where people can make bids on your NFT. You choose which bid to accept to finish the auction.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 11.41.12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 16.29.35.png" alt="" width="375"><figcaption></figcaption></figure>
 
 1. On the **Listing Type** select **Rolling Auction**
-2. On **Amount to List** type the amount you want to list (if you only have 1 token, like in this example, you're limited to 1)
-3. On the **Minimum Bid** field type the minimum amount in NEAR that the auction will start at. You can see the approximated USD price next to it.
+2. On the **Minimum Bid** field type the minimum amount in NEAR that the auction will start at. You can see the approximated USD price next to it.
+3. On **Amount to List** type the amount you want to list
 4. Click **Make Listing**
 5. Authorize the transaction on your wallet
 
