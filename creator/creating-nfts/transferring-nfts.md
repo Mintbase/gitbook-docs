@@ -1,22 +1,20 @@
-# Transferring NFTs
+---
+description: Learn how to transfer NFTs to other accounts
+---
 
-Here you'll learn how to transfer NFTs to other accounts.
+# Transferring NFTs
 
 {% hint style="info" %}
 The receivers account doesn't need to be on Mintbase. All you need is a valid NEAR wallet
 {% endhint %}
 
-On the navbar go to **Create** and click on **My Stores** or **My NFTs**
+Find the NFT you want and click **Transfer**
 
-**My Stores:** Go here to find NFTs that you have minted on your contract
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.46.46.png" alt="" width="340"><figcaption></figcaption></figure>
 
-**My NFTs:** Go here to find all your owned NFTs, including the ones that you have bought or received from other sources
+You can also do this directly on the Thing Page (top right):
 
-![](<../../.gitbook/assets/Screenshot 2023-04-11 at 11.28.35.png>)
-
-Find the NFT you want and click **Send**
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 15.45_v4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 18.44.27.png" alt=""><figcaption></figcaption></figure>
 
 A modal will pop up in the same page. Here you can input the accounts you want to send to, and how many tokens you want to send to each account.
 
