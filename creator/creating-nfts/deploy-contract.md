@@ -7,12 +7,12 @@ description: How to deploy a new contract on Mintbase
 In the navbar, go to **Create** and **My Contracts**\
 
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-16 at 15.45.00.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.19.52.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Click on **New Contract**\
 
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-16 at 15.45.15.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.17.png" alt=""><figcaption></figcaption></figure>
 
 A modal will show up, with 2 fields you need to fill:
 
@@ -41,6 +41,10 @@ And if you click the Balance Profile you'll see there is 0.5 N left. Each time y
 If your "Available" balance becomes too low,  just send more NEAR to your contract address (`soul4space.mintbase1.near` in the example above) and you'll be good to go.
 
 ![](<../../.gitbook/assets/Screen Shot 2021-06-07 at 4.14.41 PM.png>)
+
+{% hint style="info" %}
+Remember you can always test for free on Testnet
+{% endhint %}
 
 ## Nice, you deployed your contract!
 
