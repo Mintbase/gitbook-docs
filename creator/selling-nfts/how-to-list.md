@@ -1,46 +1,42 @@
-# How to list
+---
+description: You can sell the NFT from anywhere on the system
+---
 
-Listing an NFT means making it available for sale or auction.
+# How to sell
 
-There are 3 ways that you can proceed to list an NFT.
+Selling an NFT means making it available for simple sale or auction.
 
 ## 1. Thing Page
 
-On any Thing Page of an NFT that you own, you will see a bar on top with actions that you can do.
+On any Thing Page of an **NFT that you own**, you will see a bar on top with actions that you can do.
 
 Click **List**
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 11.18.png" alt=""><figcaption></figcaption></figure>
 
-## 2. Navbar - Owned NFTs
+## 2. Owned NFTs
 
 If you're looking for NFTs that you own but haven't minted yourself.
 
-On the navbar go to **Create** and **My NFTs**
+On the homepage there is a row for your Owned NFTs.
 
-![](<../../.gitbook/assets/Screenshot 2023-04-11 at 11.17.35.png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 15.31.png" alt=""><figcaption></figcaption></figure>
 
-Find the NFT you want to sell and click **List**
+Find the NFT you want to sell and click the **Sell** button to prompt the selling modal.
 
-![](<../../.gitbook/assets/Screenshot 2023-04-11 at 11.27.03.png>)
+You can also click the More Options (...) button to [Transfer](../creating-nfts/transferring-nfts.md), [Multiply](../creating-nfts/multiplying-nfts.md) or [Burn](../creating-nfts/burning-nfts.md) the NFT.
 
 
 
-## 3. Navbar - Minted NFTs
+## 3. NFTs from specific contracts
 
-If you're looking for NFTs from your stores that you have minted.
+On any contract page the Sell and More Options button will be visible on NFTs that you own.
 
-On the navbar go to **Create** and **My NFTs**
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 15.39.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/Screenshot 2023-04-11 at 11.28.35.png>)
+## After clicking Sell
 
-Select the store you want and find the NFT, click **List**
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 11.28.png" alt=""><figcaption></figcaption></figure>
-
-## After doing any of these steps
-
-You can choose to [List as Simple Sale](listing-as-simple-sale.md) or [List as Rolling Auction](listing-as-rolling-auction.md)
+You can choose to Sell as Simple Sale or Sell as Rolling Auction
 
 ## Storage Deposits
 
