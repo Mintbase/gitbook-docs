@@ -4,13 +4,11 @@ description: Change your contract settings
 
 # Customizing your Contract
 
-In the homepage, the first row you see are all your contracts. You can always click View All to go to the **My Contracts** page.
-
-
+On the homepage, the first row you see are all your contracts. You can always click View All to go to the **My Contracts** page.
 
 Click **Settings** to go to the settings page of each contract.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.22.33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.22.33 (1).png" alt=""><figcaption></figcaption></figure>
 
 You can also directly from the contract page navigate to the Settings tab (if you're connected as the Owner).
 

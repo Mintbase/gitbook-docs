@@ -1,20 +1,16 @@
 # Minting NFTs
 
-On the navbar go to **Create** and **My Contracts**
+On the homepage, the first row you see are all your contracts. You can always click View All to go to the **My Contracts** page.
 
-![](<../../.gitbook/assets/Screenshot 2023-04-11 at 11.28.35.png>)
+Click **Mint NFT** to enter the minting flow.
 
-{% hint style="info" %}
-You can click **Mint NFT** on the navbar to go mint from the latest selected store
-{% endhint %}
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.22.33.png" alt=""><figcaption></figcaption></figure>
 
-**Select the contracts** you want to mint from. If you don't have a store, you need to [deploy](deploy-contract.md) one first.
+If you don't have a contract, you need to [deploy](deploy-contract.md) one first.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 15.45_v2.png" alt=""><figcaption></figcaption></figure>
 
-Press the **Mint** button in the top right to enter the minting flow.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 16.31.40.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 16.31.40.png" alt=""><figcaption><p>Minting flow</p></figcaption></figure>
 
 There's a lot of stuff to cover here, so we're going to break down each section.
 
