@@ -22,7 +22,7 @@ Breaking down everything you need to know to sell your NFTs.
 
 ## FAQ about Selling NFTs on Mintbase
 
-If you need a hand? **Reach out on our on** [**Telegram**](https://t.me/Mintbase) **where we are happy to help.**
+If you still need a hand, **reach out on our on** [**Telegram**](https://t.me/Mintbase) **where we are happy to help.**
 
 
 

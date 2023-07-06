@@ -65,7 +65,7 @@ Someone made an offer higher than yours. In this case, you don't need to do anyt
 You have the highest offer but after 24 hours the Owner has not accepted it. **In this case, you need to manually withdraw your offer from escrow.** Two ways to do it:
 
 * On the Rolling Auction page, in the Offers table, find your offer and click **Withdraw.**
-* Click your profile picture in the navbar (or on mobile on the hamburger menu) and click on **Earned & Orders.** On the tab navigate to **Open Orders.** In the My Offers table, click **Withdraw.**
+* Click on **Orders** under **Manage** in the navbar.
 
 {% hint style="info" %}
 You can check in the Auction Page or in the My Offers page in how long your offer will unlock.
