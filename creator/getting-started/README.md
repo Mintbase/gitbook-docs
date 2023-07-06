@@ -42,8 +42,18 @@ If you're a dev checkout our developer documentation [here](../../dev/getting-st
 * [Transferring NFTs](../creating-nfts/transferring-nfts.md)
 * [Burning NFTs](../creating-nfts/burning-nfts.md)
 
-## If you still have Qs
+***
 
-Need assistance or want to share your feedback? **Reach out on our on** [**Telegram**](https://t.me/Mintbase) **where we are happy to help!**
+## FAQ for getting started
 
-**Also follow us on** [**Twitter**](https://twitter.com/mintbase) **to keep up with updates**
+If you still need a hand, **reach out on our on** [**Telegram**](https://t.me/Mintbase) **where we are happy to help.**
+
+
+
+### What does it mean to connect to Mainnet or Testnet?
+
+Mintbase can be used on Mainnet or Testnet. Mainnet is the live, production network where transactions are processed using real funds. Testnet, on the other hand, is a simulated network for testing purposes. This means that on Testnet, users are free to test the same features without using real money.
+
+### How do I connect my wallet to Mintbase?
+
+If your wallet is not connected, you'll see a Connect Wallet button in the top right corner of any page on Mintbase. Click on it and follow the prompts to connect your wallet. You'll need to authorize the connection to Mintbase with limited access. Mintbase never has direct access to your funds.
