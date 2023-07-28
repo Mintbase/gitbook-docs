@@ -1,4 +1,4 @@
-# Selling as Affiliate
+# 🔀 Selling as Affiliate
 
 You can sell NFTs that you don't own through Affiliate links and earn 1.25% market fee.
 
@@ -10,7 +10,7 @@ Read more about how AffiliateDirects work on this article:
 
 On any Thing Page, click on **Copy AffiliateDirect Link**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-07-05 at 17.03.png" alt=""><figcaption></figcaption></figure>
 
 Start sharing the link.
 

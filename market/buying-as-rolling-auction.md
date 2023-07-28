@@ -1,14 +1,14 @@
-# Buying as Rolling Auction
+# 🔁 Buying as Rolling Auction
 
 After [finding](browsing-mintbase.md) an listed NFT that you like, you can decide to buy it.
 
 On the right side of the thing page, you can see that this NFT is listed as [**Simple Sale**](buying-as-simple-sale.md) and as **Rolling Auction**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-07-05 at 17.13.00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-07-05 at 17.13.00.png" alt=""><figcaption></figcaption></figure>
 
 Click on **See Auctions** to go to the Auction page.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-04-11 at 12.39.44.png" alt=""><figcaption><p>Auction page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-11 at 12.39.44.png" alt=""><figcaption><p>Auction page</p></figcaption></figure>
 
 ## **Important Fields**
 

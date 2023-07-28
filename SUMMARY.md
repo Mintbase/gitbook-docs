@@ -2,17 +2,15 @@
 
 * [Overview](README.md)
 * [Market](market/README.md)
-  * [💰 Selling NFTs](creator/selling-nfts/README.md)
-    * [Simple Sale](creator/selling-nfts/listing-as-simple-sale.md)
-    * [Relisting or Remove Listing](creator/selling-nfts/relisting-or-remove-listing.md)
-    * [Selling as Rolling Auction](creator/selling-nfts/listing-as-rolling-auction.md)
-    * [Stripe Connection](creator/selling-nfts/stripe-connection.md)
-    * [Selling as Affiliate](creator/selling-nfts/selling-as-affiliate.md)
-    * [How to sell](creator/selling-nfts/how-to-list.md)
-  * [🛒 Buying NFTs](creator/buying-nfts/README.md)
-    * [Browsing Mintbase](creator/buying-nfts/browsing-mintbase.md)
-    * [Buying as Simple Sale](creator/buying-nfts/buying-as-simple-sale.md)
-    * [Buying as Rolling Auction](creator/buying-nfts/buying-as-rolling-auction.md)
+  * [💰 Simple Sale](market/listing-as-simple-sale.md)
+  * [👩⚖ Selling as Rolling Auction](market/listing-as-rolling-auction.md)
+  * [❌ Remove / Re-Listing](market/relisting-or-remove-listing.md)
+  * [💳 Stripe Connection](market/stripe-connection.md)
+  * [🔀 Selling as Affiliate](market/selling-as-affiliate.md)
+  * [📥 How to sell](market/how-to-list.md)
+  * [👀 Browsing Mintbase](market/browsing-mintbase.md)
+  * [💎 Buying as Simple Sale](market/buying-as-simple-sale.md)
+  * [🔁 Buying as Rolling Auction](market/buying-as-rolling-auction.md)
 
 ## Developer <a href="#dev" id="dev"></a>
 
