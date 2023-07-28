@@ -2,7 +2,6 @@
 
 * [Overview](README.md)
 * [Market](market/README.md)
-  * [💰 Simple Sale](market/listing-as-simple-sale.md)
   * [👩⚖ Selling as Rolling Auction](market/listing-as-rolling-auction.md)
   * [❌ Remove / Re-Listing](market/relisting-or-remove-listing.md)
   * [💳 Stripe Connection](market/stripe-connection.md)
@@ -11,6 +10,13 @@
   * [👀 Browsing Mintbase](market/browsing-mintbase.md)
   * [💎 Buying as Simple Sale](market/buying-as-simple-sale.md)
   * [🔁 Buying as Rolling Auction](market/buying-as-rolling-auction.md)
+  * [💰 Simple Sale](market/listing-as-simple-sale.md)
+* [Page](page.md)
+
+## Market
+
+* [💡 Build Ideas](market-1/build-ideas.md)
+* [🙋 FAQs](market-1/faqs.md)
 
 ## Developer <a href="#dev" id="dev"></a>
 
