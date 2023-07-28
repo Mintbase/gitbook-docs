@@ -101,7 +101,7 @@ After clicking **Mint Me** you will be redirected to your wallet where you need 
 
 **That's it! You've minted an NFT** :tada:
 
-Next you can [list it ](../../market/selling-nfts/how-to-list.md)on the market.
+Next you can [list it ](../selling-nfts/how-to-list.md)on the market.
 
 And don't forget to share it on Twitter and to tag us :smile:
 

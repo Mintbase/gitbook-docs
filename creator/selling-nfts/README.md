@@ -1,4 +1,4 @@
-# 🤑 Selling NFTs
+# 💰 Selling NFTs
 
 Breaking down everything you need to know to sell your NFTs.
 

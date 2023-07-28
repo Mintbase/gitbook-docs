@@ -1,4 +1,4 @@
-# Selling as Simple Sale
+# Simple Sale
 
 When choosing Simple Sale you're listing an NFT for a **fixed price**.
 

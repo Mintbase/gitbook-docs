@@ -26,7 +26,7 @@ These fields will be visible in all thing pages.
 
 ### Listing Details
 
-Here you can check if this NFT is listed via [Simple Sale](../../market/selling-nfts/listing-as-simple-sale.md) or [Rolling Auction](../../market/selling-nfts/listing-as-rolling-auction.md).
+Here you can check if this NFT is listed via [Simple Sale](../selling-nfts/listing-as-simple-sale.md) or [Rolling Auction](../selling-nfts/listing-as-rolling-auction.md).
 
 ![Example of a Listing Details section](<../../.gitbook/assets/Screenshot 2023-07-05 at 18.48.46.png>)
 
@@ -34,16 +34,16 @@ Here you can check if this NFT is listed via [Simple Sale](../../market/selling-
 
 If there are tokens listed as Simple Sale, it will show here, together with the price of each token.
 
-{% content-ref url="../../market/buying-nfts/buying-as-simple-sale.md" %}
-[buying-as-simple-sale.md](../../market/buying-nfts/buying-as-simple-sale.md)
+{% content-ref url="../buying-nfts/buying-as-simple-sale.md" %}
+[buying-as-simple-sale.md](../buying-nfts/buying-as-simple-sale.md)
 {% endcontent-ref %}
 
 #### Rolling Auction
 
 If there are tokens listed as Rolling Auction, it will show how many are available and the button "See Auctions" will be activated. If you click on it you can see all the Auctions, and make your bids.
 
-{% content-ref url="../../market/buying-nfts/buying-as-rolling-auction.md" %}
-[buying-as-rolling-auction.md](../../market/buying-nfts/buying-as-rolling-auction.md)
+{% content-ref url="../buying-nfts/buying-as-rolling-auction.md" %}
+[buying-as-rolling-auction.md](../buying-nfts/buying-as-rolling-auction.md)
 {% endcontent-ref %}
 
 ## About

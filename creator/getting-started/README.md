@@ -22,15 +22,15 @@ If you're a dev checkout our developer documentation [here](../../dev/getting-st
 
 ### :money\_mouth: Selling NFTs
 
-* [How to list an NFT](../../market/selling-nfts/how-to-list.md)
-* Listing as [Simple Sale](../../market/selling-nfts/listing-as-simple-sale.md) or [Rolling Auction](../../market/selling-nfts/listing-as-rolling-auction.md)
-* [Relist or Remove Listing](../../market/selling-nfts/relisting-or-remove-listing.md)
-* [Selling as Affiliate](../../market/selling-nfts/selling-as-affiliate.md)
+* [How to list an NFT](../selling-nfts/how-to-list.md)
+* Listing as [Simple Sale](../selling-nfts/listing-as-simple-sale.md) or [Rolling Auction](../selling-nfts/listing-as-rolling-auction.md)
+* [Relist or Remove Listing](../selling-nfts/relisting-or-remove-listing.md)
+* [Selling as Affiliate](../selling-nfts/selling-as-affiliate.md)
 
 ### :shopping\_cart: Buying NFTs
 
-* [Browsing Mintbase](../../market/buying-nfts/browsing-mintbase.md)
-* Buying as [Simple Sale](../../market/buying-nfts/buying-as-simple-sale.md) or [Rolling Auction](../../market/buying-nfts/buying-as-rolling-auction.md)
+* [Browsing Mintbase](../buying-nfts/browsing-mintbase.md)
+* Buying as [Simple Sale](../buying-nfts/buying-as-simple-sale.md) or [Rolling Auction](../buying-nfts/buying-as-rolling-auction.md)
 
 ### :rocket: Creating NFTs
 

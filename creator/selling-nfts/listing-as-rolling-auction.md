@@ -18,7 +18,7 @@ When listing for Rolling Auction you're starting an auction where people can mak
 
 * After 24 hours that an offer is made, the offerer can withdraw it and you will no longer be able to accept it
 * You can check all your received offers in the [Offered To Me](https://www.mintbase.xyz/launchpad/offered-to-me/0) page
-* Both buyers and sellers can get e-mail notifications of auction events, when turning it on on [User Settings](../../creator/getting-started/user-settings.md#notifications)
+* Both buyers and sellers can get e-mail notifications of auction events, when turning it on on [User Settings](../getting-started/user-settings.md#notifications)
 
 {% hint style="info" %}
 You need to manually accept the offer for it to go through

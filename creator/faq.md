@@ -36,8 +36,8 @@ As long as NEAR and Arweave survive (where your token is stored) your token will
 
 ## Selling NFTs
 
-{% content-ref url="../market/selling-nfts/" %}
-[selling-nfts](../market/selling-nfts/)
+{% content-ref url="selling-nfts/" %}
+[selling-nfts](selling-nfts/)
 {% endcontent-ref %}
 
 ### Does Mintbase take a cut from my sales?
@@ -50,35 +50,35 @@ When you list a token for sale on Mintbase, you will be asked to deposit 0.01N p
 
 ### **What is the process for selling an NFT for a Simple Sale on Mintbase?**
 
-When choosing [Simple Sale](../market/selling-nfts/listing-as-simple-sale.md), you're listing an NFT for a fixed price. You need to select Simple Sale on the Listing Type, choose the currency you want (NEAR, USDC, and USDT are supported) and type the price in the Price field. Then, type the amount you want to list in the Amount to List field. If you only have 1 token, you're limited to 1. Finally, authorize the transaction on your wallet.
+When choosing [Simple Sale](selling-nfts/listing-as-simple-sale.md), you're listing an NFT for a fixed price. You need to select Simple Sale on the Listing Type, choose the currency you want (NEAR, USDC, and USDT are supported) and type the price in the Price field. Then, type the amount you want to list in the Amount to List field. If you only have 1 token, you're limited to 1. Finally, authorize the transaction on your wallet.
 
 ### **How does the Rolling Auction work on Mintbase?**
 
-When listing for [Rolling Auction](../market/selling-nfts/listing-as-rolling-auction.md), you're starting an auction where people can make bids on your NFT. You choose which bid to accept to finish the auction. After 24 hours that an offer is made, the offerer can withdraw it and you will no longer be able to accept it. Both buyers and sellers can get e-mail notifications of auction events, when turning it on on User Settings. You need to manually accept the offer for it to go through.
+When listing for [Rolling Auction](selling-nfts/listing-as-rolling-auction.md), you're starting an auction where people can make bids on your NFT. You choose which bid to accept to finish the auction. After 24 hours that an offer is made, the offerer can withdraw it and you will no longer be able to accept it. Both buyers and sellers can get e-mail notifications of auction events, when turning it on on User Settings. You need to manually accept the offer for it to go through.
 
 ### **Can I sell NFTs that I don't own on Mintbase?**
 
-Yes, you can sell NFTs that you don't own through [AffiliateDirect](../market/selling-nfts/selling-as-affiliate.md) links and **earn a 1.25% market fee**. On any Thing Page, click on Copy AffiliateDirect Link and start sharing the link. If someone buys this NFT through the link you shared, you instantly receive 1.25% of the sale. You need to be connected to Mintbase to generate the AffiliateDirect link.
+Yes, you can sell NFTs that you don't own through [AffiliateDirect](selling-nfts/selling-as-affiliate.md) links and **earn a 1.25% market fee**. On any Thing Page, click on Copy AffiliateDirect Link and start sharing the link. If someone buys this NFT through the link you shared, you instantly receive 1.25% of the sale. You need to be connected to Mintbase to generate the AffiliateDirect link.
 
 ### **How can I relist or remove a listing on Mintbase?**
 
-If you want to edit a listing, you can choose to Relist the NFT or [Remove Listing](../market/selling-nfts/relisting-or-remove-listing.md). For relisting, follow the same steps of how to list and the new listing will override the old listing. To remove a listing, find the NFT you want to unlist, click on the More Options (...) button, click on Remove Listing, and then a modal will pop up with information about the listing. Click on Remove Listing again and authorize the transaction on your wallet.
+If you want to edit a listing, you can choose to Relist the NFT or [Remove Listing](selling-nfts/relisting-or-remove-listing.md). For relisting, follow the same steps of how to list and the new listing will override the old listing. To remove a listing, find the NFT you want to unlist, click on the More Options (...) button, click on Remove Listing, and then a modal will pop up with information about the listing. Click on Remove Listing again and authorize the transaction on your wallet.
 
 ***
 
 ## Buying NFTs
 
-{% content-ref url="../market/buying-nfts/" %}
-[buying-nfts](../market/buying-nfts/)
+{% content-ref url="buying-nfts/" %}
+[buying-nfts](buying-nfts/)
 {% endcontent-ref %}
 
 ### What is the process for buying an NFT via Simple Sale?
 
-After finding an NFT listed as a [Simple Sale](../market/buying-nfts/buying-as-simple-sale.md), you can see the price in NEAR and the approximated conversion in USD. Click on "Buy with NEAR" and authorize the transaction on your wallet. After the transaction is complete, you can access the Activity page to see your transaction or click on Create and My NFTs to find your new purchase.
+After finding an NFT listed as a [Simple Sale](buying-nfts/buying-as-simple-sale.md), you can see the price in NEAR and the approximated conversion in USD. Click on "Buy with NEAR" and authorize the transaction on your wallet. After the transaction is complete, you can access the Activity page to see your transaction or click on Create and My NFTs to find your new purchase.
 
 ### **What is a Rolling Auction and how can I participate?**
 
-A [Rolling Auction](../market/buying-nfts/buying-as-rolling-auction.md) is a type of auction where you can make an offer on an NFT. After you make an offer, it stays locked in the contract for 24 hours. During this time, the owner can accept your offer, or someone else can make a higher offer (which would return your funds to you). If your offer is the highest and the owner does not accept it within 24 hours, you can manually withdraw your offer from escrow, or the owner can accept it at any time.
+A [Rolling Auction](buying-nfts/buying-as-rolling-auction.md) is a type of auction where you can make an offer on an NFT. After you make an offer, it stays locked in the contract for 24 hours. During this time, the owner can accept your offer, or someone else can make a higher offer (which would return your funds to you). If your offer is the highest and the owner does not accept it within 24 hours, you can manually withdraw your offer from escrow, or the owner can accept it at any time.
 
 ### **What happens to my funds when I make an offer in a Rolling Auction?**
 
