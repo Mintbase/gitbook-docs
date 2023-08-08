@@ -89,6 +89,7 @@
   * [Customizing your profile](creator/getting-started/user-settings.md)
   * [Public Profile](creator/getting-started/public-profile.md)
 * [🚀 Creating NFTs](creator/creating-nfts/README.md)
+  * [Adding / Removing Minters](creator/creating-nfts/adding-removing-minters.md)
   * [What is a Mintbase Contract](creator/creating-nfts/what-is-a-mintbase-store.md)
   * [Deploy a Contract](creator/creating-nfts/deploy-contract.md)
   * [Contract Page](creator/creating-nfts/contract-page.md)
