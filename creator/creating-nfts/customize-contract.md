@@ -50,7 +50,7 @@ Make your Contract shine with a nice header image. The accepted upload formats a
 
 Add minters to let people mint NFTs on your smart contract. Everyone you add here is able to mint and the NFTs will appear on your contract. They are not able to customize the contract settings.
 
-You can add an infinite amount of minters, the more minters you add the more storage you use. Read about [data-storage.md](../additional-content/data-storage.md "mention").
+You can add an infinite amount of minters, the more minters you add the more storage you use. Read about [data-storage.md](../data-storage.md "mention").
 
 ![](<../../.gitbook/assets/Screenshot 2022-08-01 at 15.47.32.png>)
 

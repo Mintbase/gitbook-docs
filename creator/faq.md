@@ -26,7 +26,7 @@ If your wallet is not connected, you'll see a Connect Wallet button in the top r
 
 You can sell the NFT on whatever platform you like as long as it follows the NFT standard. Even if you decide to build your own platform, later on, your NFTs can be sold and resold there. NFTs are interoperable.&#x20;
 
-Read more about [interoperability.md](additional-content/interoperability.md "mention")
+Read more about [interoperability.md](interoperability.md "mention")
 
 ### **What happens if we have thousands of sales and you decide to close, etc?**
 

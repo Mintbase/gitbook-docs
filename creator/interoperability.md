@@ -2,7 +2,7 @@
 description: What is interoperability and why is it amazing
 ---
 
-# Interoperability
+# 🔄 Interoperability
 
 ## What is interoperability
 

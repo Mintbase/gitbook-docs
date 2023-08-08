@@ -1,4 +1,4 @@
-# Data Storage
+# 🪨 Data Storage
 
 ### Limitations
 
@@ -8,7 +8,7 @@ Right now Mintbase is paying the Arweave AR token behind the scenes, so every ti
 
 You are uploading your data to a hybrid, decentralized network that is daily new to this works so expect some failures. Before listing you item wait about 10 minutes (time to mine the data) and click the "Transaction Id" on the thing page if you want to confirm it was mined.
 
-![](<../../.gitbook/assets/Screen Shot 2021-06-08 at 3.57.54 PM.png>)
+![](<../.gitbook/assets/Screen Shot 2021-06-08 at 3.57.54 PM.png>)
 
 ### Public Data
 
