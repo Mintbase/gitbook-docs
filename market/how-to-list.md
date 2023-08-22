@@ -6,17 +6,17 @@ description: You can sell the NFT from anywhere on the system
 
 Selling an NFT means making it available for simple sale or auction.
 
-## 1. Thing Page
+## 1. Meta Page
 
-On any Thing Page of an **NFT that you own**, you will see a bar on top with actions that you can do.
+If you are on a token page and you own one type of that token, you will see buttons on the top right.
 
-Click **List**
+Click **Sell**
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-11 at 11.18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-08-22 at 10.06.55.png" alt=""><figcaption></figcaption></figure>
 
 ## 2. Owned NFTs
 
-If you're looking for NFTs that you own but haven't minted yourself.
+If you're looking for NFTs you own but haven't minted yourself.
 
 On the homepage there is a row for your Owned NFTs.
 
@@ -30,7 +30,7 @@ You can also click the More Options (...) button to [Transfer](../creator/creati
 
 ## 3. NFTs from specific contracts
 
-On any contract page the Sell and More Options button will be visible on NFTs that you own.
+On any contract page, the Sell and More Options button will be visible on NFTs that you own.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-07-05 at 15.39.png" alt=""><figcaption></figcaption></figure>
 
@@ -40,6 +40,6 @@ You can choose to [Sell as Simple Sale](listing-as-simple-sale.md) or [Sell as R
 
 ## Storage Deposits
 
-When you list a token for sale on Mintbase, you will be asked to deposit 0.01N _per token_ listed into the market contract. This deposit is required by NEAR protocol and **is not a Mintbase fee. The deposit will be refunded to you when a token is sold or the listing is removed.** &#x20;
+When you list a token for sale on Mintbase, you will be asked to deposit 0.01N _per token_ in the market contract. This deposit is required by NEAR protocol and **is not a Mintbase fee. The deposit will be refunded to you when a token is sold, or the listing is removed.** &#x20;
 
 For more details regarding storage deposits on NEAR [read this section or our FAQ](../creator/faq.md#what-is-a-storage-deposit-and-why-is-it-required-to-list-on-the-market)

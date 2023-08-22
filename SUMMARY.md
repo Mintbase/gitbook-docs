@@ -4,15 +4,15 @@
 
 ## Market
 
+* [📥 How to sell](market/how-to-list.md)
+* [💰 Simple Sale](market/listing-as-simple-sale.md)
 * [👩⚖ Selling as Rolling Auction](market/listing-as-rolling-auction.md)
 * [❌ Remove / Re-Listing](market/relisting-or-remove-listing.md)
 * [💳 Stripe Connection](market/stripe-connection.md)
-* [🔀 Selling as Affiliate](market/selling-as-affiliate.md)
-* [📥 How to sell](market/how-to-list.md)
+* [🔀 AffiliateDirect](market/selling-as-affiliate.md)
 * [👀 Browsing Mintbase](market/browsing-mintbase.md)
 * [💎 Buying as Simple Sale](market/buying-as-simple-sale.md)
 * [🔁 Buying as Rolling Auction](market/buying-as-rolling-auction.md)
-* [💰 Simple Sale](market/listing-as-simple-sale.md)
 
 ## Developer <a href="#dev" id="dev"></a>
 
@@ -102,7 +102,7 @@
 * [🥩 Meta Page](creator/thing-page.md)
 * [🔄 Interoperability](creator/interoperability.md)
 * [🪨 Data Storage](creator/data-storage.md)
-* [DAOs & the Mintbase Toolkit](creator/daos-and-the-mintbase-toolkit.md)
+* [👨👩👦👦 DAOs & the Mintbase Toolkit](creator/additional-content/daos-and-the-mintbase-toolkit.md)
 * [🙋 FAQs](creator/faq.md)
 
 ## Company
