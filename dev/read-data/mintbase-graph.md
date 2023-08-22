@@ -35,6 +35,7 @@ curl --location --request POST 'https://graph.mintbase.xyz' \
 
 1. [Get NFTs owned by an account,](https://t.ly/9gtj) notice the `burned_timestamp` if null indicates it has not been burned yet
 2. [Get Metadata from token reference](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fgraph.mintbase.xyz%2Fmainnet\&header=mb-api-key%3Aanon\&query=query+MyQuery+%7B%0A++nft\_metadata%28%0A++++where%3A+%7Breference%3A+%7B\_eq%3A+%22nb0-oBR379DzoFYeYv-LesjVNmrVlDs5IqQ8hfDfnMU%22%7D%7D%0A++%29+%7B%0A++++id%0A++++media%0A++++reference\_blob%0A++%7D%0A%7D%0A) including title, media, documents, sound, 3d.
+3. [Get unburned tokens on a contract](https://shorturl.at/dqxFS)
 
 
 
