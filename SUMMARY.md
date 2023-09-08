@@ -53,6 +53,8 @@
           * [checkStoreName](mintbase-sdk-ref/packages/data/src/api/checkStoreName/README.md)
           * [attributesByContract](mintbase-sdk-ref/packages/data/src/api/attributesByContract/README.md)
           * [tokensByAttributes](mintbase-sdk-ref/packages/data/src/api/tokensByAttributes/README.md)
+          * [userOwnedTokens](mintbase-sdk-ref/packages/data/src/api/userOwnedTokens/README.md)
+          * [userMintedTokens](mintbase-sdk-ref/packages/data/src/api/userMintedTokens/README.md)
           * [ownedTokens](mintbase-sdk-ref/packages/data/src/api/ownedTokens/README.md)
           * [tokenById](mintbase-sdk-ref/packages/data/src/api/tokenById/README.md)
           * [tokenListingCounts](mintbase-sdk-ref/packages/data/src/api/tokenListingCountsByMetaId/README.md)
