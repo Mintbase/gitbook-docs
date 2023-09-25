@@ -28,11 +28,11 @@ Create a symbol (Pretend you are listing your store on the NYSE and needed a [ti
 
 
 
-After filling out both fields, click on **Deploy Contract**. You will be redirected to your NEAR wallet, where you need to accept the transaction of 6.5 NEAR.
+After filling out both fields, click on **Deploy Contract**. You will be redirected to your NEAR wallet, where you need to accept the transaction of 3.5 NEAR.
 
-### Why 6.5 NEAR?
+### Why 3.5 NEAR?
 
-It costs 6.5 NEAR to deploy a store, **this goes to the NEAR blockchain and not Mintbase.** These are **storage costs** as you are paying to reserve space on the chain. You can see 602929 Bytes are used.
+It costs 3.5 NEAR to deploy a store, **this goes to the NEAR blockchain and not Mintbase.** These are **storage costs** as you are paying to reserve space on the chain. You can see 602929 Bytes are used.
 
 ![](<../../.gitbook/assets/Screen Shot 2021-06-07 at 4.13.47 PM.png>)
 
