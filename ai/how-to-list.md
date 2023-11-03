@@ -24,15 +24,17 @@ Uses [Stable diffusion prompts](https://clipdrop.co/stable-diffusion?utm\_campai
 
 ### Generate and Mint
 
-generate an image of a punk dragon and then mint it on my contract yeeehaw.mintbase1.near with the owner of each token to be alejandro.near
+> Generate an image of a punk dragon and then mint it on my contract yeeehaw.mintbase1.near with the owner of each token to be alejandro.near
 
 ### Deploy a Contract
 
-deploy a store called runboyrun set the owner as nate.near using mainnet
+> Deploy a store called runboyrun set the owner as nate.near using mainnet
 
 ### Get Token data
 
-get the last 6 tokens minted on nearcon.mintbase1.near and show me the owners
+
+
+> Get the last 6 tokens minted on nearcon.mintbase1.near and show me the owners
 
 
 
