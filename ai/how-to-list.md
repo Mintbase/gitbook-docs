@@ -2,19 +2,19 @@
 description: You can sell the NFT from anywhere on the system
 ---
 
-# 📥 Getting Started
+# 🤖 Getting Started
+
+## <mark style="color:red;background-color:yellow;">WARNING</mark>
+
+<mark style="color:red;background-color:yellow;">Only use an account with a low balance and always check the amount of funds each transaction generates. This is an experimental application and is widely untested. Also, make sure to check the details of the trade before submitting.</mark>
+
+
 
 Anything you can do on mintbase, you can do on our prompts. Right now, the open site is using ChatGPT 3.5 with a closed beta on 4, which is significantly better. We are looking to see how we can create a pricing model that will offset the 10x costs.
 
 Mainnet [https://ai.mintbase.xyz/](https://ai.mintbase.xyz/)
 
 Testnet [https://testnet.ai.mintbase.xyz/](https://testnet.ai.mintbase.xyz/)
-
-
-
-* Deploy your own NFT smart contract&#x20;
-* Minting&#x20;
-* Generating image
 
 ## Images
 
@@ -29,8 +29,6 @@ generate an image of a punk dragon and then mint it on my contract yeeehaw.mintb
 ### Deploy a Contract
 
 deploy a store called runboyrun set the owner as nate.near using mainnet
-
-
 
 ### Get Token data
 

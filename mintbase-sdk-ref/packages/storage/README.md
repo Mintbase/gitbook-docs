@@ -1,12 +1,10 @@
-
 # @mintbase-js/storage
 
-<p align="center">
-<img src='https://img.shields.io/npm/dw/@mintbase-js/storage' />
-<img src='https://img.shields.io/bundlephobia/min/@mintbase-js/storage'>
-</p>
+## @mintbase-js/storage
 
-# Storage
+![](https://img.shields.io/npm/dw/@mintbase-js/storage) ![](https://img.shields.io/bundlephobia/min/@mintbase-js/storage)
+
+## Storage
 
 Convenience methods for storing NFT reference materials.
 
@@ -14,7 +12,7 @@ Currently we support Arweave via hosted service. **You will need a new API key f
 
 Please get in touch through Telegram if you are interested in using the new service.
 
-# Arweave
+## Arweave
 
 Arweave is a decentralized storage network that allows users to store data permanently and immutably on the blockchain. The Arweave network is based on a data structure called a blockweave, which is a variant of a blockchain that is optimized for storing data rather than transactions.
 
@@ -26,10 +24,11 @@ In addition, the Arweave hash is used to locate and retrieve blocks from the net
 
 Overall, the Arweave hash is an important component of the Arweave network, providing a secure and efficient way to store and access data on the blockchain.
 
-# Upload in the Browser
+## Upload in the Browser
 
 It's possible to use [File](https://developer.mozilla.org/en-US/docs/Web/API/File) to upload a file using a browser.
-## uploadFile(file: File): ArweaveResponse
+
+### uploadFile(file: File): ArweaveResponse
 
 `uploadFile` takes a single argument of type File
 
@@ -48,10 +47,9 @@ export type ArweaveResponse = {
 
 ```
 
-
 Example usage of storage method in a hypothetical React component:
-{% code title="StorageUI.ts" overflow="wrap" lineNumbers="true" %}
 
+{% code title="StorageUI.ts" overflow="wrap" lineNumbers="true" %}
 ```tsx
 
 import { useState } from 'react';
@@ -88,13 +86,11 @@ const FileUpload = () => {
 ```
 {% endcode %}
 
+## Upload References in the Browser
 
-# Upload References in the Browser
+The easiest way to upload a reference json for your token is with this method. Calling it uploads a JSON object containing media of type [File](https://developer.mozilla.org/en-US/docs/Web/API/File) that is uploaded as well automatically. This produces a permanently stored reference object containing a media field which has also been uploaded to arweave to save you from uploading twice.
 
-The easiest way to upload a reference json for your token is with this method.
-Calling it uploads a JSON object containing media of type [File](https://developer.mozilla.org/en-US/docs/Web/API/File) that is uploaded as well automatically.
-This produces a permanently stored reference object containing a media field which has also been uploaded to arweave to save you from uploading twice.
-## uploadReference(referenceObject: ReferenceObject): ArweaveResponse
+### uploadReference(referenceObject: ReferenceObject): ArweaveResponse
 
 `uploadReferece` takes a single argument of type File
 

@@ -1,33 +1,30 @@
-
 # @mintbase-js/auth
 
-<p align="center">
-<img src='https://img.shields.io/npm/dw/@mintbase-js/auth' />
-<img src='https://img.shields.io/bundlephobia/min/@mintbase-js/auth'>
-</p>
+## @mintbase-js/auth
 
-# Working with Web3 Accounts
+![](https://img.shields.io/npm/dw/@mintbase-js/auth) ![](https://img.shields.io/bundlephobia/min/@mintbase-js/auth)
+
+## Working with Web3 Accounts
 
 This package abstracts login, auth and signing functionality away from `@mintbase-js/sdk` core.
 
 As more complex use cases grow with more complex credential verification (ZK), message signing and whatever the future of web3 may hold, having standalone methods and documentation around these features is prudent.
 
-# Wallet <div name="wallet"></div>
+## Wallet
 
 A stateful module that wraps the core features found in [near/wallet-selector](https://github.com/near/wallet-selector/).
 
 This module can be used as a framework agnostic wrapper using framework specific integrations:
 
-  * [React: WalletContext](../react#walletcontext)
+* [React: WalletContext](../react/#walletcontext)
 
-*Check back soon for documentation on wallet selector wrapper methods and example usage with other frameworks in the near future.*
+_Check back soon for documentation on wallet selector wrapper methods and example usage with other frameworks in the near future._
 
-
-# config vars
+## config vars
 
 read about config global variables on: [Config SDK method](https://docs.mintbase.io/dev/mintbase-sdk-ref/sdk/config)
 
-# Account <div name="account"></div>
+## Account
 
 The primary method used for loading a NEAR account into your Node programs is via the `connect` method
 
@@ -42,14 +39,11 @@ connect(
 This method uses `near-api-js` to load account `accountId` with credentials in the provided keystore.
 
 {% hint style="info" %}
-
-To use the near account signing method with the SDK contract api, you will need to implement a form of key management.
-You will want to read up on using `KeyStore` in the [NEAR Documentation](https://docs.near.org/tools/near-api-js/quick-reference#key-store)
-
+To use the near account signing method with the SDK contract api, you will need to implement a form of key management. You will want to read up on using `KeyStore` in the [NEAR Documentation](https://docs.near.org/tools/near-api-js/quick-reference#key-store)
 {% endhint %}
 
-
 Example usage:
+
 {% code title="loadAccount.ts" overflow="wrap" lineNumbers="true" %}
 ```typescript
 import { connect } from '@mintbase-js/auth';
@@ -72,8 +66,4 @@ const loadAuthenticatedNearAccountInNodeJS = async (accountId: string) => {
 ```
 {% endcode %}
 
-Here is a [working example](https://github.com/Mintbase/mintbase-js/blob/beta/packages/testing/src/utils.ts#L7) from our [testing library](../testing) of this using GCP Secret Manager.
-
-
-
-
+Here is a [working example](https://github.com/Mintbase/mintbase-js/blob/beta/packages/testing/src/utils.ts#L7) from our [testing library](../testing/) of this using GCP Secret Manager.

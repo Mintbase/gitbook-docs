@@ -1,8 +1,6 @@
 # Table of contents
 
 * [Overview](README.md)
-* [AI + ChatGPT](ai-+-chatgpt/README.md)
-  * [Getting Started](ai-+-chatgpt/getting-started.md)
 
 ## Market
 
@@ -18,7 +16,7 @@
 
 ## AI
 
-* [📥 Getting Started](ai/how-to-list.md)
+* [🤖 Getting Started](ai/how-to-list.md)
 
 ## Developer <a href="#dev" id="dev"></a>
 
