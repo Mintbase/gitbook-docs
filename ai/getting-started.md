@@ -18,7 +18,7 @@ Testnet [https://testnet.ai.mintbase.xyz/](https://testnet.ai.mintbase.xyz/)
 
 ## Images
 
-Uses [Stable diffusion prompts](https://clipdrop.co/stable-diffusion?utm\_campaign=stable\_diffusion\_promo\&utm\_medium=cta\_button\&utm\_source=stability\_ai) to generate images&#x20;
+Uses [Stable Diffusion prompts](https://clipdrop.co/stable-diffusion?utm\_campaign=stable\_diffusion\_promo\&utm\_medium=cta\_button\&utm\_source=stability\_ai) to generate images&#x20;
 
 ## Prompts
 

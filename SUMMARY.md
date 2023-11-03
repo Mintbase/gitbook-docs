@@ -16,7 +16,7 @@
 
 ## AI
 
-* [🤖 Getting Started](ai/how-to-list.md)
+* [🤖 Getting Started](ai/getting-started.md)
 
 ## Developer <a href="#dev" id="dev"></a>
 
