@@ -6,7 +6,7 @@ description: You can sell the NFT from anywhere on the system
 
 ## <mark style="color:red;background-color:yellow;">WARNING</mark>
 
-<mark style="color:red;background-color:yellow;">Only use an account with a low balance and always check the amount of funds each transaction generates. This is an experimental application and is widely untested. Also, make sure to check the details of the trade before submitting.</mark>
+Only use an account with a low balance and always check the amount of funds each transaction generates. This is an experimental application and is widely untested. Also, make sure to check the details of the trade before submitting.
 
 
 
@@ -18,7 +18,7 @@ Testnet [https://testnet.ai.mintbase.xyz/](https://testnet.ai.mintbase.xyz/)
 
 ## Images
 
-Uses [Stable diffusion promotes](https://clipdrop.co/stable-diffusion?utm\_campaign=stable\_diffusion\_promo\&utm\_medium=cta\_button\&utm\_source=stability\_ai) to gernate images&#x20;
+Uses [Stable diffusion prompts](https://clipdrop.co/stable-diffusion?utm\_campaign=stable\_diffusion\_promo\&utm\_medium=cta\_button\&utm\_source=stability\_ai) to generate images&#x20;
 
 ## Prompts
 
