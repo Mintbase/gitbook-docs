@@ -1,6 +1,13 @@
 # 📂 Add wallet connection to your react app
 
-This a quick guide walking you through how to manage wallet connection using Mintbase-js.
+This a quick guide walking you through how to manage wallet connection using Mintbase-js.\
+
+
+## First Method: Clone the examples repo
+
+You can easily test Mintbase Wallet, using our Simple Login example with Next.js 14 on this repository:\
+\
+[https://github.com/Mintbase/starter](https://github.com/Mintbase/starter) ,  just do a `pnpm install` on the next-js folder and `pnpm run dev` any issues or troubleshooting help you can send us a message on our Telegram Channel
 
 ## Step 1: Install
 
@@ -12,7 +19,7 @@ or\
 \
 yarn `install @mintbase-js/react`&#x20;
 
-## Step 2: Add Wallet Context Provider
+## Step 2: Add Mintbase Wallet Context Provider
 
 Add the `WalletContextProvider` to the root entry point of your app.
 
@@ -20,15 +27,18 @@ Add the `WalletContextProvider` to the root entry point of your app.
 The below example shows how to do this on a Next.js app but the idea is the same. For React the equivalent should be done in the index.js file.
 
 ```typescript
-import { WalletContextProvider } from '@mintbase-js/react'
+import { MintbaseWalletContextProvider } from '@mintbase-js/react'
 import '@near-wallet-selector/modal-ui/styles.css';
 import type { AppProps } from 'next/app'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-  <WalletContextProvider>  
-    <Component {...pageProps} />
-  </WalletContextProvider>)
+<MintbaseWalletContextProvider
+contractAddress="mycontract.mintbase1.near"
+network="mainnet"
+callbackUrl="https://www.mywebsite.com/callback">
+   <Component {...pageProps} />
+</MintbaseWalletContextProvider>)
 }
 
 ```
@@ -44,30 +54,36 @@ Use the connect method to provide the wallet selector UI where you can select wh
 Once the wallet is connected the activeAccountId will be populated
 
 ```typescript
-import { useWallet } from  '@mintbase-js/react'
 
-const  NearWalletConnector = () => {
-  const {
-    connect,
-    disconnect,
-    activeAccountId,
-    selector,
-    isConnected,
-    errorMessage,
-  } = useWallet();
+"use client"import { useMbWallet } from "@mintbase-js/react";
 
+export const NearWalletConnector = () => {
+  const { isConnected, selector, connect , activeAccountId } = useMbWallet();
 
-  if (!isConnected) {
-    return <button  onClick={connect}>Connect To NEAR</button>
+  const handleSignout = async () => {
+    const wallet = await selector.wallet();
+    return wallet.signOut();
+  };
+
+  const handleSignIn = async () => {
+    return connect();
+  };
+
+ if (!isConnected) {
+    return <button  className="bg-white text-black rounded p-3 hover:bg-[#e1e1e1]" onClick={handleSignIn}>Connect To NEAR</button>;
   }
 
   return (
     <div>
       <p>You are connected as {activeAccountId}</p>
-      <button  onClick={disconnect}>Disconnect</button>
+      <div className="flex justify-center items-center mt-4">
+        <button className="bg-white text-black rounded p-3 hover:bg-[#e1e1e1]" onClick={handleSignout}> Disconnect </button>
+      </div>
     </div>
-  )
-}
+  );
+};
+
+
 ```
 
 \
@@ -86,7 +102,7 @@ const {
     selector,
     isConnected,
     errorMessage,
-  } = useWallet();
+  } = useMbWallet();
 
   const  signTxn = async () => {
   const  wallet = await selector.wallet();
