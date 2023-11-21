@@ -12,7 +12,7 @@ This package contains React helpers for interacting with Mintbase JS.
 </p>
 
 Example:
-You can check a [quick example of Simple Login](https://github.com/Mintbase/starter) using Next.js 14 and @mintbase-js/react
+You can check a [quick example of Simple Login](https://github.com/Mintbase/examples/tree/main/starter) using Next.js 14 and @mintbase-js/react
 
 
 [Live Demo](https://mintbase-starter.vercel.app/)
@@ -65,7 +65,7 @@ the default way of interacting with Mintbase Wallet is using the MintbaseWalletC
 **additionalWallets** : `WalletModuleFactory[] extra wallets setup`
 
 ```typescript
-
+import "@near-wallet-selector/modal-ui/styles.css";
 import { MintbaseWalletContextProvider } from  '@mintbase-js/react'
 
 <MintbaseWalletContextProvider
