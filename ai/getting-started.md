@@ -26,7 +26,7 @@ Uses [Stable Diffusion prompts](https://clipdrop.co/stable-diffusion?utm\_campai
 
 Make sure you are a minter on your chosen contract and change "chatgpt.mintbase1.near " to your contract and owner.
 
-> Generate an image of a punk dragon and then mint it on my contract chatgpt.mintbase1.near with the owner of each token to be nate.near
+> Generate an image of a cyberpunk dystopian desert with photorealism and then mint 3 copies on my contract chatgpt.mintbase1.near with the owner of each token to be nate.near
 
 ### Deploy a Contract
 
@@ -34,9 +34,13 @@ Make sure you are a minter on your chosen contract and change "chatgpt.mintbase1
 
 ### Get Token data
 
-
-
 > Get the last 6 tokens minted on nearcon.mintbase1.near and show me the owners
+
+### Buy an NFT
+
+> Buy a token listed for less than 1 NEAR on the contract nearconminsta.mintbase1.near
+
+> Buy the lastest token listed for less than 0.02 NEAR
 
 
 
