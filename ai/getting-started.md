@@ -24,7 +24,9 @@ Uses [Stable Diffusion prompts](https://clipdrop.co/stable-diffusion?utm\_campai
 
 ### Generate and Mint
 
-> Generate an image of a punk dragon and then mint it on my contract yeeehaw.mintbase1.near with the owner of each token to be alejandro.near
+Make sure you are a minter on your chosen contract and change "chatgpt.mintbase1.near " to your contract and owner.
+
+> Generate an image of a punk dragon and then mint it on my contract chatgpt.mintbase1.near with the owner of each token to be nate.near
 
 ### Deploy a Contract
 
