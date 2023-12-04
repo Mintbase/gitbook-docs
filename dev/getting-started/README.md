@@ -18,7 +18,7 @@
 
 All transitions made on Mintbase.xyz are done with MintbaseJS, mint, transfer, burn, buy, list...
 
-Or use our [boilerplate examples](../examples/) to deploy your own market in minutes.
+Or use our boilerplate templates to deploy your own market in minutes.
 
 
 
@@ -72,8 +72,15 @@ Each one of these examples covers a use case we believe is strongly supported by
 
 Below you can find a dapp starting point that can be configured and deployed to your own github in 10 minutes.
 
-* [Simple Minter](https://github.com/Mintbase/examples/blob/main/simple-minter)
-* [Simple Marketplace](https://github.com/Mintbase/examples/blob/main/simple-marketplace)
+* [Minter](https://github.com/Mintbase/templates/tree/main/minter)
+* [Marketplace](https://github.com/Mintbase/templates/tree/main/marketplace)
+* [Starter ( Simple Login )](https://github.com/Mintbase/templates/tree/main/starter)
+* [AI Chat](https://github.com/Mintbase/templates/tree/main/ai-chat)
+* [AI Minter](https://github.com/Mintbase/templates/tree/main/ai-minter)
+* [Blog](https://github.com/Mintbase/templates/tree/main/blogchain)
+* [Contract Deployer](https://github.com/Mintbase/templates/tree/main/contract-deployer)
+* [NFT ](https://github.com/Mintbase/templates/tree/main/nft-stripe-checkout)[Stripe Checkout](https://github.com/Mintbase/templates/tree/main/nft-stripe-checkout)
+* [Token Drop](https://github.com/Mintbase/templates/tree/main/simple-token-drop)
 
 {% embed url="https://www.loom.com/share/bb449c7b09b644b692c0292315889288" %}
 
