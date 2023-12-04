@@ -73,7 +73,7 @@
 * [📊 GraphQL Indexer](dev/read-data/mintbase-graph.md)
 * [📄 Templates](dev/examples/README.md)
   * [Build a Marketplace](dev/examples/simple-marketplace.md)
-  * [Build a Simple Minter](dev/examples/simple-minter.md)
+  * [Build a NFT Minter](dev/examples/simple-minter.md)
 * [📜 Smart Contracts](dev/smart-contracts/README.md)
   * [Core Addresses](dev/smart-contracts/core-addresses/README.md)
     * [Marketplace 2.0](dev/smart-contracts/core-addresses/marketplace-2.0.md)

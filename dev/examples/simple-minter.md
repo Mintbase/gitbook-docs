@@ -1,4 +1,4 @@
-# Build a Simple Minter
+# Build a NFT Minter
 
 This guide will walk you through the process of creating a simple minting page. You will be able to connect your wallet, upload media and input information, and finally, mint your creation. To complete this guide, you should have a basic understanding of React and JavaScript, as well as a functioning wallet connection in your application. If you need help setting up a wallet connection, please refer to [this guide](../getting-started/add-wallet-connection-to-your-react-app.md).
 
@@ -11,16 +11,13 @@ npm install @mintbase-js/sdk
 npm install @mintbase-js/storage
 ```
 
-For the configuration, this function can be added to any of your parent components, such as `app.tsx` or `index.tsx`. In this step, you can specify the network (testnet or mainnet), the callback URL (the URL where your frontend will be redirected to after contract call wallet signatures), and the contract address (the contract you will use for minting). If you are unfamiliar with how to deploy a contract, please refer to [this guide](../getting-started/make-your-first-contract-call-deploycontract.md) for more information.
+For the configuration, you just need to add the info on the file _minter/src/config/setup.ts_. In this step, you can specify the network (testnet or mainnet), the callback URL (the URL where your frontend will be redirected to after contract call wallet signatures), and the contract address (the contract you will use for minting). If you are unfamiliar with how to deploy a contract, please refer to [this guide](../getting-started/make-your-first-contract-call-deploycontract.md) for more information.
 
 ```typescript
-import { mbjs } from "@mintbase-js/sdk";
-
-mbjs.config({
-    network: process.env.NEXT_PUBLIC_NEAR_NETWORK,
-    callbackUrl: process.env.NEXT_PUBLIC_CALLBACK_URL,
-    contractAddress: process.env.NEXT_PUBLIC_CONTRACT_ADDRESS,
-  });
+export const MintbaseWalletSetup = {
+  contractAddress: "test122212.mintspace2.testnet",
+  network: "testnet",
+};
 ```
 
 ## Step 2: Get form data
