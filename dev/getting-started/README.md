@@ -64,7 +64,7 @@ For most operations moving forward an API key will be required.
 
 Register a [developer key here](https://www.mintbase.io/developer)
 
-## [Use Case Examples](../examples/)
+## [Use Case Templates](../examples/)
 
 Get building fast with our pre-built examples.
 
