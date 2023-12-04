@@ -1,8 +1,8 @@
 ---
-description: Some Examples built on top of mintbase.js
+description: Some Templates built on top of mintbase.js
 ---
 
-# 📄 Examples
+# 📄 Templates
 
 Get building fast with our ready to deploy dapps.
 

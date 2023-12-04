@@ -1,4 +1,4 @@
-# simple-marketplace
+# Build a Marketplace
 
 This guide will take you step by step through the process of creating a basic marketplace where you can purchase tokens and filter your selection by store, using the [Mintbase JS SDK](../../mintbase-sdk-ref/packages/sdk/) and [Mintbase JS Data](../../mintbase-sdk-ref/packages/data/) package.
 
@@ -6,8 +6,8 @@ The mintbase-js/data package provides convenient functions for retrieving data f
 
 In this example, you will be able to view and purchase NFTs from a specific store.
 
-You can find more information on Github: [https://github.com/Mintbase/examples/tree/main/simple-marketplace](https://github.com/Mintbase/examples/tree/main/simple-marketplace). \
-A live demo of the marketplace can be found here: [https://examples-simple-marketplace.vercel.app/](https://examples-simple-marketplace.vercel.app/)
+You can find more information on Github: [https://github.com/Mintbase/templates/tree/main/marketplace](https://github.com/Mintbase/templates/tree/main/marketplace)\
+A live demo of the marketplace can be found here: [https://marketplace-template.mintbase.xyz/](https://marketplace-template.mintbase.xyz/)
 
 ### Step 1: Connect wallet
 
