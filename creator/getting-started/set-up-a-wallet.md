@@ -8,6 +8,7 @@ Mintbase operates on the [NEAR blockchain](https://near.org/) and to interact wi
 
 ### The following Wallets can be used on Mintbase:
 
+* [Mintbase Wallet](https://wallet.mintbase.xyz/)
 * [NEAR Wallet](https://wallet.near.org/)
 * [Meteor Wallet](https://meteorwallet.app/)
 * [MyNearWallet](https://app.mynearwallet.com/)
