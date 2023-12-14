@@ -28,7 +28,7 @@ Create a symbol (Pretend you are listing your store on the NYSE and needed a [ti
 
 
 
-After filling out both fields, click on **Deploy Contract**. You will be redirected to your NEAR wallet, where you need to accept the transaction of 3.5 NEAR.
+After filling out both fields, click on **Deploy Contract**. You will be redirected to your NEAR wallet, where you need to accept the transaction of 3.7 NEAR.
 
 ### Why 3.5 NEAR?
 
