@@ -18,19 +18,25 @@ Testnet [https://testnet.ai.mintbase.xyz/](https://testnet.ai.mintbase.xyz/)
 
 ## Images
 
-Uses [Stable Diffusion prompts](https://clipdrop.co/stable-diffusion?utm\_campaign=stable\_diffusion\_promo\&utm\_medium=cta\_button\&utm\_source=stability\_ai) to generate images&#x20;
+Uses DALL-E3 for image generation [https://openai.com/dall-e-3](https://openai.com/dall-e-3)
 
 ## Prompts
 
+### 1 Deploy a Contract
+
+Make sure to change
+
+> Deploy a store called \{{your store name, needs ot be unique, on word all lowercase![](<../.gitbook/assets/Screenshot 2023-12-20 at 11.18.07.png>)\}}&#x20;
+
 ### Generate and Mint
 
-Make sure you are a minter on your chosen contract and change "chatgpt.mintbase1.near " to your contract and owner.
+Make sure you are a minter on your chosen contract and change "bull " to your contract and owner.
 
-> Generate an image of a cyberpunk dystopian desert with photorealism and then mint 3 copies on my contract chatgpt.mintbase1.near with the owner of each token to be nate.near
+> Create a picture of a Lego marketing scene, non-realistic, where a couple of people are playing with a set, and the box of Legos has the title "Mintbase is Rad", and the theme should be outer-space and rockets launching and mint 3 copies on my contract bull once it is uploaded to Arweave.
 
-### Deploy a Contract
+### Minted here
 
-> Deploy a store called runboyrun set the owner as nate.near using mainnet
+{% embed url="https://www.mintbase.xyz/meta/bull.mintbase1.near%3Aab9d5a643ac49c00f3011070ca977d64" %}
 
 ### Get Token data
 
