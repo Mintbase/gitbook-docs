@@ -24,7 +24,7 @@ Uses DALL-E3 for image generation [https://openai.com/dall-e-3](https://openai.c
 
 Make sure to change
 
-> Deploy a store called _**\{{your store name, needs ot be unique, one word and all lowercase\}}**_&#x20;
+> Deploy a store called _**\{{your store name, needs to be unique, one word and all lowercase\}}**_&#x20;
 
 
 
