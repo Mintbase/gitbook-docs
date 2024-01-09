@@ -2,7 +2,7 @@
 
 ### GraphQL Indexer
 
-[All read-only graphQL](./#graphql-indexer) data generated from blockchain transactions happen here. It's how we know who ones what tokens with what royalties quickly.
+[All read-only graphQL](./#graphql-indexer) data generated from blockchain transactions happen here. It's how we know who owns what tokens with what royalties quickly.
 
 ### Rust Contracts
 
