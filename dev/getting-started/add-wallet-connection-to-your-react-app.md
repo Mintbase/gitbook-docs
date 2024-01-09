@@ -103,7 +103,7 @@ Step 4: Use the Wallet Connection to Execute Contract Calls
 
 Now that the wallet has been connected it is possible to access these props anywhere in the app through the `useWallet()`method.
 
-With selector.wallet() its possible to get the current wallet instance and use it to execute [Mintbase JS SDK methods ](../../mintbase-sdk-ref/packages/sdk/)to interact with smart contracts.
+With selector.wallet() it's possible to get the current wallet instance and use it to execute [Mintbase JS SDK methods ](../../mintbase-sdk-ref/packages/sdk/)to interact with smart contracts.
 
 ```typescript
 const {

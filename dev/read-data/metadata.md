@@ -10,7 +10,7 @@ Metadata is responsible for describing the properties of your token. A set of st
 
 _Looking for a quick example of reference JSON?_ [Skip to the example.](metadata.md#full-example-of-nft-reference-data-with-media-title-attributes-and-tags)
 
-The **reference** field is where the URL reference to this JSON document will be stored. This field's value is passed to the the [mint transaction](../../mintbase-sdk-ref/packages/sdk/src/mint/) before the NFT is created on the blockchain.
+The **reference** field is where the URL reference to this JSON document will be stored. This field's value is passed to the [mint transaction](../../mintbase-sdk-ref/packages/sdk/src/mint/) before the NFT is created on the blockchain.
 
 Here are the on-chain options for token metadata provided by the NEAR[ NEP-177](https://nomicon.io/Standards/Tokens/NonFungibleToken/Metadata#nep-177) standard:&#x20;
 
