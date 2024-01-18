@@ -41,7 +41,7 @@ Example usage of buy method in a hypothetical React component:
 ```typescript
 import { useState } from 'react';
 import { useWallet } from '@mintbase-js/react';
-import { execute, buy, BuyArgs } from '@mintbase-js/sdk';
+import { execute, burn, BuyArgs } from '@mintbase-js/sdk';
 
 
 export const BuyComponent = ({ contractAddress, price, tokenId, affiliateAccount, marketId }:BuyArgs): JSX.Element => {
@@ -64,7 +64,7 @@ export const BuyComponent = ({ contractAddress, price, tokenId, affiliateAccount
   return (
     <div>
       <button onClick={handleBuy}>
-        Buy {tokenId} from {contractAddress}
+        Burn provided token array from {contractAddress}
       </button>
     </div>
   );
