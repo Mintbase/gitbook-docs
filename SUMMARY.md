@@ -55,6 +55,7 @@
           * [ownedNftsByStore](mintbase-sdk-ref/packages/data/src/api/ownedNftsByStore/README.md)
           * [nearPrice](mintbase-sdk-ref/packages/data/src/api/nearPrice/README.md)
           * [storeData](mintbase-sdk-ref/packages/data/src/api/storeData/README.md)
+          * [contractMinters](mintbase-sdk-ref/packages/data/src/api/contractMinters/README.md)
           * [storeNfts](mintbase-sdk-ref/packages/data/src/api/storeNfts/README.md)
           * [metadataByMetadataId](mintbase-sdk-ref/packages/data/src/api/metadataByMetadataId/README.md)
           * [checkStoreName](mintbase-sdk-ref/packages/data/src/api/checkStoreName/README.md)
