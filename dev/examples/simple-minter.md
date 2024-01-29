@@ -249,8 +249,6 @@ const useMintImage = () => {
 export default useMintImage;
 ```
 
-##
-
 ## Step 3.1: Upload to permanent storage
 
 In this snippet the [storage module](../../mintbase-sdk-ref/packages/storage/) method `uploadReference()` is called with the metadata object as an argument. This will upload the JSON object to permanent storage as well as the files contained as long as their values correspond to the correct object keys. For more information on how to handle uploading references visit our [Upload Reference Material To Arweave and Mint](../getting-started/upload-reference-material-to-arweave-and-mint.md) guide.
