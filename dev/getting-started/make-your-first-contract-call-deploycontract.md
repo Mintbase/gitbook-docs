@@ -14,10 +14,9 @@ A prerequisite is to be able to have a wallet connection mechanism in your appli
 ```typescript
 import { useWallet } from '@mintbase-js/react';
 
-const DeployContractUi = ({ tokenId, contractId }) => {
+const DeployContractComponent = () => {
   const { selector, activeAccountId } = useWallet();
   const wallet = await selector.wallet();
-  
 }
 
 ```
@@ -41,7 +40,17 @@ npm install @mintbase-js/sdk
 import { useWallet } from '@mintbase-js/react';
 import { deployContract } from '@mintbase-js/sdk';
 
-const DeployContractUI = ({ name, owner, contractId, symbol }:any) => {
+// name is the name of the store/contract you need to pass from the parent component.
+// symbol min characters is 1 and max 5 and need to be ALPHANUMERIC characters.
+// owner must be a valid near account address.
+
+interface DeployContractArgs {
+  name: string,
+  owner: string,
+  symbol: string,
+}
+
+const DeployContractComponent = ({ name, owner, symbol }: DeployContractArgs) => {
   const { selector } = useWallet();
   const handleDeployContract = async (): Promise<void> => {
     const wallet = await selector.wallet();
@@ -69,9 +78,21 @@ import { useState } from 'react';
 import { useWallet } from '@mintbase-js/react';
 import { execute, deployContract } from '@mintbase-js/sdk';
 
-const DeployContractUI = ({ name, owner, contractId, symbol }:any) => {
+// name is the name of the store/contract you need to pass from the parent component.
+// symbol min characters is 1 and max 5 and need to be ALPHANUMERIC characters.
+// owner must be a valid near account address.
+
+interface DeployContractArgs {
+  name: string,
+  owner: string,
+  symbol: string,
+}
+
+
+const DeployContractUI = ({ name, owner, symbol }:DeployContractArgs) => {
   const { selector } = useWallet();
-  const handleDeployContract = async (): Promise<void> => {
+ 
+   const handleDeployContract = async (): Promise<void> => {
     const wallet = await selector.wallet();
     await execute(
           {wallet},
@@ -84,9 +105,10 @@ const DeployContractUI = ({ name, owner, contractId, symbol }:any) => {
       })
     )
   };
+
   return (
     <div>
-      <button onClick={() => handleDeployContract()}>
+      <button onClick={handleDeployContract}>
         DeployContract with name= {name} and owner= {owner}
       </button>
     </div>
