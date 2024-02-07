@@ -41,6 +41,7 @@
         * [list](mintbase-sdk-ref/packages/sdk/src/list/README.md)
         * [execute](mintbase-sdk-ref/packages/sdk/src/execute/README.md)
         * [depositStorage](mintbase-sdk-ref/packages/sdk/src/depositStorage/README.md)
+        * [setSplits](mintbase-sdk-ref/packages/sdk/src/setSplits/README.md)
         * [ftTransfer](mintbase-sdk-ref/packages/sdk/src/ftTransfer/README.md)
         * [ftDepositStorage](mintbase-sdk-ref/packages/sdk/src/ftDepositStorage/README.md)
         * [burn](mintbase-sdk-ref/packages/sdk/src/burn/README.md)
