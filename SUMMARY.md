@@ -16,10 +16,10 @@
 
 ## Wallet
 
-* [👛 Overview](wallet/overview.md)
-* [Creating a New Account](wallet/creating-a-new-account.md)
-* [Features](wallet/features.md)
-* [Integrating Mintbase Wallet](wallet/integrating-mintbase-wallet.md)
+* [🔐 Overview](wallet/overview.md)
+* [🛸 Creating a New Account](wallet/creating-a-new-account.md)
+* [🤩 Features](wallet/features.md)
+* [⚙ Integrating Mintbase Wallet](wallet/integrating-mintbase-wallet.md)
 
 ## AI
 
