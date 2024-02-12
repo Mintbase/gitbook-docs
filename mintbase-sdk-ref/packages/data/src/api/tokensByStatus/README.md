@@ -17,7 +17,7 @@ Returns number of tokens by `metadataId` and statuses: `burned, unburned, listed
 
 
 
-### tokenById(metadataId: string, ownedBy?: string)
+### tokenById({metadataId: string, ownedBy?: string, network?: "testnet" | "mainnet"})
 
 
 
@@ -36,7 +36,13 @@ Example:
 
 import { tokensByStatus } from  '@mintbase-js/data'
 
-const { data, error } = await tokensByStatus('dogeflower.mintbase1.near%3A5ef2d9b0651172d90dc173af0726b5fc', 'maxknivets.near');
+const props = {
+  metadataId: 'dogeflower.mintbase1.near%3A5ef2d9b0651172d90dc173af0726b5fc',
+  ownedBy: 'maxknivets.near',
+  network: 'mainnet'
+}
+
+const { data, error } = await tokensByStatus(props);
 
 if (error) {console.log('error', error)}
 

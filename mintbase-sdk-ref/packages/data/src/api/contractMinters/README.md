@@ -21,7 +21,7 @@ Returns contract minters  by `contractAddress`.
 
 
 
-### contractMinters( contractAddress: string | string[])
+### contractMinters( contractAddress: string | string[], network?: "testnet" | "mainnet")
 
 
 
@@ -42,7 +42,7 @@ import { contractMinters } from  '@mintbase-js/data'
 
 
 
-const { data, error } = await contractMinters('teammintbase.mintbase1.near');
+const { data, error } = await contractMinters('teammintbase.mintbase1.near', 'mainnet');
 
 if (error) {console.log('error', error)}
 

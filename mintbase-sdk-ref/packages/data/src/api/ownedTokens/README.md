@@ -10,7 +10,7 @@ For the most reliable data, reference our [existing graphql docs](https://docs.m
 
 Returns tokens owned by `ownerId` with limit and offset pagination.
 
-### ownedTokens(ownerId: string, { limit, offset }: Pagination)
+### ownedTokens(ownerId: string, { limit, offset }: Pagination, network?: "testnet" | "mainnet")
 
 This is an example of a data api method.
 
@@ -21,7 +21,14 @@ Example:
 ```typescript
 import { ownedTokens } from '@mintbase-js/data'
 
-const {data,error} = await ownedTokens('mb_alice.near', { limit: 20 });
+
+const props = {
+  ownerId: 'mb_alice.near';
+  pagination: { limit: 20 };
+  network?:  'mainnet';
+}
+
+const {data,error} = await ownedTokens(props);
 
 if(error) {console.log('error', error)}
 

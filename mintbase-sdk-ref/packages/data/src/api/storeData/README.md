@@ -21,7 +21,7 @@ Returns contract data  by `contractAddress`.
 
 
 
-### storeData( contractAddress: string | string[])
+### storeData( contractAddress: string | string[], network?: "testnet" | "mainnet")
 
 
 
@@ -40,9 +40,7 @@ Example:
 
 import { storeData } from  '@mintbase-js/data'
 
-
-
-const { data, error } = await storeData('teammintbase.mintbase1.near');
+const { data, error } = await storeData('teammintbase.mintbase1.near', 'mainnet');
 
 if (error) {console.log('error', error)}
 
