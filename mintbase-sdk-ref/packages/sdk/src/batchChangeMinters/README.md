@@ -7,6 +7,9 @@ Account IDs in the `removeMinters` array will lose minting permission for the sp
 
 **As with all new SDK api methods, this call should be wrapped in [execute](../#execute) and passed a signing method**
 
+This is only available on Mintbase v1 smart contracts, if you are using a Mintbase v2 contract, use [`batchChangeCreators`](../batchChangeCreators/README.md) instead.
+
+
 ## batchChangeMinters(args: addMinterArgs): NearContractCall
 
 `batchChangeMinters` takes a single argument of type `BatchChangeMintersArgs`
@@ -34,19 +37,19 @@ import { execute, batchChangeMinters, BatchChangeMintersArgs } from '@mintbase-j
 
 
 export const BatchChangeMintersComponent = ({ contractAddress, addMinters, removeMinters }: BatchChangeMintersArgs): JSX.Element => {
-  
+
   const { selector } = useWallet();
-  
+
   const handleBatchChangeMinters = async (): Promise<void> => {
 
     const wallet = await selector.wallet();
-    
+
     await execute(
       {wallet},
-      batchChangeMinters({ 
+      batchChangeMinters({
           contractAddress: contractAddress,
-          addMinters: addMinters, 
-          removeMinters: removeMinters 
+          addMinters: addMinters,
+          removeMinters: removeMinters
           })
     );
   }
