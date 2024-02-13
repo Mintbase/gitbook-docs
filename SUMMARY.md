@@ -56,6 +56,7 @@
         * [createMetadata](mintbase-sdk-ref/packages/sdk/src/createMetadata/README.md)
         * [mintOnMetadata](mintbase-sdk-ref/packages/sdk/src/mintOnMetadata/README.md)
         * [batchChangeCreators](mintbase-sdk-ref/packages/sdk/src/batchChangeCreators/README.md)
+        * [depositStorage](mintbase-sdk-ref/packages/sdk/src/setMintingCap/README.md)
         * [burn](mintbase-sdk-ref/packages/sdk/src/burn/README.md)
         * [transfer](mintbase-sdk-ref/packages/sdk/src/transfer/README.md)
         * [deployContract](mintbase-sdk-ref/packages/sdk/src/deployContract/README.md)
