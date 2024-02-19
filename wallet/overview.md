@@ -1,4 +1,4 @@
-# 👛 Overview
+# 🔐 Overview
 
 <figure><img src="../.gitbook/assets/Sequence 01_1.gif" alt="" width="188"><figcaption></figcaption></figure>
 

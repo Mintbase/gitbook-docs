@@ -2,7 +2,7 @@
 description: Creating automatically a new account on Mintbase takes less than 15 seconds.
 ---
 
-# Creating a New Account
+# 🛸 Creating a New Account
 
 <figure><img src="../.gitbook/assets/Sequence01_11-ezgif.com-crop.gif" alt=""><figcaption></figcaption></figure>
 

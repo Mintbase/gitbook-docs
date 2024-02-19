@@ -12,23 +12,21 @@ Also recommend the read of [@mintbase-js/react ](https://docs.mintbase.xyz/dev/m
 
 You can easily test Mintbase Wallet, using our Simple Login example with Next.js 14 on this repository:\
 \
-[https://github.com/Mintbase/starter](https://github.com/Mintbase/starter) ,  just do a `pnpm install` on the next-js folder and `pnpm run dev` any issues or troubleshooting help you can send us a message on our Telegram Channel
+[https://github.com/Mintbase/starter](https://github.com/Mintbase/starter) , just do a `pnpm install` on the next-js folder and `pnpm run dev` any issues or troubleshooting help you can send us a message on our Telegram Channel
 
 ##
 
 ## Second Method: Install yourself
 
-
-
 ## Step 1: Install
 
 Install the mintbase-js react package\
 \
-`npm install @mintbase-js/react` \
+`npm install @mintbase-js/react`\
 \
 or\
 \
-yarn `install @mintbase-js/react`&#x20;
+yarn `install @mintbase-js/react`
 
 ## Step 2: Add Mintbase Wallet Context Provider
 
@@ -66,7 +64,8 @@ Once the wallet is connected the activeAccountId will be populated
 
 ```typescript
 
-"use client"import { useMbWallet } from "@mintbase-js/react";
+"use client"
+import { useMbWallet } from "@mintbase-js/react";
 
 export const NearWalletConnector = () => {
   const { isConnected, selector, connect , activeAccountId } = useMbWallet();
@@ -81,7 +80,7 @@ export const NearWalletConnector = () => {
   };
 
  if (!isConnected) {
-    return <button  className="bg-white text-black rounded p-3 hover:bg-[#e1e1e1]" onClick={handleSignIn}>Connect To NEAR</button>;
+    return <button className="bg-white text-black rounded p-3 hover:bg-[#e1e1e1]" onClick={handleSignIn}>Connect To NEAR</button>;
   }
 
   return (
@@ -115,8 +114,8 @@ const {
     errorMessage,
   } = useMbWallet();
 
-  const  signTxn = async () => {
-  const  wallet = await selector.wallet();
+  const signTxn = async () => {
+  const wallet = await selector.wallet();
   // ... call mintbase SDK methods with wallet as signingOption arg
   }
 ```
@@ -125,33 +124,10 @@ For more information on how to execute methods like transfer, mint on your very 
 
 
 
-## Troubleshooting
-
-The wallet runs only on client-side.
-
-it might ask you to install
-
-```
-  "@near-wallet-selector/modal-ui": "^8.7.1",
-  "isomorphic-unfetch": "^3.1.0",
-```
-
-if you have any extra problems with `fs` you can copy this [next.config.js](https://github.com/Mintbase/starter/blob/main/next-js/next.config.js) example
-
-Any other questions or issues you can contact support on our [Telegram Channel](https://telegram.me/mintdev).\
-
-
 ## Join Us and Build the Future
 
 Have feedback or perhaps need a hand? **Reach out on our** [**Telegram**](https://t.me/mintdev) **public developer support channel where we are happy to help!**
 
-Building something cool? **Consider** [**applying for a grant**](https://github.com/Mintbase/Grants-Program)**.**\
+Building something cool? **Consider** [**applying for a grant**](https://github.com/Mintbase/Grants-Program)**.**\\
 
-
-
-
-
-
-\
-
-
+\\

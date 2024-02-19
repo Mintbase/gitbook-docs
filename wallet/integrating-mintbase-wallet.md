@@ -4,7 +4,7 @@ description: >-
   the steps below to get started:
 ---
 
-# Integrating Mintbase Wallet
+# ⚙ Integrating Mintbase Wallet
 
 {% embed url="https://youtu.be/2TxaqILs7Jg?si=7yQzCfFCFv8LsEyw" %}
 

@@ -1,4 +1,4 @@
-# Features
+# 🤩 Features
 
 Explore the powerful features offered by Mintbase Wallet to enhance your Web3 experience:
 

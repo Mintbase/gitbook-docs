@@ -1,56 +1,51 @@
 # 🛠 Getting Started
 
-### GraphQL Indexer
-
-[All read-only graphQL](./#graphql-indexer) data generated from blockchain transactions happen here. It's how we know who owns what tokens with what royalties quickly.
-
-### Rust Contracts
-
-* [Main Repo](https://github.com/Mintbase/mb-contracts)
-* [Market](https://github.com/Mintbase/mb-contracts/tree/main/mb-interop-market) with USDC listings
-* [NEP171 NFT contract](https://github.com/Mintbase/mb-contracts/tree/main/mb-store), we call a store
-* [Factory](https://github.com/Mintbase/mb-contracts/tree/main/mb-factory) to recreate stores (Mintbase has deployed over 1,400 on NEAR)
-* [Audits](https://arweave.net/WvB-T\_sg6HbpG08NLutna0bw65hq4tkZZoUJzw4iRK4)
-
-### MintbaseJS
-
-[MintbaseJS](https://github.com/Mintbase/mintbase-js) is a library created to lower the barrier to entry for decentralized application development on the NEAR ecosystem and facilitate integrations with Mintbase systems.
-
-All transitions made on Mintbase.xyz are done with MintbaseJS, mint, transfer, burn, buy, list...
-
-Or use our boilerplate templates to deploy your own market in minutes.
-
-
-
 ### Quick Start
 
 * [Add Wallet Connection To Your React App](add-wallet-connection-to-your-react-app.md)
 * [Make Your First Contract Call (deployContract)](make-your-first-contract-call-deploycontract.md)
 * [Upload Reference Material To Arweave and Mint](upload-reference-material-to-arweave-and-mint.md)
 * [Get Blockchain Data (ownedTokens)](get-blockchain-data-ownedtokens.md)
+* [Ready to use web3 templates](mintbase-templates.md)
 
+## Mintbase Developer Suite
 
+Mintbase simplifies the journey into Web3 development by providing a comprehensive suite of tools designed to lower technical barriers. The links below will introduce you to each of them providing links to more detailed documentation going into how to get started.
 
-### Modules
+## **Data Fetching**
 
-With our tools, **it is possible to cover all points of token blockchain app development.** For that, we focused on these 4 themes.\
+### [**GraphQL API** ](../read-data/mintbase-graph.md)**:**
 
+Effortlessly fetch blockchain data using our Indexer through our [mintbase-graph.md](../read-data/mintbase-graph.md "mention")
 
-### [@mintbase-js/sdk](./#mintbase-js-sdk)
+### [MintbaseJS/Data](../../mintbase-sdk-ref/packages/data/)
 
-Easily deploy a ready-to-use token contract from Mintbase and interact with it in a few lines of code. Curate your own market by listing, buying and selling on Mintbase markets with affiliate bonuses.&#x20;
+Use simple helper methods to get data in the least amount of code possible using javascript.
 
-### [**@mintbase-js/react**](./#mintbase-js-react)
+## Smart Contract Interaction
 
-Out-of-the-box wallet integration with our react wallet selector wrapper.
+### [**MintbaseJS/SDK**](../../mintbase-sdk-ref/packages/sdk/)
 
-### [**@mintbase-js/storage**](../../mintbase-sdk-ref/packages/storage/)
+This SDK simplifies making contract calls like deploying contracts, mintining nfts, doing transfers and many other transactions, making it easier for developers to focus on building their applications.
 
-Easily upload your source material to Arweave where it will be permanently stored to be used in minting.
+## **Smart Contracts**
 
-### [@mintbase-js/data](../../mintbase-sdk-ref/packages/data/)
+### [**Audited Contracts for Reliability:**](../smart-contracts/)
 
-Get general [data from the blockchain in a few lines of code](../../mintbase-sdk-ref/packages/data/) or use our [GraphQl indexer](../read-data/mintbase-graph.md) to make your own custom queries.&#x20;
+* **NEP171 NFT Contract:** Our store contracts adhere to the NEP171 standard, ensuring compatibility and reliability.
+* **Market Contract with USDC Listings:** Easily create and manage listings using our market contract.
+* **Factory Contract:** Deploy your own stores using our factory contract, benefiting from the scalability and flexibility Mintbase provides.
+
+View our main repository to access our contracts and their audits, ensuring the security and reliability of your dApp.
+
+## **Helper Libraries**
+
+* [**MintbaseJS Storage**](../../mintbase-sdk-ref/packages/storage/)**:** Upload your assets to Arweave effortlessly with `@mintbase-js/storage`, ensuring permanence and availability.
+* [**MintbaseJS React**](../../mintbase-sdk-ref/packages/react/)**:** Integrate wallet connections into your React app seamlessly with `@mintbase-js/react`, enhancing user experience.
+* [**MintbaseJS Auth**](../../mintbase-sdk-ref/packages/auth/)**:** Manage accounts and key pairs effortlessly with our authentication library, simplifying account management and security.
+* [**MintbaseJS Rpc**](../../mintbase-sdk-ref/packages/rpc/)**:** Wrapper around common RPC calls used to fetch on-chain data to supplement, or in some cases substitute data provided by the indexer&#x20;
+
+### [Don't Reinvent the wheel. Try one of our templates](mintbase-templates.md)
 
 
 
@@ -58,29 +53,7 @@ Get general [data from the blockchain in a few lines of code](../../mintbase-sdk
 Visit the documentation for each of the modules to find usage examples as well as descriptions of the available methods.
 {% endhint %}
 
-## Get an API Key
 
-For most operations moving forward an API key will be required.
-
-Register a [developer key here](https://www.mintbase.io/developer)
-
-## [Use Case Templates](../examples/)
-
-Get building fast with our pre-built examples.
-
-Each one of these examples covers a use case we believe is strongly supported by our SDK.
-
-Below you can find a dapp starting point that can be configured and deployed to your own github in 10 minutes.
-
-* [Minter](https://github.com/Mintbase/templates/tree/main/minter)
-* [Marketplace](https://github.com/Mintbase/templates/tree/main/marketplace)
-* [Starter ( Simple Login )](https://github.com/Mintbase/templates/tree/main/starter)
-* [AI Chat](https://github.com/Mintbase/templates/tree/main/ai-chat)
-* [AI Minter](https://github.com/Mintbase/templates/tree/main/ai-minter)
-* [Blog](https://github.com/Mintbase/templates/tree/main/blogchain)
-* [Contract Deployer](https://github.com/Mintbase/templates/tree/main/contract-deployer)
-* [NFT ](https://github.com/Mintbase/templates/tree/main/nft-stripe-checkout)[Stripe Checkout](https://github.com/Mintbase/templates/tree/main/nft-stripe-checkout)
-* [Token Drop](https://github.com/Mintbase/templates/tree/main/simple-token-drop)
 
 {% embed url="https://www.loom.com/share/bb449c7b09b644b692c0292315889288" %}
 
