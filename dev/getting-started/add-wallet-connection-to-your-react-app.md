@@ -8,11 +8,15 @@ We strong recommend that you use the first method and build on top of our [examp
 \
 Also recommend the read of [@mintbase-js/react ](https://docs.mintbase.xyz/dev/mintbase-sdk-ref/react)documentation
 
-## First Method: Clone the examples repo
+## First Method: Clone the starter template
 
 You can easily test Mintbase Wallet, using our Simple Login example with Next.js 14 on this repository:\
 \
-[https://github.com/Mintbase/starter](https://github.com/Mintbase/starter) , just do a `pnpm install` on the next-js folder and `pnpm run dev` any issues or troubleshooting help you can send us a message on our Telegram Channel
+[https://github.com/Mintbase/templates/tree/main/starter-next](https://github.com/Mintbase/templates/tree/main/starter-next) , just do a `pnpm install` on the next-js folder and `pnpm run dev` any issues or troubleshooting help you can send us a message on our Telegram Channel\
+\
+or you can also run on the terminal the command `npx create-mintbase starter-next`\
+and it will automatically clone the starter-next template\
+
 
 ##
 
