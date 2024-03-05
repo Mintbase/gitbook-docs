@@ -1,6 +1,12 @@
-# 🛠 Getting Started
+# 🛠️ Getting Started
 
 ### Quick Start
+
+Deploy NFT + AI apps in minutes on Vercel using our  [templates](https://templates.mintbase.xyz/)
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-05 at 09.27.08.png" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://templates.mintbase.xyz/" %}
 
 * [Add Wallet Connection To Your React App](add-wallet-connection-to-your-react-app.md)
 * [Make Your First Contract Call (deployContract)](make-your-first-contract-call-deploycontract.md)
@@ -10,7 +16,7 @@
 
 ## Mintbase Developer Suite
 
-Mintbase simplifies the journey into Web3 development by providing a comprehensive suite of tools designed to lower technical barriers. The links below will introduce you to each of them providing links to more detailed documentation going into how to get started.
+Mintbase simplifies the journey into Web3 development by providing a comprehensive suite of tools designed to lower technical barriers.&#x20;
 
 ## **Data Fetching**
 
