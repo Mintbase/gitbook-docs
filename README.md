@@ -4,7 +4,7 @@ description: What can I do with Mintbase?
 
 # Overview
 
-{% embed url="https://www.loom.com/share/246bd50c429748ed9262ac438dcec4a4" %}
+{% embed url="https://www.youtube.com/watch?v=hz7qilCF8k4" %}
 
 The only fully automated Minter + Marketplace on NEAR that helps you create and list NFTs on your own smart contract with a full developer suite to enable you to build your own stand alone market and NFT systems.
 

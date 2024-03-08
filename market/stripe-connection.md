@@ -2,6 +2,8 @@
 
 Want to sell any NFT on NEAR, including your own mints for credit cards, ApplePay, AliPay, Google Pay in +135 global currencies? Get connected to Mintbase Connect.
 
+{% embed url="https://www.youtube.com/watch?v=CppckpgCMG0" %}
+
 ### Alpha Rules
 
 * Only KYC'd sellers will show the credit card option

@@ -4,6 +4,8 @@
 
 Welcome to Mintbase Wallet, your gateway to seamless crypto transactions. Mintbase Wallet prioritizes user-friendly onboarding and smooth functionality, bridging the familiarity of Web2 experiences with the innovation of Web3 technologies.
 
+{% embed url="https://www.youtube.com/watch?v=VG4HY0A7nuc" %}
+
 #### Key Features:
 
 * User-Friendly Onboarding: With passkeys and account abstraction, Mintbase Wallet offers a seamless onboarding experience, often faster than traditional Web2 platforms.

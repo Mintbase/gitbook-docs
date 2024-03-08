@@ -4,7 +4,7 @@
 
 Deploy NFT + AI apps in minutes on Vercel using our  [templates](https://templates.mintbase.xyz/)
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-05 at 09.27.08.png" alt=""><figcaption></figcaption></figure>
+{% embed url="https://www.youtube.com/watch?v=hz7qilCF8k4" %}
 
 {% embed url="https://templates.mintbase.xyz/" %}
 
