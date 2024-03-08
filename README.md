@@ -4,7 +4,7 @@ description: What can I do with Mintbase?
 
 # Overview
 
-{% embed url="https://www.youtube.com/watch?v=hz7qilCF8k4" %}
+{% embed url="https://www.youtube.com/watch?v=0axbvNqXnBg" %}
 
 The only fully automated Minter + Marketplace on NEAR that helps you create and list NFTs on your own smart contract with a full developer suite to enable you to build your own stand alone market and NFT systems.
 
@@ -20,7 +20,7 @@ Like most blockchains, NEAR requires a native token to process transactions whic
 
 Throughout your Mintbase journey, you can always use testnet to carry out experiments.
 
-To get started and receive 200N in your test wallet, sign up at [wallet.testnet.near.org](https://wallet.testnet.near.org/)
+To get started and receive 200N in your test wallet, sign up at[ ](https://testnet.wallet.mintbase.xyz/)[https://testnet.wallet.mintbase.xyz/](https://testnet.wallet.mintbase.xyz/)
 
 ![Mintbase Testnet Selection](<.gitbook/assets/Screenshot 2022-04-12 at 14.53.37.png>)
 
