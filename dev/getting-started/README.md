@@ -1,13 +1,14 @@
 # 🛠️ Getting Started
 
-### Quick Start
 
-Deploy NFT + AI apps in minutes on Vercel using our  [templates](https://templates.mintbase.xyz/)
 
 {% embed url="https://www.youtube.com/watch?v=hz7qilCF8k4" %}
 
 {% embed url="https://templates.mintbase.xyz/" %}
 
+### Quick Start
+
+* [Templates: Deploy pre-built NFT + AI apps on Vercel](https://templates.mintbase.xyz/)
 * [Add Wallet Connection To Your React App](add-wallet-connection-to-your-react-app.md)
 * [Make Your First Contract Call (deployContract)](make-your-first-contract-call-deploycontract.md)
 * [Upload Reference Material To Arweave and Mint](upload-reference-material-to-arweave-and-mint.md)
