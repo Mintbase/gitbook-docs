@@ -116,12 +116,11 @@ After signing the transaction, the wallet will redirect to the provided `callbac
 #### 1. **Connect Account on Mainnet**
 
 ```
-https://wallet.mintbase.xyz/connect?success_url=your_schema://
+https://wallet.mintbase.xyz/connect?success_url=https://mintbase.xyz
 ```
 
-#### 2. **Sign Transaction on Testnet**
+#### 2. **Sign Transaction on Mainnet**
 
 ```
-https://testnet.wallet.mintbase.xyz/sign-transaction?transactions_data=<encoded_data>&callback_url=your_schema://
+https://wallet.mintbase.xyz/sign-transaction?transactions_data=%5B%7B%22receiverId%22%3A%220.drop.proxy.mintbase.near%22%2C%22actions%22%3A%5B%7B%22type%22%3A%22FunctionCall%22%2C%22params%22%3A%7B%22methodName%22%3A%22mint%22%2C%22args%22%3A%7B%22metadata%22%3A%22%7B%5C%22media%5C%22%3A%5C%22C6iWEOxKqUHJ2eAr5_3i0jyiYPLCcpUdoxRvM38xViM%5C%22%2C%5C%22creatorAddress%5C%22%3A%5C%22aurora-ahghara.near%5C%22%2C%5C%22title%5C%22%3A%5C%22%5C%22%2C%5C%22description%5C%22%3A%5C%22%5C%22%7D%22%2C%22nft_contract_id%22%3A%22drops.mintbase1.near%22%7D%2C%22gas%22%3A%22200000000000000%22%2C%22deposit%22%3A%2213500000000000000000000%22%7D%7D%5D%7D%5D&callback_url=https://mintbase.xyz
 ```
-
