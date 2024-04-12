@@ -6,6 +6,8 @@ description: >-
 
 # ⚙️ Integrating Mintbase Wallet
 
+{% embed url="https://youtu.be/2TxaqILs7Jg" %}
+
 This is the [Mintbase Wallet](https://wallet.mintbase.xyz/) package for NEAR Wallet Selector.
 
 The easiest way to use this package is to install it from the NPM registry, this package requires `near-api-js` v1.0.0 or above:
