@@ -71,12 +71,12 @@ This guide explains how to interact with the Mintbase Wallet using URL schemes t
 
 To connect or create an account, use the following endpoint. This action will redirect users to authenticate or create a new wallet account
 
-* **Endpoint**: \`/connect\`
+* **Endpoint**: `/connect`
 * **URL**: `https://wallet.mintbase.xyz/connect`
 
 #### Parameters
 
-*   \`success\_url\`:&#x20;
+*   `success_url`:&#x20;
 
     The URL to which the wallet redirects after a successful login. It should be able to handle the incoming parameters.
 
@@ -88,8 +88,8 @@ The callback URL is defined in the `success_url` parameter. After successful aut
 
 **Parameters**
 
-* **account\_id**: The authenticated user's account ID.
-* public\_key: The currently connected public key of the user's account.&#x20;
+* `account_id`: The authenticated user's account ID.
+* `public_key`: The currently connected public key of the user's account.&#x20;
 
 ### Sign Transactions
 
@@ -109,7 +109,7 @@ After signing the transaction, the wallet will redirect to the provided `callbac
 
 **Parameters**:
 
-* **transactionHashes**: The hashes of the signed transactions.
+* `transactionHashes`: The hashes of the signed transactions.
 
 ### Examples
 
