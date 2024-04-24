@@ -44,7 +44,7 @@ near call <market-contract> deposit_storage '{}' --deposit 0.01 --accountId <you
   * **token\_id:** the token id
   * **msg**: a stringified object that contains price expressed in yoctoNEAR
     * e.g "{"price":"500000000000000000000000"}"&#x20;
-* **Deposit**: 1 yoctoNEAR
+* **Deposit**: 0.0008 NEAR
 * **Gas**: 200 TGas
 
 ```
