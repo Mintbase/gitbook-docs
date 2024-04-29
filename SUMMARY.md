@@ -29,7 +29,7 @@
         * [createMetadata](mintbase-sdk-ref/packages/sdk/src/createMetadata/README.md)
         * [mintOnMetadata](mintbase-sdk-ref/packages/sdk/src/mintOnMetadata/README.md)
         * [batchChangeCreators](mintbase-sdk-ref/packages/sdk/src/batchChangeCreators/README.md)
-        * [depositStorage](mintbase-sdk-ref/packages/sdk/src/setMintingCap/README.md)
+        * [setMintingCap](mintbase-sdk-ref/packages/sdk/src/setMintingCap/README.md)
         * [updateMetadata](mintbase-sdk-ref/packages/sdk/src/updateMetadata/README.md)
         * [burn](mintbase-sdk-ref/packages/sdk/src/burn/README.md)
         * [lockMetadata](mintbase-sdk-ref/packages/sdk/src/lockMetadata/README.md)
