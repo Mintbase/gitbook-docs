@@ -2,29 +2,17 @@
 
 ## Minting
 
-To mint tokens, you can use the `nft_batch_mint` method:
+On version 1 of the NFT contracts, metadata definition and minting happen in a single step:
 
-```ts
-function nft_batch_mint(
-  owner_id: string,
-  metadata: TokenMetadata,
-  num_to_mint: number,
-  royalty_args: RoyaltyArgs | null,
-  split_owners: PayoutsMap | null
-);
+* [Usage via MintbaseJS](https://github.com/Mintbase/mintbase-js/tree/beta/packages/sdk/src/mint)
+* [Smart contract implementation](https://github.com/Mintbase/mb-contracts/blob/main/mb-nft-v1/src/minting.rs#L56)
 
-type PayoutsMap = Record<string, number>;
-type RoyaltyArgs = {
-  split_between: PayoutsMap;
-  percentage: number;
-};
-```
+On version 2 of the NFT contracts, metadata definition and minting are separated. This allows for more scalability when minting a high number of tokens by eliminating redundant storage deposits, and it comes with an array of configurability around the mint.
 
-* To learn more about `TokenMetadata`, refer to the [corresponding standard](https://nomicon.io/Standards/Tokens/NonFungibleToken/Metadata#interface), with the exption of `issued_at` and `updated_at`, which are not supported by Mintbase smart contracts.
-* Due to gas limitations, you cannot mint more than 125 tokens at once.
-* The `PayoutsMap` maps from NEAR account IDs to percentages, where each percentage is expressed as an integer between 0 and 10000 (inclusive), where 10000 is equivalent to 100%
-* As with the `PaymoutsMap`, the `percentage` in `RoyaltyArgs` is expressed as a number between 0 and 10000
-* Any allowed minter can call this, and the method checks if the caller attached sufficient NEAR tokens to cover the storage requirements of the mint. The method will fail if the storage is not covered.
+* [Metadata definition usage via MintbaseJS](https://github.com/Mintbase/mintbase-js/tree/beta/packages/sdk/src/createMetadata) (available to creators registered with the smart contract)
+* [Metadata definition implementation](https://github.com/Mintbase/mb-contracts/blob/main/mb-nft-v2/src/minting.rs#L46)
+* [Minting usage via MintbaseJS](https://github.com/Mintbase/mintbase-js/tree/beta/packages/sdk/src/mintOnMetadata) (available to anyone or predefined minters)
+* [Minting implementation](https://github.com/Mintbase/mb-contracts/blob/main/mb-nft-v2/src/minting.rs#L148)
 
 ## Burning
 

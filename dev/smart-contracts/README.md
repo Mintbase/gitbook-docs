@@ -4,8 +4,12 @@
 
 * [Main Repo](https://github.com/Mintbase/mb-contracts)
 * [Market](https://github.com/Mintbase/mb-contracts/tree/main/mb-interop-market) with USDC listings
-* [NEP171 NFT contract](https://github.com/Mintbase/mb-contracts/tree/main/mb-store), we call a store
-* [Factory](https://github.com/Mintbase/mb-contracts/tree/main/mb-factory) to recreate stores (Mintbase has deployed over 1,400 on NEAR)
+* NEP171 NFT contract, previously called store
+  * [Version 1](https://github.com/Mintbase/mb-contracts/tree/main/mb-nft-v1), deployed to subaccounts of `mintbase1.near` or `mintspace2.testnet`
+  * [Version 2](https://github.com/Mintbase/mb-contracts/tree/main/mb-nft-v2), deployed to subaccounts of `mintbase2.near` (soon) or `mintspace3.testnet`
+* Factory to recreate stores (Mintbase has deployed over 1,400 on NEAR)
+  * [Version 1](https://github.com/Mintbase/mb-contracts/tree/main/mb-factory-v1), deployed to `mintbase1.near` or `mintspace2.testnet`
+  * [Version 2](https://github.com/Mintbase/mb-contracts/tree/main/mb-factory-v2), deployed to `mintbase2.near` (soon) or `mintspace3.testnet`
 * [Audits](https://arweave.net/WvB-T\_sg6HbpG08NLutna0bw65hq4tkZZoUJzw4iRK4)
 
 {% content-ref url="core-addresses/" %}
