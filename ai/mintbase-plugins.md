@@ -16,7 +16,22 @@ With the Ref Finance Tool, users can perform a swaps all without leaving the AI 
 
 ## How to add your plugin to Mintbase Registry?
 
-1. Follow the [OpenAPI spec](https://github.com/Mintbase/smart-actions-tool-example/blob/main/spec.json)
+1. Follow the [OpenAPI Specification](https://swagger.io/specification/). See [this](https://github.com/Mintbase/smart-actions-tool-example/blob/main/spec.json) example.
 2. Deploy your service with a cloud provider like Vercel, GCP, AWS, or any other that you're comfortable with.
-3. Make sure that `/.well-known/mb-ai-plugin.json` is accessible (for example `https://your-service/.well-known/mb-ai-plugin.json`)
+3. Make sure that `/.well-known/ai-plugin.json` is accessible (for example `https://your-service/.well-known/ai-plugin.json`)
 4. Talk to our [Mintbase AI Smart Actions](https://wallet.mintbase.xyz/) and ask to validate and register your plugin followed by your URL.
+
+## OpenAPI Mintbase Extension
+
+We have created an extension for the OpenAPI specification that allows you to include additional metadata.
+
+```
+"x-mb": {
+  "account-id": "mintbase.near",
+  "assistant": {
+    "model": "",
+    "instructions": "",
+    "temperature": 0.5
+  }
+}
+```
