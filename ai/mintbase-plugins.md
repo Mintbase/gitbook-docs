@@ -18,5 +18,5 @@ With the Ref Finance Tool, users can perform a swaps all without leaving the AI 
 
 1. Follow the [OpenAPI spec](https://github.com/Mintbase/smart-actions-tool-example/blob/main/spec.json)
 2. Deploy your service with a cloud provider like Vercel, GCP, AWS, or any other that you're comfortable with.
-3. Make sure that `/spec.json` is accessible (for example `https://your-service/spec.json`)
+3. Make sure that `/.well-known/mb-ai-plugin.json` is accessible (for example `https://your-service/.well-known/mb-ai-plugin.json`)
 4. Talk to our [Mintbase AI Smart Actions](https://wallet.mintbase.xyz/) and ask to validate and register your plugin followed by your URL.
