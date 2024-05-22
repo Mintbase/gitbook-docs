@@ -19,7 +19,7 @@ With the Ref Finance Tool, users can perform a swaps all without leaving the AI 
 1. Follow the [OpenAPI Specification](https://swagger.io/specification/). See [this](https://github.com/Mintbase/smart-actions-tool-example/blob/main/spec.json) example.
 2. Deploy your service with a cloud provider like Vercel, GCP, AWS, or any other that you're comfortable with.
 3. Make sure that `/.well-known/ai-plugin.json` is accessible (for example `https://your-service/.well-known/ai-plugin.json`)
-4. Talk to our [Mintbase AI Smart Actions](https://wallet.mintbase.xyz/) and ask to validate and register your plugin followed by your URL.
+4. [Ask our team](https://t.me/mintdev) on Telegram to add your plugin (it's a manual process for now).
 
 ## OpenAPI Mintbase Extension
 
@@ -29,9 +29,10 @@ We have created an extension for the OpenAPI specification that allows you to in
 "x-mb": {
   "account-id": "mintbase.near",
   "assistant": {
-    "model": "",
-    "instructions": "",
-    "temperature": 0.5
+    "model": "gpt-4o",
+    "instructions": "You are a helpful assistant.",
+    "temperature": 0.5,
+    "tools": []
   }
 }
 ```
