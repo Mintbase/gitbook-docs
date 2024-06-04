@@ -32,10 +32,49 @@ We have created an extension for the OpenAPI specification that allows you to in
     "model": "gpt-4o",
     "instructions": "You are a helpful assistant.",
     "temperature": 0.5,
-    "tools": [tools: [{ type: "generate-transaction" }]]
+    "tools": [{ type: "generate-transaction" }, { type: "submit-query" }]
   }
 }
 ```
 
-### Tools
+### Account ID (account-id)
 
+• Description: Specifies the account ID associated with the plugin. This is typically the account ID on the NEAR blockchain that identifies the owner or operator of the API.
+
+• Example: mintbase.near
+
+### Assistant Configuration (assistant)
+
+Provides configuration for the assistant (e.g., a model like GPT-4) that can help in interacting with the API. This section includes details about the model, its behavior, and the tools it can use.
+
+#### **model**
+
+Specifies the model used by the assistant. This can be any valid model identifier recognized by the system.
+
+Example: gpt-4o
+
+#### **instructions**
+
+Instructions provided to the assistant, defining its role or behavior. This helps in tailoring the assistant’s responses according to specific requirements.
+
+Example: "You are a helpful assistant."
+
+#### **temperature**
+
+Controls the randomness of the assistant’s responses. A lower value (e.g., 0.5) makes the output more deterministic, while a higher value (e.g., 1.0) makes it more random.
+
+Example: 0.5
+
+#### **tools**
+
+A list of tools that the assistant can use. Each tool is defined by its type and possibly other configurations.
+
+**Tool Type**\
+The type of tool that the assistant can use. This can vary based on the functionality required by the API.
+
+| Tool Type            | Description                                                                                                                  |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| generate-transaction | Creates a transaction based on the user request                                                                              |
+| submit-query         | Creates a GraphQL query based on [Mintbase's Indexer](../dev/read-data/mintbase-graph.md), submits it and returns the result |
+| generate-image       | Creates an image, uploads it to Arweave and returns a transaction hash                                                       |
+| create-drop          | Creates an NFT drop                                                                                                          |
