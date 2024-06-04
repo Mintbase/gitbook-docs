@@ -24,7 +24,7 @@ The sign message functionality allows you to sign a message using your Mintbase 
 #### Example
 
 ```
-https://wallet.mintbase.xyz/sign-message?message=hey&callbackUrl=https://mintbase-wallet-git-sign-verify-v2-mintbase.vercel.app&nonce=1
+https://wallet.mintbase.xyz/sign-message?message=hey&callbackUrl=https://wallet.mintbase.xyz&nonce=1
 ```
 
 ### Verify Message
