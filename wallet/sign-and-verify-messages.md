@@ -24,7 +24,7 @@ The sign message functionality allows you to sign a message using your Mintbase 
 #### Example
 
 ```
-https://mintbase-wallet-git-sign-verify-v2-mintbase.vercel.app/sign-message?message=hey&callbackUrl=https://mintbase-wallet-git-sign-verify-v2-mintbase.vercel.app&nonce=1
+https://wallet.mintbase.xyz/sign-message?message=hey&callbackUrl=https://mintbase-wallet-git-sign-verify-v2-mintbase.vercel.app&nonce=1
 ```
 
 ### Verify Message
@@ -50,7 +50,7 @@ The verify message functionality allows you to verify a signed message using the
 **Example**
 
 ```
-https://mintbase-wallet-git-sign-verify-v2-mintbase.vercel.app/verify-message?accountId=faraday_stroud.mintbase.testnet&publicKey=ed25519%3A6533dMsJstJvNUFcCkvgdWPWFdbs4RDRtt4vaUc1gnZU&signature=sMPu%2BAnsM2OCXMTM1OeB19XaskFG%2Fg1cBXzCClW0IbDwPvowM3Uotq6iYOoX5Qxuti5rq01GnAeIAZQ6%2F0UCCA%3D%3D&message=hey&nonce=1&recipient=mainnet&callbackUrl=https://mintbase-wallet-git-signing-message-mintbase.vercel.app
+https://wallet.mintbase.xyz/verify-message?accountId=faraday_stroud.mintbase.testnet&publicKey=ed25519%3A6533dMsJstJvNUFcCkvgdWPWFdbs4RDRtt4vaUc1gnZU&signature=sMPu%2BAnsM2OCXMTM1OeB19XaskFG%2Fg1cBXzCClW0IbDwPvowM3Uotq6iYOoX5Qxuti5rq01GnAeIAZQ6%2F0UCCA%3D%3D&message=hey&nonce=1&recipient=mainnet&callbackUrl=https://mintbase-wallet-git-signing-message-mintbase.vercel.app
 ```
 
 ### Verify Message via API Endpoint
@@ -72,5 +72,5 @@ https://mintbase-wallet-git-sign-verify-v2-mintbase.vercel.app/verify-message?ac
 **Example**
 
 ```
-https://mintbase-wallet-git-sign-verify-v2-mintbase.vercel.app/api/verify-message?accountId=faraday_stroud.mintbase.testnet&publicKey=ed25519%3A6533dMsJstJvNUFcCkvgdWPWFdbs4RDRtt4vaUc1gnZU&signature=sMPu%2BAnsM2OCXMTM1OeB19XaskFG%2Fg1cBXzCClW0IbDwPvowM3Uotq6iYOoX5Qxuti5rq01GnAeIAZQ6%2F0UCCA%3D%3D&message=hey&nonce=1&recipient=mainnet&callbackUrl=https://mintbase-wallet-git-signing-message-mintbase.vercel.app
+https://wallet.mintbase.xyz/api/verify-message?accountId=faraday_stroud.mintbase.testnet&publicKey=ed25519%3A6533dMsJstJvNUFcCkvgdWPWFdbs4RDRtt4vaUc1gnZU&signature=sMPu%2BAnsM2OCXMTM1OeB19XaskFG%2Fg1cBXzCClW0IbDwPvowM3Uotq6iYOoX5Qxuti5rq01GnAeIAZQ6%2F0UCCA%3D%3D&message=hey&nonce=1&recipient=mainnet&callbackUrl=https://mintbase-wallet-git-signing-message-mintbase.vercel.app
 ```

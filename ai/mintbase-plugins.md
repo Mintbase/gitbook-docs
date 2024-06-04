@@ -32,7 +32,10 @@ We have created an extension for the OpenAPI specification that allows you to in
     "model": "gpt-4o",
     "instructions": "You are a helpful assistant.",
     "temperature": 0.5,
-    "tools": []
+    "tools": [tools: [{ type: "generate-transaction" }]]
   }
 }
 ```
+
+### Tools
+
