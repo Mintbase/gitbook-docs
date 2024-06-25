@@ -5,7 +5,7 @@
 ## AI
 
 * [🤖 Getting Started](ai/getting-started.md)
-* [🌐 Mintbase Plugins](ai/mintbase-plugins.md)
+* [🌐 Assistant Plugins](ai/mintbase-plugins.md)
 
 ## Developer <a href="#dev" id="dev"></a>
 
