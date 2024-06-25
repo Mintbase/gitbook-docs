@@ -2,6 +2,11 @@
 
 * [Overview](README.md)
 
+## AI
+
+* [🤖 Getting Started](ai/getting-started.md)
+* [🌐 Mintbase Plugins](ai/mintbase-plugins.md)
+
 ## Developer <a href="#dev" id="dev"></a>
 
 * [🛠️ Getting Started](dev/getting-started/README.md)
@@ -103,11 +108,6 @@
 * [👀 Browsing Mintbase](market/browsing-mintbase.md)
 * [💎 Buying as Simple Sale](market/buying-as-simple-sale.md)
 * [🔁 Buying as Rolling Auction](market/buying-as-rolling-auction.md)
-
-## AI
-
-* [🤖 Getting Started](ai/getting-started.md)
-* [🌐 Mintbase Plugins](ai/mintbase-plugins.md)
 
 ## Creator
 
