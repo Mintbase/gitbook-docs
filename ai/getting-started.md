@@ -18,17 +18,20 @@ See a prompt in action [here](https://wallet.mintbase.xyz/smart-actions/XeCzN\_P
 
 ### &#x20;Create an NFT Drop Link
 
-{% embed url="https://wallet.bitte.ai/smart-actions/vX0VO1jJp8mWoNB59Bwx6" %}
+* End Result a [free claimable NFT link](https://wallet.bitte.ai/claim/kROGA708-by-nate.near:36896)
+* [Smart Action Generated ](https://wallet.bitte.ai/claim/kROGA708-by-nate.near:36896)
+
+#### Prompt
 
 > Create a drop link of a movie sci-fi movie poster of an astroid hitting the earth the reads at the top big bold future font "Bitte Will Save us"
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-06-25 at 10.18.15.png" alt=""><figcaption></figcaption></figure>
 
-Click your highlighted link at the bottom, here it is "Botte Will Save Us"
+Click your highlighted link at the bottom, "Bitte Will Save Us"
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-06-25 at 10.20.47.png" alt=""><figcaption></figcaption></figure>
 
-And share this link for your community can claim free NFTs without needing crypto.
+And share this link so your community can claim free NFTs without needing crypto.
 
 
 
