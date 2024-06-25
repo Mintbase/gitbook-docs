@@ -6,9 +6,9 @@ description: You can sell the NFT from anywhere on the system
 
 ## <mark style="color:red;background-color:yellow;">WARNING</mark>
 
-Only use an account with a low balance and always check the amount of funds each transaction generates. This is an experimental application and is widely untested. Also, make sure to check the details of the trade before submitting.
+Only use an account with a low balance and always check the amount of funds each transaction generates.  Also, make sure to check the details of the trade before submitting.
 
-Anything you can do on Mintbase, you can do on our prompts, mint, genertae images, using DALL-E 3 list, buy, deploy NFT contract. Currently, the open site uses ChatGPT 4o. Show us your prompts using the X hashtag #bitte
+Anything you can do on Mintbase, you can do on our prompts, mint, generate images, using DALL-E 3 list, buy, deploy NFT contract, and now DeFi swaps. Show us your prompts using the X hashtag #bitte
 
 See a prompt in action [here](https://wallet.mintbase.xyz/smart-actions/XeCzN\_PZGW4eoWnhSQW5L)
 
@@ -28,7 +28,7 @@ Click your highlighted link at the bottom, here it is "Botte Will Save Us"
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-06-25 at 10.20.47.png" alt=""><figcaption></figcaption></figure>
 
-And share this link for your community to claim free NFTs without needing crypto.
+And share this link for your community can claim free NFTs without needing crypto.
 
 
 
@@ -48,9 +48,9 @@ Make sure to change
 
 
 
-### Get Token Data
+### Share Data
 
-Get the last 6 tokens minted on nearcon.mintbase1.near and show me the owners
+so the last 6 tokens minted on nearcon.mintbase1.near and show me the owners
 
 {% embed url="https://wallet.bitte.ai/smart-actions/vX0VO1jJp8mWoNB59Bwx6" %}
 
