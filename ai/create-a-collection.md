@@ -6,7 +6,7 @@
 
 [See Prompt Example ](https://wallet.bitte.ai/smart-actions/IqGqtQe-mAsxB\_7O4cfs4)
 
-If you deploy your own contract on [Mintbase](https://www.mintbase.xyz/) you can add "Create a series of 3 interconnected NFTs on my contract xyz.mintbase1.near" vs minting on an open contract or you can deploy the contact from the AI prompt \
+If you deploy your own contract on [Mintbase](https://www.mintbase.xyz/), you can add "Create a series of 3 interconnected NFTs on my contract xyz.mintbase1.near" instead of minting on an open contract. You can also deploy the contact from the AI prompt.\
 
 
 
