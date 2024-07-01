@@ -12,7 +12,7 @@ Anything you can do on Mintbase, you can do on our prompts, mint, generate image
 
 See a prompt in action [here](https://wallet.mintbase.xyz/smart-actions/XeCzN\_PZGW4eoWnhSQW5L)
 
-If you own your own NFT smart contract, you can always add "_mint on my contract xxx.mintbase1.near_" to most of these prompts vs. minting on open contracts. You can [Deploy your own NFT contract on Mintbase here](https://www.mintbase.xyz/) or do [it with AI](create-my-contract.md)
+If you own your own NFT smart contract, you can always add "_mint on my contract xxx.mintbase1.near_" to most of these prompts vs. minting on open contracts. You can [Deploy your own NFT contract on Mintbase here](https://www.mintbase.xyz/) or do [it with AI](create-contract.md)
 
 ## Prompts
 
@@ -21,7 +21,7 @@ If you own your own NFT smart contract, you can always add "_mint on my contract
 3. [Swap tokens on NEAR](defi-swaps.md)
 4. [Market, buy, sell, transfer NFTs ](buys-lists-transfers.md)
 5. [Create a Series or themed collection](create-a-collection.md)
-6. [Deploy your own NFT contract to mint and create drop links on](create-my-contract.md)
+6. [Deploy your own NFT contract to mint and create drop links on](create-contract.md)
 7. [Build and integrate your own transaction building AI assistant ](assistant-plugins.md)
 
 
