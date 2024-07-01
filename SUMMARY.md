@@ -8,8 +8,8 @@
 * [🌇 Image Gen Mint](ai/image-gen-mint.md)
 * [🔗 Drop Links](ai/drop-links.md)
 * [💸 DeFi Swaps](ai/defi-swaps.md)
-* [🌐 Assistant Plugins](ai/assistant-plugins.md)
 * [🏛️ Buys, Lists, Transfers](ai/buys-lists-transfers.md)
+* [🌐 Assistant Plugins](ai/assistant-plugins.md)
 
 ## Developer <a href="#dev" id="dev"></a>
 
