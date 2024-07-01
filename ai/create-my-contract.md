@@ -1,4 +1,4 @@
-# 📜 Create Contract
+# 📜 Create My Contract
 
 Make sure the name of the contract is unique, this one will not work
 
