@@ -9,8 +9,9 @@
 * [🔗 Drop Links](ai/drop-links.md)
 * [💸 DeFi Swaps](ai/defi-swaps.md)
 * [🏛️ Buys, Lists, Transfers](ai/buys-lists-transfers.md)
-* [🌐 Assistant Plugins](ai/assistant-plugins.md)
 * [👩‍👩‍👦‍👦 Create a Collection](ai/create-a-collection.md)
+* [📜 Create Contract](ai/create-contract.md)
+* [🌐 Assistant Plugins](ai/assistant-plugins.md)
 
 ## Developer <a href="#dev" id="dev"></a>
 
