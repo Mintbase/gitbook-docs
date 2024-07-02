@@ -1,16 +1,18 @@
 ---
-description: >-
-  We believe any transaction can be built using human-readable conversations.
-  Imagine having normal conversations with the entire financial system.
+description: Any cross-chain transaction can be built and executed by AI
 ---
 
 # 🤖 Getting Started
 
-Anything you can do on Mintbase, you can do on Bitte prompts, mint, generate images, using DALL-E 3 list, buy, deploy NFT contract, and now DeFi swaps. Show us your prompts using the X hashtag #bitte
+We believe any transaction can be built using human-readable conversations. Imagine having normal conversations with the entire financial system and working with multiple cross-chain dapps from a single prompt.
+
+Anything you can do on [Mintbase](https://www.mintbase.xyz/) NFT Marketplace, you can do on Bitte prompts, mint, generate images, using DALL-E 3 list, buy, deploy NFT contract, and now DeFi swaps. Show us your prompts using the X hashtag #bitte
 
 See a prompt in action [here](https://wallet.mintbase.xyz/smart-actions/XeCzN\_PZGW4eoWnhSQW5L)
 
 If you own your own NFT smart contract, you can always add "_mint on my contract xxx.mintbase1.near_" to most of these prompts vs. minting on open contracts. You can [Deploy your own NFT contract on Mintbase here](https://www.mintbase.xyz/) or do [it with AI](create-contract.md)
+
+Onboarding now external Agents to build within your systems.
 
 ## Prompts
 
