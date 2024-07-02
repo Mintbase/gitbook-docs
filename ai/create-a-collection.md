@@ -1,6 +1,6 @@
 # 👩‍👩‍👦‍👦 Create a Collection
 
-
+{% embed url="https://www.loom.com/share/393755806a3a451fa8b35fc1411e5432" %}
 
 > Create a series of 3 interconnected NFTs themed around move posters that have the title “Bitte” in bold clearly written sans-serif futuristic font. The scene is a futuristic underwater volcano with sharks and fish circling around it in a photorealistic scene. Make sure the text is spelled “Bitte” in all and build the transaction.
 
