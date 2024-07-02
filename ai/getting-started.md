@@ -4,6 +4,10 @@ description: Any cross-chain transaction can be built and executed by AI
 
 # 🤖 Getting Started
 
+<figure><img src="../.gitbook/assets/Screenshot 2024-07-02 at 09.49.11.png" alt=""><figcaption></figcaption></figure>
+
+Jump in the [BitteWallet ](https://wallet.bitte.ai/)and hit the AI tab to try.
+
 We believe any transaction can be built using human-readable conversations. Imagine having normal conversations with the entire financial system and working with multiple cross-chain dapps from a single prompt.
 
 Anything you can do on [Mintbase](https://www.mintbase.xyz/) NFT Marketplace, you can do on Bitte prompts, mint, generate images, using DALL-E 3, list, buy, deploy NFT contract, and now DeFi swaps. Show us your prompts using the X hashtag #bitte

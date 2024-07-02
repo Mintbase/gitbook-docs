@@ -4,7 +4,7 @@ We've implemented support for plugins in our [AI wallet](https://wallet.mintbase
 
 ## Ref Finance Tool Example
 
-{% embed url="https://youtu.be/80A4467Psrw" %}
+{% embed url="https://www.loom.com/share/0d6e1d0e47d945649e64bd2ea362baf3?sid=7696d745-9061-44a6-8020-437addf77bc8" %}
 
 The Ref Finance Tool is a powerful example of a plugin designed to work seamlessly with our AI wallet. This tool allows users to directly interact with Decentralized Finance (DeFi) services from within the wallet interface.
 
