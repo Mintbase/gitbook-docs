@@ -6,6 +6,20 @@ description: What can I do with Mintbase?
 
 {% embed url="https://youtu.be/0axbvNqXnBg?feature=shared" %}
 
+## Bitte AI
+
+* [AI NFT Image generation drops + buys, lists, transfers](ai/getting-started.md)
+* [AI DeFi swaps](ai/defi-swaps.md)
+* [Onboarding wallet](wallet/overview.md)
+* [External AI Assistant Integrations](ai/assistant-plugins.md)
+* Cross-chain signatures + Gnosis Safe (soon)
+* Sponsored Transactions Relayer (Soon)
+
+## Mintbase
+
+* NFT Marketplace
+* Self custody NFT contract minting platform and DAO
+
 The only fully automated Minter + Marketplace on NEAR that helps you create and list NFTs on your own smart contract with a full developer suite to enable you to build your own stand alone market and NFT systems.
 
 ## Where do I start?
