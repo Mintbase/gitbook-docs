@@ -1,5 +1,7 @@
 ---
-description: You can sell the NFT from anywhere on the system
+description: >-
+  We believe any transaction can be built using human-readable conversations.
+  Imagine having normal conversations with the entire financial system.
 ---
 
 # 🤖 Getting Started
@@ -18,7 +20,13 @@ If you own your own NFT smart contract, you can always add "_mint on my contract
 4. [Market, buy, sell, transfer NFTs ](buys-lists-transfers.md)
 5. [Create a Series or themed collection](create-a-collection.md)
 6. [Deploy your own NFT contract to mint and create drop links on](create-contract.md)
-7. [Build and integrate your own transaction building AI assistant ](assistant-plugins.md)
+7. [Build your own AI Assistant](assistant-plugins.md)
+
+
+
+### Upcoming
+
+Working on cross-chain signatures using NEAR's MPC with Bitcoin, and top-tier EVMs: Ethereum, Base, Arbitron, Gnosis Chain,
 
 ## <mark style="color:red;background-color:yellow;">WARNING</mark>
 
