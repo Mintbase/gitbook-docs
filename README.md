@@ -6,16 +6,17 @@ description: What can I do with Mintbase?
 
 {% embed url="https://youtu.be/0axbvNqXnBg?feature=shared" %}
 
-## Bitte AI
+## [Bitte AI](https://www.bitte.ai/)
 
 * [AI NFT Image generation drops + buys, lists, transfers](ai/getting-started.md)
 * [AI DeFi swaps](ai/defi-swaps.md)
 * [Onboarding wallet](wallet/overview.md)
 * [External AI Assistant Integrations](ai/assistant-plugins.md)
+* [Developer Templates](https://templates.bitte.ai/)
 * Cross-chain signatures + Gnosis Safe (soon)
 * Sponsored Transactions Relayer (Soon)
 
-## Mintbase
+## [Mintbase](https://www.mintbase.xyz/)
 
 * NFT Marketplace
 * Self custody NFT contract minting platform and DAO
