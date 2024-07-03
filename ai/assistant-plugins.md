@@ -25,9 +25,9 @@ We have created an extension for the OpenAPI specification that allows you to in
 "x-mb": {
   "account-id": "bitte.near",
   "assistant": {
-    "model": "gpt-4o",
-    "instructions": "You are a helpful assistant.",
-    "temperature": 0.5,
+    "name": "assistant-name",
+    "description": "Shorter summary about the assistant and it's capabilities",
+    "instructions": "Detailed, specific instructions to be passed to AI Assistant on it's funcitonality and tool usage.",
     "tools": [{ type: "generate-transaction" }, { type: "submit-query" }]
   }
 }
