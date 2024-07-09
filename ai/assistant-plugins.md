@@ -41,25 +41,25 @@ We have created an extension for the OpenAPI specification that allows you to in
 
 ### Assistant Configuration (assistant)
 
-PrIt providesonfiguration for the assistant (e.g., a model like GPT-4) that can help interact with the API. This section includes details about the model, its behavior, and the tools it can use.
+PrIt providesonfiguration for the assistant (e.g., a model like GPT-4) that can help interact with the API. This section includes details about its behavior, and the tools it can use.
 
-#### **model**
 
-Specifies the model used by the assistant. This can be any valid model identifier recognized by the system.
 
-Example: `gpt-4o`
+#### **name**
+
+Instructions provided to the assistant define its role or behavior. This helps tailor the assistant’s responses according to specific requirements.
+
+Example: "Weather Agent"
+
+#### **description**
+
+General summary of the assistants functionalities and tools / endpoints.
 
 #### **instructions**
 
 Instructions provided to the assistant define its role or behavior. This helps tailor the assistant’s responses according to specific requirements.
 
-Example: "You are a helpful assistant."
-
-#### **temperature**
-
-Controls the randomness of the assistant’s responses. A lower value (e.g., 0.5) makes the output more deterministic, while a higher value (e.g., 1.0) makes it more random.
-
-Example: 0.5
+Example: "You are a helpful assistant. When using the get-weather tool make sure to know or ask for the user's location."
 
 #### **tools**
 
