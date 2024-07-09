@@ -41,9 +41,7 @@ We have created an extension for the OpenAPI specification that allows you to in
 
 ### Assistant Configuration (assistant)
 
-PrIt providesonfiguration for the assistant (e.g., a model like GPT-4) that can help interact with the API. This section includes details about its behavior, and the tools it can use.
-
-
+Provides the configuration for the assistant that will guide the user in interacting with the API. This section includes details about its behavior, and the tools it can use.
 
 #### **name**
 
