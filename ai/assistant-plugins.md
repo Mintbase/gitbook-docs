@@ -12,7 +12,7 @@ With the Ref Finance Tool, users can perform a swaps all without leaving the AI 
 
 ## How to add your plugin to Bitte Registry?
 
-1. Follow the [OpenAPI Specification](https://swagger.io/specification/). See [this](https://github.com/Mintbase/smart-actions-tool-example/blob/main/spec.json) example.
+1. Follow the [OpenAPI Specification](https://swagger.io/specification/). See [this](https://github.com/Mintbase/ref-finance-agent-next) example.
 2. Deploy your service with a cloud provider like Vercel, GCP, AWS, or any other that you're comfortable with.
 3. Make sure that `/.well-known/ai-plugin.json` is accessible (for example `https://your-service/.well-known/ai-plugin.json`)
 4. [Ask our team](https://t.me/mintdev) on Telegram to add your plugin (it's a manual process for now).
