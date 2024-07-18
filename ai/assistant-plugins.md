@@ -8,20 +8,69 @@ We've implemented support for plugins in our [AI wallet](https://wallet.mintbase
 
 The Ref Finance Tool is a powerful example of a plugin designed to work seamlessly with our AI wallet. This tool allows users to directly interact with Decentralized Finance (DeFi) services from within the wallet interface.
 
-With the Ref Finance Tool, users can perform a swaps all without leaving the AI wallet environment. Find the source code [here](https://github.com/Mintbase/smart-actions-tool-example/tree/main).
+With the Ref Finance Tool, users can perform a swaps all without leaving the AI wallet environment. Find the source code [here](https://templates.bitte.ai/templates/ref-finance-agent-next).
 
 ## How to add your plugin to Bitte Registry?
 
-1. Follow the [OpenAPI Specification](https://swagger.io/specification/). See [this](https://github.com/Mintbase/ref-finance-agent-next) example.
-2. Deploy your service with a cloud provider like Vercel, GCP, AWS, or any other that you're comfortable with.
-3. Make sure that `/.well-known/ai-plugin.json` is accessible (for example `https://your-service/.well-known/ai-plugin.json`)
-4. [Ask our team](https://t.me/mintdev) on Telegram to add your plugin (it's a manual process for now).
+### 1. Prepare Your OpenAPI Specification
+
+Ensure your AI plugin follows the OpenAPI Specification. See the Ref Finance Agent example [here](https://templates.bitte.ai/templates/ref-finance-agent-next).
+
+[Here's an example of a well structured OpenAPI Specification](https://ref-finance-agent.vercel.app/.well-known/ai-plugin.json).
+
+⚠️ Make sure to include the [Bitte Extension](assistant-plugins.md#openapi-bitte-extension).
+
+```json
+"x-mb": {
+  "account-id": "bitte.near",
+  "assistant": {
+    "name": "assistant-name",
+    "description": "Shorter summary about the assistant and it's capabilities",
+    "instructions": "Detailed, specific instructions to be passed to AI Assistant on it's funcitonality and tool usage.",
+    "tools": [{ type: "generate-transaction" }, { type: "submit-query" }]
+  }
+}
+```
+
+### 2. Deploy Your Service
+
+Deploy your service with a cloud provider such as Vercel, Google Cloud Platform (GCP), Amazon Web Services (AWS), or any other provider you are comfortable with. Ensure your service is publicly accessible.
+
+### 3. Host the Plugin Manifest
+
+Make sure the plugin manifest file is accessible at `/.well-known/ai-plugin.json` on your domain. The URL should be similar to:
+
+```
+https://your-service/.well-known/ai-plugin.json
+```
+
+### 4. Register Your Plugin
+
+Submit a GET request to register your plugin. Replace `<agentId>` with your domain name (e.g. if your URL is `https://example.com`, then your agent ID is `example.com`.&#x20;
+
+```
+curl -X GET "https://wallet.bitte.ai/api/ai-plugins/register=<agentId>"
+```
+
+### 5. Debug and Test Your Plugin
+
+Once registered, you will receive a debug URL that will take you to the Playground to test your agent.
+
+```
+https://wallet.bitt.ai/smart-actions/prompt/hey?mode=debug&agentId=<agentId>
+```
+
+### 6. Verification
+
+When agents are registered they will not be immediately available in the production registry. The verification process is manual for now.&#x20;
+
+[Contact our team ](https://t.me/mintdev) on Telegram to start the verification process when you're ready.
 
 ## OpenAPI Bitte Extension
 
 We have created an extension for the OpenAPI specification that allows you to include additional metadata.
 
-```
+```json
 "x-mb": {
   "account-id": "bitte.near",
   "assistant": {
