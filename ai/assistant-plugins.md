@@ -1,4 +1,4 @@
-# 🌐 Assistant Plugins
+# 🌐 Agent Plugins
 
 We've implemented support for plugins in our [AI wallet](https://wallet.mintbase.xyz)[.](https://wallet.bitte.ao) Plugins enable connecting tools and AI agents specifically designed for language models.
 
@@ -57,7 +57,7 @@ curl -X GET "https://wallet.bitte.ai/api/ai-plugins/register=<agentId>"
 Once registered, you will receive a debug URL that will take you to the Playground to test your agent.
 
 ```
-https://wallet.bitt.ai/smart-actions/prompt/hey?mode=debug&agentId=<agentId>
+https://wallet.bitte.ai/smart-actions/prompt/hey?mode=debug&agentId=<agentId>
 ```
 
 ### 6. Verification
