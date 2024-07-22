@@ -49,7 +49,7 @@ https://your-service/.well-known/ai-plugin.json
 Submit a GET request to register your plugin. Replace `<agentId>` with your domain name (e.g. if your URL is `https://example.com`, then your agent ID is `example.com`.&#x20;
 
 ```
-curl -X GET "https://wallet.bitte.ai/api/ai-plugins/register=<agentId>"
+curl -X GET "https://wallet.bitte.ai/api/ai-plugins/register?url=<agentId>"
 ```
 
 ### 5. Debug and Test Your Plugin
