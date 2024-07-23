@@ -100,9 +100,9 @@
 * [🛸 Creating a New Account](wallet/creating-a-new-account.md)
 * [🤩 Features](wallet/features.md)
 * [🫳 NFT Drops](wallet/nft-drops.md)
+* [🌀 Paymaster](wallet/paymaster.md)
 * [⚙️ Integrating Mintbase Wallet](wallet/integrating-mintbase-wallet.md)
 * [✉️ Sign and Verify Messages](wallet/sign-and-verify-messages.md)
-* [🌀 Paymaster](wallet/paymaster.md)
 
 ## Market
 
