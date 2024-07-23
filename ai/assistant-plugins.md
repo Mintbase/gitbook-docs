@@ -8,7 +8,13 @@ We've implemented support for plugins in our [AI wallet](https://wallet.mintbase
 
 The Ref Finance Tool is a powerful example of a plugin designed to work seamlessly with our AI wallet. This tool allows users to directly interact with Decentralized Finance (DeFi) services from within the wallet interface.
 
-With the Ref Finance Tool, users can perform a swaps all without leaving the AI wallet environment. Find the source code [here](https://templates.bitte.ai/templates/ref-finance-agent-next).
+
+
+### Quickstart
+
+[Fork / deploy our Ref DeFi Swap Agent](https://templates.bitte.ai/templates/ref-finance-agent-next)
+
+With the Ref Finance Tool, users can perform swaps all without leaving the AI wallet environment.
 
 ## How to add your plugin to Bitte Registry?
 
@@ -16,7 +22,7 @@ With the Ref Finance Tool, users can perform a swaps all without leaving the AI 
 
 Ensure your AI plugin follows the OpenAPI Specification. See the Ref Finance Agent example [here](https://templates.bitte.ai/templates/ref-finance-agent-next).
 
-[Here's an example of a well structured OpenAPI Specification](https://ref-finance-agent.vercel.app/.well-known/ai-plugin.json).
+[Here's an example of a well-structured OpenAPI Specification](https://ref-finance-agent.vercel.app/.well-known/ai-plugin.json).
 
 ⚠️ Make sure to include the [Bitte Extension](assistant-plugins.md#openapi-bitte-extension).
 
@@ -92,23 +98,23 @@ We have created an extension for the OpenAPI specification that allows you to in
 
 Provides the configuration for the assistant that will guide the user in interacting with the API. This section includes details about its behavior, and the tools it can use.
 
-#### **name**
+> **name**
 
 Instructions provided to the assistant define its role or behavior. This helps tailor the assistant’s responses according to specific requirements.
 
 Example: "Weather Agent"
 
-#### **description**
+> #### **description**
 
-General summary of the assistants functionalities and tools / endpoints.
+A general summary of the assistant's functionalities and tools / endpoints.
 
-#### **instructions**
+> #### **instructions**
 
 Instructions provided to the assistant define its role or behavior. This helps tailor the assistant’s responses according to specific requirements.
 
 Example: "You are a helpful assistant. When using the get-weather tool make sure to know or ask for the user's location."
 
-#### **tools**
+> #### **tools**
 
 A list of tools that the assistant can use. Each tool is defined by its type and possibly other configurations.
 
