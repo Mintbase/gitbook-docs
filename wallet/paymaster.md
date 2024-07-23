@@ -8,9 +8,15 @@ description: Fund your own smart contracts and enable specific functions.
 
 Now you can enable your community to interact with your smart contracts freely. They will not need crypto to mint, vote on your DAOs, or receive free airdrops.
 
-1. Go to the [Paymaster](https://bitte.ai/relayer)
-2. Click "New Paymaster"
-3. Enter the contract you want to sponsor and enable the functions you want your users to run for free.
+<figure><img src="../.gitbook/assets/Screenshot 2024-07-23 at 13.08.04.png" alt=""><figcaption></figcaption></figure>
+
+
+
+1. Go to the Bitte Wallet
+2. &#x20;Click [Paymaster](https://bitte.ai/relayer)
+3. Click "New Paymaster"
+4. Enter the contract you want to sponsor on NEAR
+5. Functions will appear below that you can toggle to enable or disable functions you want your users to run for free.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-07-23 at 11.29.55.png" alt=""><figcaption></figcaption></figure>
 
