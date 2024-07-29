@@ -17,7 +17,7 @@ Example usage:
 import { dynamicNftMetadata } from  '@mintbase-js/data'
 
 const props = {
-  contractAddress: 'dynamic.mintbasev2.near',
+  contractAddress: 'dynamic.mintbase2.near',
   internalMetadataId: 0,
   isActive: true,
   network: "mainnet",
