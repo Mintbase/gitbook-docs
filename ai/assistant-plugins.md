@@ -52,11 +52,30 @@ https://your-service/.well-known/ai-plugin.json
 
 ### 4. Register Your Plugin
 
-Submit a GET request to register your plugin. Replace `<agentId>` with your domain name (e.g. if your URL is `https://example.com`, then your agent ID is `example.com`.&#x20;
+Register your plugin using the `ai-plugins` [API Reference UI](https://wallet.bitte.ai/api/ai-plugins/ref).
 
-```
-curl -X GET "https://wallet.bitte.ai/api/ai-plugins/register?url=<agentId>"
-```
+Make sure to save the **apiKey** returned for managing your plugin.\
+\
+To manage your plugin use the `ai-plugins/PLUGIN_ID` endpoint. `PLUGIN_ID` is your plugin's url without the protocol `https://` i.e. `ref-finance-agent.vercel.app`
+
+Pass your **apiKey** using the `bitte-api-key` header in your request.\
+\
+**If not using the** [**API Reference UI**](https://wallet.bitte.ai/api/ai-plugins/ref)
+
+<pre><code> # REGISTER - register by providing your pluginUrl or pluginId
+<strong> curl -X POST \
+</strong> "https://wallet.mintbase.xyz/api/ai-plugins/PLUGIN_ID"
+ 
+ # UPDATE - refetches Plugin Spec, regenerates Agent &#x26; Tools
+ curl -X PUT \
+ -H "bitte-api-key: YOUR_API_KEY" \
+ "https://wallet.bitte.ai/api/ai-plugins/PLUGIN_ID"
+
+ # DELETE - deletes Plugin, Agent, and Tools from Bitte Registry
+ curl -X DELETE \
+-H "bitte-api-key: YOUR_API_KEY" \
+"https://wallet.bitte.ai/api/ai-plugins/PLUGIN_ID"
+</code></pre>
 
 ### 5. Debug and Test Your Plugin
 
