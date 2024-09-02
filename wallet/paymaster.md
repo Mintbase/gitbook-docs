@@ -17,24 +17,20 @@ Now you can enable your community to interact with your smart contracts freely. 
 2. Head to the APPs tab
 3. Click "New Paymaster"
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bitte Paymaster Doc 1.png" alt=""><figcaption></figcaption></figure>
 
 4. Enter the contract you want to sponsor on NEAR
-5. Functions will appear below that you can toggle to enable or disable functionalities you want your users to run for free.\
+5. Functions will appear below that you can toggle to enable or disable functionalities you want your users to run for free.
 
-
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bitte Paymaster Doc 2 (1).png" alt=""><figcaption></figcaption></figure>
 
 6. Fund your paymaster wallet with enough funds to sponsor gas for transactions
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bitte Paymaster Doc 3.png" alt=""><figcaption></figcaption></figure>
 
+The paymaster is now successfully created and will automatically fund the transactions defined before!
 
-
-The paymaster is now successfully created and will automatically fund the transactions defined before!\
-
-
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bitte Paymaster Doc 3 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Using the paymaster
 
@@ -52,7 +48,7 @@ This makes it easy to use, by adding a wallet connection to any application user
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-currently the sponsorship will affect all the transactions in the wallet but the plan is for the following versions to allow for passing in certain parameters to only allow certain user bases to take advantage of it.
+Currently, the sponsorship will affect all the transactions in the wallet but the plan is for the following versions to allow for passing in certain parameters to only allow certain user bases to take advantage of it.
 
 ### Using Paymaster with Code
 
