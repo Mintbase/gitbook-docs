@@ -52,7 +52,7 @@ This makes it easy to use, by adding a wallet connection to any application user
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-
+currently the sponsorship will affect all the transactions in the wallet but the plan is for the following versions to allow for passing in certain parameters to only allow certain user bases to take advantage of it.
 
 ### Using Paymaster with Code
 
@@ -88,6 +88,69 @@ const receipt = await relayTransaction(action: Action | Action[], receiverId: st
 \
 
 
+### Managing paymaster&#x20;
+
+
+
+Go to your dashboard to review the account ID, API call URL, and the total sponsored amount. Then, click "Edit" to make any necessary changes.
+
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+#### Editing
+
+Here you can change the smart contract you have selected or change the affected methods\
 \
+![](<../.gitbook/assets/image (15).png>)\
+
+
 \
+
+
+#### Deleting
+
+At the bottom of the edit page you will find a delete button that will allow you to delete the near account associated with the paymaster automatically giving all of the funds contained in it back to your account. \
+![](<../.gitbook/assets/image (19).png>)
+
+
+
+
+
+#### Managing Balance
+
+When viewing the dashboard hit the manage balance button to to deposit or withdraw funds, here you can toggle the top tab to fund or withdraw from the near account that is associated with the paymaster\
 \
+![](<../.gitbook/assets/image (20).png>)\
+
+
+
+
+### FAQ
+
+#### **Can I set spending limits on the gas fees my Paymaster covers?**
+
+Not directly, the way you would do that at this point would be to only fund the relayer with the amount you are willing to spend
+
+**Is it possible to sponsor specific users or groups using the Paymaster?**
+
+This feature is planned, soon TM
+
+**What happens if my Paymaster wallet runs out of funds?**
+
+When the user tries to submit the transaction they will be prompted to pay gas as normal
+
+**Can I sponsor multiple contracts with a single Paymaster?**
+
+No. The way you would currently set this up is by managing more than one paymaster
+
+**Can I track the transactions that have been sponsored by my Paymaster?**
+
+Yes, in the dashboard you can see the amount that has been sponsored, eventually there could be better visualisation tools
+
+**Is there a limit to the number of transactions my Paymaster can sponsor?**
+
+Not currently but there is a limit for the amount of gas that can be sponsored before KYC is necessary
+
+**Can i sponsor account creation?**
+
+Account creation is just a function call so technically you could but at this point that would affect all users of the wallet, this will be possible to do in a more conveninent way once you are able to limit usage to certain groups of users
+
