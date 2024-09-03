@@ -42,6 +42,72 @@ Ensure your AI plugin follows the OpenAPI Specification. See the Ref Finance Age
 
 Deploy your service with a cloud provider such as Vercel, Google Cloud Platform (GCP), Amazon Web Services (AWS), or any other provider you are comfortable with. Ensure your service is publicly accessible.
 
+#### Optional: Deploy Your Service with ngrok or localtunnel
+
+Instead of deploying your service to a cloud provider, you can use **ngrok** or **localtunnel** to expose your local development server to the internet. This is particularly useful for testing and development purposes.
+
+**Using ngrok**
+
+1. **Install ngrok**: If you haven't installed ngrok yet, you can download it from [ngrok's official website](https://ngrok.com/download).
+2.  **Expose Your Local Server**: Start your local server (e.g., on port 3000), then use ngrok to expose it.
+
+    ```bash
+    ngrok http 3000
+    ```
+
+    This command will generate a public URL (e.g., `https://<random-id>.ngrok.io`) that you can use to access your service over the internet.
+3.  **Update Plugin Manifest**: Ensure that the plugin manifest file (`ai-plugin.json`) points to the ngrok URL:
+
+    ```json
+    {
+      "schema_version": "v1",
+      "name_for_human": "Your Plugin Name",
+      "name_for_model": "plugin_name",
+      "description_for_human": "A description for your plugin.",
+      "description_for_model": "Detailed description for the model.",
+      "auth": {
+        "type": "none"
+      },
+      "api": {
+        "type": "openapi",
+        "url": "https://<random-id>.ngrok.io/.well-known/ai-plugin.json"
+      }
+    }
+    ```
+
+**Using localtunnel**
+
+1.  **Install localtunnel**: You can install localtunnel globally using npm:
+
+    ```bash
+    npm install -g localtunnel
+    ```
+2.  **Expose Your Local Server**: Start your local server, then use localtunnel to expose it:
+
+    ```bash
+    lt --port 3000
+    ```
+
+    This command will generate a public URL (e.g., `https://<subdomain>.loca.lt`) for your service.
+3.  **Update Plugin Manifest**: Make sure the plugin manifest file (`ai-plugin.json`) uses the localtunnel URL:
+
+    ```json
+    {
+      "schema_version": "v1",
+      "name_for_human": "Your Plugin Name",
+      "name_for_model": "plugin_name",
+      "description_for_human": "A description for your plugin.",
+      "description_for_model": "Detailed description for the model.",
+      "auth": {
+        "type": "none"
+      },
+      "api": {
+        "type": "openapi",
+        "url": "https://<subdomain>.loca.lt/.well-known/ai-plugin.json"
+      }
+    }
+    ```
+
 ### 3. Host the Plugin Manifest
 
 Make sure the plugin manifest file is accessible at `/.well-known/ai-plugin.json` on your domain. The URL should be similar to:
