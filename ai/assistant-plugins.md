@@ -56,24 +56,7 @@ Instead of deploying your service to a cloud provider, you can use **ngrok** or 
     ```
 
     This command will generate a public URL (e.g., `https://<random-id>.ngrok.io`) that you can use to access your service over the internet.
-3.  **Update Plugin Manifest**: Ensure that the plugin manifest file (`ai-plugin.json`) points to the ngrok URL:
-
-    ```json
-    {
-      "schema_version": "v1",
-      "name_for_human": "Your Plugin Name",
-      "name_for_model": "plugin_name",
-      "description_for_human": "A description for your plugin.",
-      "description_for_model": "Detailed description for the model.",
-      "auth": {
-        "type": "none"
-      },
-      "api": {
-        "type": "openapi",
-        "url": "https://<random-id>.ngrok.io/.well-known/ai-plugin.json"
-      }
-    }
-    ```
+3. **Update Plugin Manifest**: Ensure that the plugin manifest file (`ai-plugin.json`) points to the ngrok URL.
 
 **Using localtunnel**
 
@@ -89,24 +72,7 @@ Instead of deploying your service to a cloud provider, you can use **ngrok** or 
     ```
 
     This command will generate a public URL (e.g., `https://<subdomain>.loca.lt`) for your service.
-3.  **Update Plugin Manifest**: Make sure the plugin manifest file (`ai-plugin.json`) uses the localtunnel URL:
-
-    ```json
-    {
-      "schema_version": "v1",
-      "name_for_human": "Your Plugin Name",
-      "name_for_model": "plugin_name",
-      "description_for_human": "A description for your plugin.",
-      "description_for_model": "Detailed description for the model.",
-      "auth": {
-        "type": "none"
-      },
-      "api": {
-        "type": "openapi",
-        "url": "https://<subdomain>.loca.lt/.well-known/ai-plugin.json"
-      }
-    }
-    ```
+3. **Update Plugin Manifest**: Make sure the plugin manifest file (`ai-plugin.json`) uses the localtunnel URL
 
 ### 3. Host the Plugin Manifest
 
