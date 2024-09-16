@@ -35,7 +35,7 @@ If you're a dev checkout our developer documentation [here](../../dev/getting-st
 ### :rocket: Creating NFTs
 
 * [What is a Mintbase Contract?](../creating-nfts/what-is-a-mintbase-store.md)
-* [NFT drops on Wallet](../../wallet/nft-drops.md)
+* [NFT drops on Wallet](broken-reference)
 * [Deploy a ](../creating-nfts/deploy-contract.md)Contract and [Customize a ](../creating-nfts/customize-contract.md)Contract
 * [Minting NFTs](../creating-nfts/minting-nfts.md)
 * [Split Revenues and Forever Royalties](../creating-nfts/splits.md)

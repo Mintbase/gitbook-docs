@@ -8,13 +8,7 @@ description: What can I do with Mintbase?
 
 ## [Bitte AI](https://www.bitte.ai/)
 
-* [AI NFT Image generation drops + buys, lists, transfers](ai/getting-started.md)
-* [AI DeFi swaps](ai/defi-swaps.md)
-* [Onboarding wallet](wallet/overview.md)
-* [External AI Assistant Integrations](ai/assistant-plugins.md)
-* [Developer Templates](https://templates.bitte.ai/)
-* Cross-chain signatures + Gnosis Safe (soon)
-* Sponsored Transactions Relayer (Soon)
+For Bitte Wallet, Paymaster, AI, see[ Bitte Docs](https://docs.bitte.ai/prompts/quickstart)
 
 ## [Mintbase](https://www.mintbase.xyz/)
 
@@ -42,3 +36,4 @@ To get started and receive 200N in your test wallet, sign up at[ ](https://testn
 You can use the entire system both on the interface and via code using testnet at [https://testnet.mintbase.io](https://testnet.mintbase.io/)
 
 This is a playground where you can use the NEAR blockchain just as you would on mainnet with real funds.
+
