@@ -8,7 +8,7 @@ description: What can I do with Mintbase?
 
 ## [Bitte AI](https://www.bitte.ai/)
 
-For Bitte Wallet, Paymaster, AI, see[ Bitte Docs](https://docs.bitte.ai/prompts/quickstart)
+For Bitte Wallet, Paymaster, and AI, see[ Bitte Docs](https://docs.bitte.ai/prompts/quickstart)
 
 ## [Mintbase](https://www.mintbase.xyz/)
 
